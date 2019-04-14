@@ -1,0 +1,19 @@
+program print_test
+	int x;
+{
+	int k()
+	{
+		print(0);
+	}
+
+	int main()
+	{
+		x = 3;
+		print(x);
+		print(2);
+		
+		k();
+		
+		return 0;
+	}
+}

@@ -1,0 +1,32 @@
+program MJProgram
+	int x,y;
+	int zz, niz1[];
+	
+	class Klas {}
+	
+	class Klasa
+	{
+		int aba;
+		{
+			int method1(int m1, int m2) {return m1+m2;}
+		}
+	}
+	
+	const int con = 5;
+	const char c = 'a';
+	const bool b = true;
+	const string str = "nesto";
+	
+	bool niz2[];	
+{
+	int funkcija(int a1, int a2){}
+
+	void main(string args[])
+		int z; 
+		Klasa k;
+	{
+		print(1);
+		print(2);
+		funkcija(1,2);
+	}
+}

@@ -1,0 +1,874 @@
+package rs.ac.bg.etf.pp1.sm120554d;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+import rs.etf.pp1.symboltable.concepts.*;
+
+import java.io.*;
+import rs.etf.pp1.mj.runtime.Code;
+
+// MySymbolTableVisitor, MyTab
+import rs.ac.bg.etf.pp1.sm120554d.ext.*;
+
+
+parser code {:
+	int printCallCount = 0;
+	
+	int globalVarCount = 0;
+	int mainVarCount = 0;
+	int globalConstVarCount = 0;
+	int globalArrayCount = 0;
+	
+	int globalFunctionCount = 0;
+	int blockCount = 0;
+	int funcCallCount = 0;
+	int funcCallArgCount = 0;
+	
+	int classCount = 0;
+	int methodCount = 0;
+	int classMemberCount = 0;
+	
+	boolean mainVarFlag = false;
+	boolean inClassFlag = false;
+	boolean inMethodFlag = false;
+	boolean inWhileLoop = false;
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("Sintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+	
+	public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+	
+	public void dump(){
+		MyTab.dump(new MySymbolTableVisitor());
+	}
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null)
+	{
+		log.info(s.toString() + " " + s.value.toString());
+	}
+	return s;
+:}
+
+init with {:
+	MyTab.init(); // Universe scope
+:}
+
+action code{:
+	Obj currMethod = null;
+	Obj currClass = null;
+	
+	int currMethVarCnt = 0;
+	
+	Struct currType;
+	
+	boolean returnFound = false;
+	
+	public static Scope GLOBAL_SCOPE;
+	
+	public static boolean scopeIsGlobal()
+	{
+		return (MyTab.currentScope() == GLOBAL_SCOPE);
+	}
+:}
+
+terminal PROGRAM, OCBRAC, CCBRAC, CONST, ASSIGN, COMMA, SC, OSBRAC, CSBRAC, CLASS, EXTENDS, OBRAC, CBRAC, VOID;
+terminal IF, BREAK, RETURN, READ, PRINT, INC, DEC, ELSE, OR, AND, MINUS, NEW, POINT, EQU, NEQU, GRT, GEQU, LSS, LEQU;
+terminal ADD, MUL, DIV, PERCENT, WHILE;
+terminal String IDENT;
+terminal Integer NUMBER;
+terminal Boolean BOOL_CONST;
+terminal Character CHAR_CONST;
+terminal String STR_CONST;
+
+non terminal Program, Class_Var_Const_DeclList, MethodDeclList, ClassDecl, LocalVarDecl, ConstDecl;
+non terminal TypeValSepList, TypeValSep;
+non terminal ExtTypeOp, LocalVarDeclList, MethodDecl, FormParsOp, StatementList;
+non terminal FormPars, Statement;
+non terminal ActParsOp, ActPars, ExprSepList, ExprSep, Condition;
+non terminal CondTermSepList, CondTermSep, CondTerm, CondFactSepList, CondFactSep, CondFact;
+non terminal Matched, Unmatched, ClassDecl_List, VarDecl_List, ConstDecl_List;
+non terminal FormPar, VarDecl, VarList, Var, LocalVarList;
+
+non terminal LocalVarDeclListWOCBRAC;
+non terminal LocalVarDeclMethodDecWErrorDetOp;
+non terminal WhileCondition;
+
+non terminal Obj ProgramName, Designator, insertThis, setClassMembers, TypeVal;
+non terminal Struct Type, MethodType, Term, Expr, ExprAddopTerm, ExprOp, Factor;
+non terminal Boolean Relop;
+non terminal Integer NumSepOp, IncDec, Addop, Mulop;
+
+Program	::= PROGRAM ProgramName:p Class_Var_Const_DeclList OCBRAC MethodDeclList CCBRAC
+{:
+	Code.dataSize = MyTab.currentScope().getnVars();
+	
+	MyTab.chainLocalSymbols(p);
+	MyTab.closeScope();
+	
+	if(Code.pc > 8*1024)
+		parser.report_error("Greska: izvorni kod veci od 8KB!", null);
+	
+	// Ispis broja odredjenih elemenata
+	parser.log.info("==================SINTAKSNA ANALIZA==================");
+	parser.log.info("Broj globalnih promenljivih = " + parser.globalVarCount);
+	parser.log.info("Broj lokalnih promenljivih u Main funkciji = " + parser.mainVarCount);
+	parser.log.info("Broj globalnih konstanti = " + parser.globalConstVarCount);
+	parser.log.info("Broj globalnih nizova = " + parser.globalArrayCount);
+	parser.log.info("----------------------------------------------------");
+	parser.log.info("Broj globalnih funkcija = " + parser.globalFunctionCount);
+	parser.log.info("Broj blokova naredbi = " + parser.blockCount);
+	parser.log.info("Broj poziva funkcija = " + parser.funcCallCount);
+	parser.log.info("Broj deklarisanih formalnih argumenata funkcija = " + parser.funcCallArgCount);
+	parser.log.info("----------------------------------------------------");
+	parser.log.info("Broj unutrasnjih klasa = " + parser.classCount);
+	parser.log.info("Broj metoda unutrasnjih klasa = " + parser.methodCount);
+	parser.log.info("Broj polja unutrasnjih klasa = " + parser.classMemberCount);
+
+	parser.dump();
+:};
+ProgramName ::= IDENT:progName
+{:
+	RESULT = MyTab.insert(Obj.Prog, progName, MyTab.noType);
+	MyTab.openScope();
+	GLOBAL_SCOPE = MyTab.currentScope();
+:};
+
+Class_Var_Const_DeclList ::= ClassDecl_List | VarDecl_List | ConstDecl_List  | /* epsilon */;
+ClassDecl_List ::= ClassDecl Class_Var_Const_DeclList;
+VarDecl_List ::= VarDecl Class_Var_Const_DeclList;
+ConstDecl_List ::= ConstDecl Class_Var_Const_DeclList;
+/**/
+ConstDecl ::= CONST Type:t IDENT:constName ASSIGN TypeVal:a
+				{: 
+					Obj obj = MyTab.find(constName);
+					if(obj != MyTab.noObj && MyTab.currentScope().findSymbol(constName) != null)
+					{
+						parser.report_error("Semanticka greska na liniji " + constNameleft + ": identifikator \'" + constName + "\' je vec deklarisana u trenutnom opsegu!", null);
+					}
+					else
+					{
+						if(!t.equals(MyTab.intType) && !t.equals(MyTab.charType) && !t.equals(MyTab.boolType) && !t.equals(MyTab.stringType))
+							parser.report_error("Semanticka greska na liniji " + tleft + ": tip konstante \'" + constName + "\' nije adekvatan", null);
+						else
+						{
+							obj = MyTab.insert(Obj.Con, constName, t);
+							obj.setAdr(a.getAdr());
+							
+							parser.globalConstVarCount++; // broji prvu konstantu posle tipa (const int cnt1,...) (konstane mogu biti samo globalne)
+						}
+					}
+				:}
+				TypeValSepList SC;
+
+TypeVal ::= NUMBER:i
+		    {: 
+				Obj c = new Obj(Obj.Con, "", MyTab.intType);
+				c.setAdr(i.intValue());
+				RESULT = c;
+		    :}
+		    | CHAR_CONST:ch
+		    {: 
+				Obj c = new Obj(Obj.Con, "", MyTab.charType);
+				c.setAdr(ch.charValue());
+				RESULT = c;
+		    :}
+		    | BOOL_CONST:b
+		    {:
+				Obj c = new Obj(Obj.Con, "", MyTab.boolType);
+				c.setAdr(b ? 1 : 0);
+				RESULT = c;
+		    :};
+TypeValSepList ::= TypeValSepList TypeValSep
+				   |
+				   /* epsilon */
+				   ;
+TypeValSep ::= COMMA IDENT:constName ASSIGN TypeVal 
+			   {: 
+					if(!currType.equals(MyTab.intType) && !currType.equals(MyTab.charType) && !currType.equals(MyTab.boolType) && !currType.equals(MyTab.stringType))
+						parser.report_error("Semanticka greska na liniji " + constNameleft + ": tip konstante \'" + constName + "\' nije adekvatan", null);
+					else
+					{
+						MyTab.insert(Obj.Con, constName, currType);
+						parser.globalConstVarCount++; // broji ostale konstante posle prve (int ...,cnt2,cnt3,...) (konstane mogu biti samo globalne pa se to ne proverava)
+					}
+			   :};
+/**/
+VarDecl ::= Type VarList SC
+			| Type error:err SC
+			{:
+				parser.log.debug("Uspesan oporavak od greske pri DEFINICIJI GLOBALNE PROMENLJIVE na liniji " + errleft + ". Siguran simbol: ';'");
+			:};
+VarList ::= VarList COMMA Var | Var
+			| error:err COMMA Var
+			{: 
+				parser.log.debug("Uspesan oporavak od greske pri DEFINICIJI GLOBALNE PROMENLJIVE na liniji " + errleft + ". Siguran simbol: ','");
+			:};	
+Var ::= IDENT:varName
+		{: 
+			Obj obj = MyTab.find(varName);
+			if(obj != MyTab.noObj && MyTab.currentScope().findSymbol(varName) != null)
+			{
+				parser.report_error("Semanticka greska na liniji " + varNameleft + ": identifikator \'" + varName + "\' je vec deklarisana u trenutnom opsegu!", null);
+			}
+			else
+			{
+				if(parser.inClassFlag && !parser.inMethodFlag)
+				{
+					MyTab.insert(Obj.Fld, varName, currType);
+					if (parser.inClassFlag) parser.classMemberCount++; // broji polja unutrasnjih klasa koje nisu niz
+					parser.report_info("Deklarisano POLJE \'" + varName + "\' KLASE \'" + currClass.getName() + "\' na liniji " + varNameleft, null);
+				}
+				else
+				{
+					MyTab.insert(Obj.Var, varName, currType);
+					String scope = scopeIsGlobal()? "GLOBALNA" : "LOKALNA";
+					parser.report_info("Deklarisana " + scope + " PROMENLJIVA \'" + varName + "\' na liniji " + varNameleft, null);
+					if(parser.inMethodFlag)
+					{						
+						currMethVarCnt++;
+						if (currMethVarCnt > 256)
+						parser.report_error("Greska: deklariano vise od 256 lokalnih promenljivih!", null);
+					}
+				}
+				
+				if (scopeIsGlobal())
+				{
+					parser.globalVarCount++;  // broji globalne promenljive koje nisu niz
+					if (parser.globalVarCount > 65536)
+						parser.report_error("Greska: deklariano vise od 65536 globalnih promenljivih!", null);
+				}
+				if (parser.mainVarFlag) parser.mainVarCount++; // broji lokalne(main) promenljive koje nisu niz
+			}
+		:}
+		| IDENT:varName OSBRAC CSBRAC
+		{: 
+			Obj obj = MyTab.find(varName);
+			if(obj != MyTab.noObj && MyTab.currentScope().findSymbol(varName) != null)
+			{
+				parser.report_error("Semanticka greska na liniji " + varNameleft + ": identifikator \'" + varName + "\' je vec deklarisana u trenutnom opsegu!", null);
+			}
+			else
+			{
+				if(parser.inClassFlag && !parser.inMethodFlag)
+				{
+					MyTab.insert(Obj.Fld, varName, new Struct(Struct.Array, currType));
+					if (parser.inClassFlag) parser.classMemberCount++; // broji polja unutrasnjih klasa(nizove)
+					parser.report_info("Deklarisano POLJE \'" + varName + "\' KLASE \'" + currClass.getName() + "\' na liniji " + varNameleft, null);
+				}
+				else
+				{
+					MyTab.insert(Obj.Var, varName, new Struct(Struct.Array, currType));
+					String scope = scopeIsGlobal()? "GLOBALNA" : "LOKALNA";
+					parser.report_info("Deklarisana " + scope + " PROMENLJIVA \'" + varName + "\' na liniji " + varNameleft, null);
+					if(parser.inMethodFlag)
+					{						
+						currMethVarCnt++;
+						if (currMethVarCnt > 256)
+						parser.report_error("Greska: deklariano vise od 256 lokalnih promenljivih!", null);
+					}
+				}
+				
+				if (scopeIsGlobal())
+				{
+					parser.globalVarCount++;	// broji globalne promenljive(nizove)
+					if (parser.globalVarCount > 65536)
+						parser.report_error("Greska: deklariano vise od 65536 globalnih promenljivih!", null);
+					parser.globalArrayCount++; 	// broji globalne nizove
+				}
+				if (parser.mainVarFlag) parser.mainVarCount++;  // broji lokalne(main) promenljive(nizove)
+			}
+		:};
+		///parser.log.debug("Uspesan oporavak od greske pri DEFINICIJI LOKALNE PROMENLJIVE. Siguran simbol: '{'");
+LocalVarDecl ::= Type LocalVarList;
+LocalVarList ::= LocalVarList COMMA Var | Var;
+LocalVarDeclList ::= LocalVarDeclList SC LocalVarDecl | LocalVarDecl
+					 | error:err //SC LocalVarDecl isto kao i sa
+						{:
+							parser.log.debug("Uspesan oporavak od greske pri DEFINICIJI LOKALNE PROMENLJIVE na liniji " + errleft + ". Siguran simbol: ';'");
+						:};
+LocalVarDeclListWOCBRAC ::= /*{:  :}*/ LocalVarDeclList SC OCBRAC
+							| OCBRAC
+							| error:err OCBRAC
+							{: 
+								if(parser.inClassFlag)
+									parser.log.debug("Uspesan oporavak od greske pri DEKLARACIJI POLJA UNUTRASNJE KLASE na liniji " + errleft + ". Siguran simbol: '{'"); 
+								else
+									parser.log.debug("Uspesan oporavak od greske pri DEKLARACIJI LOKALNE PROMENLJIVE na liniji " + errleft + ". Siguran simbol: '{'"); 
+							:};
+/**/
+LocalVarDeclMethodDecWErrorDetOp ::= LocalVarDeclListWOCBRAC setClassMembers MethodDeclList CCBRAC // {: parser.blockCount++; :} nije blok NAREDBI
+									 | LocalVarDeclList SC
+									 | /* epsilon */;
+ClassDecl ::= CLASS IDENT:className
+					{:
+						///log.info("Deklarisana klasa " + className + " na liniji " + classNameleft);
+						///inside_class = true;
+						currClass = MyTab.insert(Obj.Type, className, new Struct(Struct.Class));
+						MyTab.openScope();
+						parser.inClassFlag = true;
+					:}
+					ExtTypeOp OCBRAC LocalVarDeclMethodDecWErrorDetOp CCBRAC
+					{: 
+						MyTab.chainLocalSymbols(currClass.getType());
+						MyTab.closeScope();
+												
+						currClass = null;
+						
+						parser.inClassFlag = false;
+						parser.classCount++;
+					:};
+ExtTypeOp ::= EXTENDS Type:t
+			  {:
+					if(t.getKind() != Struct.Class)
+						parser.report_error("Semanticka greska na liniji " + tleft + ": navedeni tip nije unutrasnja klasa!", null);
+			  :}
+			  | /* epsilon */
+			  | EXTENDS error:err
+			  {: parser.log.debug("Uspesan oporavak od greske pri DEKLARACIJI PROSIRENJA NATKLASE na liniji " + errleft + ". Siguran simbol: '{'"); :};
+MethodDeclList ::= MethodDeclList MethodDecl
+				   |
+				   /* epsilon */
+				   ;
+setClassMembers ::= {:
+						MyTab.chainLocalSymbols(currClass.getType());
+						if(MyTab.currentScope().getnVars() > 65536)
+							parser.report_error("Greska: klasa \'" + currClass.getName() + "\' ima vise od 65536 polja!", null);
+					:};
+/**/
+MethodDecl ::= MethodType:retType IDENT:methodName
+			   {: 
+					currMethod = MyTab.insert(Obj.Meth, methodName, retType);
+					if(parser.inClassFlag)
+						parser.report_info("Obradjuje se METODA \'" + methodName + "()\' KLASE \'" + currClass.getName() + "\' na liniji " + methodNameleft, null);
+					else
+						parser.report_info("Obradjuje se GLOBALNA FUNKCIJA \'" + methodName + "()\' na liniji " + methodNameleft, null);
+					MyTab.openScope();
+					parser.inMethodFlag = true;
+					currMethVarCnt = 0;
+			   :}			   
+			   OBRAC insertThis FormParsOp CBRAC
+			   {: 
+					currMethod.setAdr(Code.pc);
+					if (methodName.equals("main"))
+					{						
+						parser.mainVarFlag = true;
+						Code.mainPc = currMethod.getAdr();
+					}
+					Code.put(Code.enter);
+					Code.put(currMethod.getLevel());
+					Code.put(MyTab.currentScope().getnVars());
+			   :}
+			   LocalVarDeclListWOCBRAC StatementList CCBRAC
+			   {: 
+					if(!returnFound && retType != MyTab.noType) 
+						parser.report_error("Semanticka greska na liniji " + methodNameleft + ": funkcija \'" + methodName + "()\' nema return iskaz", null);
+					
+					Code.put(Code.exit);
+					Code.put(Code.return_);
+					
+					MyTab.chainLocalSymbols(currMethod);
+					MyTab.closeScope();
+					
+					parser.inMethodFlag = false;
+					returnFound = false;
+					currMethod = null;
+					
+					if (methodName.equals("main")) parser.mainVarFlag = false;
+					if (scopeIsGlobal()) parser.globalFunctionCount++;
+					else parser.methodCount++;
+					//parser.blockCount++; nije blok NAREDBI
+			   :};
+MethodType ::= Type:retType
+			   {: RESULT =  retType; :}
+			   | VOID
+			   {: RESULT =  MyTab.noType; :};
+FormParsOp ::= FormPars | /* epsilon */
+			   | error:err
+				{: parser.log.debug("Uspesan oporavak od greske pri DEKLARACIJI FORMALNIH PARAMETARA FUNKCIJE na liniji " + errleft + ". Siguran simbol: ')'"); :};
+StatementList ::= StatementList Statement
+				  |
+				  /* epsilon */
+				  ;
+/**/
+FormPars ::= FormPars COMMA FormPar	
+				{: parser.funcCallArgCount++; :}
+			 | FormPar
+				{: parser.funcCallArgCount++; :}
+			 | error:err COMMA FormPar
+			 {: parser.log.debug("Uspesan oporavak od greske pri DEKLARACIJI FORMALNIH PARAMETARA FUNKCIJE na liniji " + errleft + ". Siguran simbol: ','"); :};
+FormPar ::= Type IDENT:formParName
+			{:
+				MyTab.insert(Obj.Var, formParName, currType);
+			:}
+			|Type IDENT:formParName OSBRAC CSBRAC
+			{:
+				MyTab.insert(Obj.Var, formParName, new Struct(Struct.Array, currType));
+			:};
+insertThis ::= {: if(parser.inClassFlag) MyTab.insert(Obj.Var, "this", currClass.getType()); :};
+/**/
+Type ::= IDENT:typeName
+{:
+	Obj typeNode = MyTab.find(typeName);
+	if (typeNode == MyTab.noObj)
+	{
+		parser.report_error("Nije pronadjen tip " + typeName + " u tabeli simbola", null);
+		currType = MyTab.noType;
+		RESULT = MyTab.noType;
+	}
+	else{
+		if (typeNode.getKind() == Obj.Type)
+		{
+			currType = typeNode.getType();
+			RESULT = typeNode.getType();
+		}
+		else
+		{
+			parser.report_error("Greska na liniji " + typeNameleft + ": ime \'" + typeName + "\' ne predstavlja tip", null);
+			currType = MyTab.noType;
+			RESULT = MyTab.noType;
+		}
+	}
+:};
+/**/
+Statement ::= Matched | Unmatched;
+
+Unmatched ::= IF OBRAC Condition CBRAC Statement
+			  | IF OBRAC error:err CBRAC Statement
+			  {: parser.log.debug("Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji " + errleft + ". Siguran simbol: ')'"); :}
+			  | IF OBRAC Condition CBRAC Matched ELSE Unmatched
+			  | IF OBRAC error:err CBRAC Matched ELSE Unmatched
+			  {: parser.log.debug("Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji " + errleft + ". Siguran simbol: ')'"); :}
+			  | WHILE OBRAC WhileCondition CBRAC Unmatched
+			  {: parser.inWhileLoop = false; :}
+			  | WHILE OBRAC error:err CBRAC Unmatched 
+			  {: parser.log.debug("Uspesan oporavak od greske u LOGICKOM IZRAZU WHILE konstrukcije na liniji " + errleft + ". Siguran simbol: ')'"); :};
+			  
+Matched ::= Designator:d ASSIGN Expr:e SC
+			{:
+				if(d != null)
+				{
+					if(d.getKind() != Obj.Var && d.getKind() != Obj.Elem && d.getKind() != Obj.Fld)
+						parser.report_error("Semanticka greska na liniji " + dleft + ": dodela vrednosti u neadekvatnu promenljivu", null);
+					else
+						if(!e.assignableTo(d.getType()))
+							parser.report_error("Semanticka greska na liniji " + dleft + ": nekompatibilni tipovi u dodeli vrednosti", null);
+						else
+						{
+							Code.store(d);
+						}
+				}
+			:}
+			| Designator ASSIGN error:err SC
+			{: parser.log.debug("Uspesan oporavak od greske pri DODELI VREDNOSTI na liniji " + errleft + ". Siguran simbol: ';'"); :}
+			| Designator:func OBRAC ActParsOp CBRAC SC
+			{:
+				if (Obj.Meth == func.getKind()){
+					if (parser.mainVarFlag) parser.funcCallCount++;
+					parser.report_info("Pronadjen poziv funkcije \'" + func.getName() + "()\' na liniji " + funcleft, null);
+					RESULT = func.getType();
+					
+					// pcRel adr
+					int dstAdr = func.getAdr() - Code.pc;
+					Code.put(Code.call);
+					Code.put2(dstAdr);
+					if(func.getType() != MyTab.noType)
+						Code.put(Code.pop);
+				}
+				else{
+					parser.report_error("Greska na liniji " + funcleft + ": \'" + func.getName() + "\' nije funkcija!", null);
+					RESULT = MyTab.noType;
+				}
+			:}
+			| Designator OBRAC error:err CBRAC SC
+			{: parser.log.debug("Uspesan oporavak od greske u LISTI PARAMETARA ZA POZIV METODE OBJEKTA na liniji " + errleft + ". Siguran simbol: ')'"); :}
+			| Designator:d IncDec:op SC
+			{:
+				if(d.getKind() != Obj.Var && d.getKind() != Obj.Elem && d.getKind() != Obj.Fld)
+					parser.report_error("Semanticka greska na liniji " + dleft + ": dodela vrednosti u neadekvatnu promenljivu", null);
+				else
+					if(d.getType() != MyTab.intType)
+					{
+						String operator = (op == Code.add)? "++" : "--";
+						parser.report_error("Semanticka greska na liniji " + dleft + ": ne-int tip uz operator " + operator, null);
+					}
+					else
+					{
+						Code.load(d);
+				  	 	Code.put(Code.const_1);
+				  	 	Code.put(op);
+				  		Code.store(d);
+					}
+			:}
+			| IF OBRAC Condition CBRAC Matched ELSE Matched
+			| IF OBRAC error:err CBRAC Matched ELSE Matched
+			{: parser.log.debug("Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji " + errleft + ". Siguran simbol: ')'"); :}
+			| WHILE OBRAC WhileCondition CBRAC Matched
+			{: parser.inWhileLoop = false; :}
+			| WHILE OBRAC error:err CBRAC Matched
+			{: parser.log.debug("Uspesan oporavak od greske u LOGICKOM IZRAZU WHILE konstrukcije na liniji " + errleft + ". Siguran simbol: ')'"); :}
+			| BREAK SC
+			{:
+				if(!parser.inWhileLoop)
+					parser.report_error("Semanticka greska: koriscenje iskaza break van while ciklusa", null);
+			:}
+			| RETURN ExprOp:t SC
+			{:
+				returnFound = true;
+				Struct currMethodType = currMethod.getType();
+				if(!currMethodType.compatibleWith(t))
+				{
+					parser.report_error("Semanticka greska na liniji " + tleft + ": tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije \'" + currMethod.getName() + "()\'", null);
+				}
+			:}
+			| READ OBRAC Designator:d CBRAC SC
+			{:
+				if(d.getKind() != Obj.Var && d.getKind() != Obj.Elem && d.getKind() != Obj.Fld)
+					parser.report_error("Semanticka greska na liniji " + dleft + ": citanje neadekvatne promenljive", null);
+				else
+					if(d.getType() != MyTab.intType && d.getType() != MyTab.charType && d.getType() != MyTab.boolType && d.getType() != MyTab.stringType)
+						parser.report_error("Semanticka greska na liniji " + dleft + ": neadekvatan tip operanda instrukcije \'read\'", null);
+					else
+					{
+						if(d.getType() == MyTab.intType)
+						{
+							Code.put(Code.read);
+						}
+						else if(d.getType() == MyTab.charType)
+						{
+							Code.put(Code.bread);
+						}
+				  	 	Code.store(d);
+						if (parser.mainVarFlag) parser.funcCallCount++;
+						parser.report_info("Pronadjen poziv funkcije \'read()\' na liniji " + dleft, null);
+					}
+			:}
+			| PRINT OBRAC Expr:te NumSepOp:n CBRAC SC 
+			{:
+				if(te != MyTab.intType && te != MyTab.charType && te != MyTab.boolType && te != MyTab.stringType)
+					parser.report_error("Semanticka greska na liniji " + teleft + ": neadekvatan tip operanda instrukcije \'print\'", null);
+				else
+				{
+					Code.loadConst(n);
+					if(te == MyTab.intType)
+					{
+						Code.put(Code.print);
+					}
+					else if(te == MyTab.charType)
+					{
+						Code.put(Code.bprint);
+					}
+					else if(te == MyTab.boolType)
+					{
+						Code.put(Code.print);
+					}
+					else if(te == MyTab.stringType)
+					{
+						
+					}
+					
+					parser.printCallCount++; /// broji pozive print funkcije (TODO izbaciti)
+					if (parser.mainVarFlag) parser.funcCallCount++;
+					parser.report_info("Pronadjen poziv funkcije \'print()\' na liniji " + teleft, null);
+				}
+			:}
+			| {: MyTab.openScope(); :} OCBRAC StatementList CCBRAC
+			  {:
+				MyTab.closeScope();
+				parser.blockCount++;
+              :};
+IncDec ::= INC {: RESULT = Code.add; :}| DEC {: RESULT = Code.sub; :};
+ActParsOp ::= ActPars | /* epsilon */;
+ExprOp ::= Expr:t {: RESULT = t; :} | /* epsilon */ {: RESULT = MyTab.noType; /* void */ :};
+NumSepOp ::= COMMA NUMBER:n {: RESULT = n; :} | /* epsilon */ {: RESULT = 0; :};
+/**/
+ActPars ::= Expr ExprSepList;
+ExprSepList ::= ExprSepList ExprSep
+				|
+				/* epsilon */
+				;
+ExprSep ::= COMMA Expr;
+/**/
+WhileCondition ::= Condition {: parser.inWhileLoop = true; :};
+Condition ::= CondTerm CondTermSepList;
+CondTermSepList ::= CondTermSepList CondTermSep
+					|
+					/* epsilon */
+					;
+CondTermSep ::= OR CondTerm;
+/**/
+CondTerm ::= CondFact CondFactSepList;
+CondFactSepList ::= CondFactSepList CondFactSep
+					|
+					/* epsilon */
+					;
+CondFactSep ::= AND CondFact;
+/**/
+CondFact ::= Expr:te1 Relop:op Expr:te2
+			 {:
+				if(te1.compatibleWith(te2))
+				{
+					if(te1.isRefType() || te2.isRefType())
+					{
+						if(!op.booleanValue())
+						{
+							parser.report_error("Semanticka greska na liniji " + te1left + ": nedozvoljeni relacioni operatori uz promenljive tipa klase ili niza", null);
+						}
+						else
+						{
+							// OK
+						}
+					}
+					//RESULT = t;
+				}
+				else
+				{
+					parser.report_error("Semanticka greska na liniji " + te1left + ": nekompatibilni tipovi u CondFact izrazu", null);
+					//RESULT = MyTab.noType;
+				}
+			 :}
+			 | Expr;
+/**/
+Expr ::= ExprAddopTerm:te
+		 {:
+			RESULT = te;
+		 :}
+		 | MINUS ExprAddopTerm:te
+		 {:
+			RESULT = MyTab.noType;
+			if(te == MyTab.intType)
+			{
+				Code.put(Code.neg);
+				RESULT = te;
+			}
+			else
+				parser.report_error("Semanticka greska na liniji " + teleft + ": ne-int tip uz unarni operator -", null);
+		 :};
+ExprAddopTerm ::= ExprAddopTerm:te Addop:op Term:t
+				  {:
+						RESULT = MyTab.noType;
+						if(t.compatibleWith(te))
+						{
+							if(t == MyTab.intType || (t == MyTab.stringType && op == Code.add))
+							{
+								Code.put(op);
+								RESULT = t;
+							}
+							else
+								parser.report_error("Semanticka greska na liniji " + tleft + ": Add izraz sadrzi nedozvoljene tipove", null);
+						}
+						else
+							parser.report_error("Semanticka greska na liniji " + tleft + ": nekompatibilni tipovi u Add izrazu", null);
+				  :}
+				  | Term:t
+				  {: RESULT = t; :};
+/**/
+Term ::= Term:t Mulop:op Factor:tf
+		 {:
+			RESULT = MyTab.noType;
+			if(t.compatibleWith(tf) && t == MyTab.intType)
+			{
+				Code.put(op);
+				RESULT = t;
+			}
+			else
+				parser.report_error("Semanticka greska na liniji " + tleft + ": nekompatibilni tipovi u Mul izrazu", null);
+		 :}
+		 | Factor:t
+		 {: RESULT = t; :};
+/**/
+Factor ::= Designator:d
+		   {:
+				RESULT = d.getType();
+				Code.load(d);
+		   :}
+		   | Designator:func OBRAC ActParsOp CBRAC
+		   {:
+				RESULT = MyTab.noType;
+				if (Obj.Meth == func.getKind())
+				{					
+					if(func.getType() == MyTab.noType)
+						parser.report_error("Semanticka greska na liniji " + funcleft + ": poziv funkcije \'" + func.getName() + "()\' sa povratnim tipom void u izrazu", null);
+					else
+					{
+						if (parser.mainVarFlag) parser.funcCallCount++;
+						parser.report_info("Pronadjen poziv funkcije \'" + func.getName() + "()\' na liniji " + funcleft, null);
+					
+						// pcRel adr
+						int dstAdr = func.getAdr() - Code.pc;
+						Code.put(Code.call);
+						Code.put2(dstAdr);
+						RESULT = func.getType();
+					}
+				}
+				else
+					parser.report_error("Greska na liniji " + funcleft + ": \'" + func.getName() + "\' nije funkcija!", null);
+		   :}
+		   | NUMBER:i
+		   {: 
+				Obj c = MyTab.insert(Obj.Con, "", MyTab.intType);
+				c.setAdr(i.intValue());
+				Code.load(c);
+				RESULT = MyTab.intType; 
+		   :}
+		   | CHAR_CONST:ch
+		   {: 
+				Obj c = MyTab.insert(Obj.Con, "", MyTab.charType);
+				c.setAdr(ch.charValue());
+				Code.load(c);
+				RESULT = MyTab.charType; 
+		   :}
+		   | BOOL_CONST:b
+		   {:
+				Obj c = MyTab.insert(Obj.Con, "", MyTab.boolType);
+				c.setAdr(b ? 1 : 0);
+				Code.load(c);
+				RESULT = MyTab.boolType; 
+		   :}
+		   | STR_CONST:str
+		   {: 
+				Obj c = MyTab.insert(Obj.Con, "", MyTab.stringType);
+				Code.loadConst(str.length());
+				Code.put(Code.newarray);
+		   		Code.put(0);
+				//c.setAdr(Code.get(Code.))
+				RESULT = MyTab.stringType;
+		   :}
+		   | NEW Type:t OSBRAC Expr:te CSBRAC
+		   {: 
+				RESULT = MyTab.noType;
+				if(te != MyTab.intType)
+					parser.report_error("Semanticka greska na liniji " + tleft + ": izraz nije tipa int!", null);
+				else
+				{
+					if(t.equals(MyTab.intType) || t.equals(MyTab.charType) || t.equals(MyTab.boolType) /*|| t.equals(MyTab.stringType)*/)
+					{
+						Code.put(Code.newarray);
+					}
+					RESULT = new Struct(Struct.Array, t);
+				}
+		   :}
+		   | NEW Type:t
+		   {: 
+				RESULT = MyTab.noType;
+				if(t.getKind() != Struct.Class)
+					parser.report_error("Semanticka greska na liniji " + tleft + ": navedeni tip nije unutrasnja klasa!", null);
+				else
+				{
+					if(t.equals(MyTab.intType) || t.equals(MyTab.charType) || t.equals(MyTab.boolType) /*|| t.equals(MyTab.stringType)*/)
+					{
+						Code.put(Code.new_);
+					}
+					RESULT = t; 
+				}
+		   :}
+		   | OBRAC Expr:t CBRAC
+		   {: RESULT = t; :};
+/**/
+Designator ::= IDENT:name
+			   {:
+					Obj obj = MyTab.find(name);
+					if (obj == MyTab.noObj)
+						parser.report_info("Greska na liniji " + nameleft + ": ime \'" + name + "\' nije deklarisano!", null);
+					RESULT = obj;
+			   :}
+			   | Designator:c POINT IDENT:member
+			   {:
+					Obj clas;
+					if(c.getName().equals("this")) 
+						clas = currClass;
+					else
+						clas = c;
+					
+					RESULT = MyTab.noObj;
+					
+					if(clas == MyTab.noObj)
+						parser.report_error("Semanticka greska na liniji " + memberleft + ": klasa \'" + clas.getName() + "\' nije deklarisana!", null);
+					else
+					{
+						if(clas.getType().getKind() != Struct.Class)
+							parser.report_error("Semanticka greska na liniji " + memberleft + ":\'" + clas.getName() + "\' nije unutrasnja klasa!", null);
+						else
+						{
+							Code.load(clas);
+							
+							boolean foundMember = false;
+							for(Obj currMember : clas.getType().getMembers())
+							{
+								if(currMember.getName().equals(member)) 
+								{
+									RESULT = currMember;
+									foundMember = true;
+									break;
+								}
+							}
+							if(!foundMember)
+								parser.report_error("Semanticka greska na liniji " + memberleft + ":\'" + member + "\' nije clan klase \'" + clas.getName() + "\'!", null);
+						}
+					}
+			   :}
+			   | Designator:arr OSBRAC
+			   {:
+					RESULT = MyTab.noObj;
+					if(arr == MyTab.noObj)
+						parser.report_error("Semanticka greska na liniji " + arrleft + ": niz \'" + arr.getName() + "\' nije deklarisana!", null);
+					else
+					{
+						if(arr.getType().getKind() != Struct.Array)
+							parser.report_error("Semanticka greska na liniji " + arrleft + ":\'" + arr.getName() + "\' nije niz!", null);
+						else
+						{
+							Code.load(arr);
+							
+							RESULT = new Obj(Obj.Elem, "", arr.getType().getElemType());
+						}
+					}
+			   :} Expr:e CSBRAC
+			   {: 
+					if(e != MyTab.intType)
+						parser.report_error("Semanticka greska na liniji " + arrleft + ": izraz indeksiranja niza \'" + arr.getName() + "\' nije tipa int!", null);
+			   :}
+			   | Designator OSBRAC error:err CSBRAC
+			   {: parser.log.debug("Uspesan oporavak od greske u IZRAZU INDEKSIRANJA NIZA na liniji " + errleft + ". Siguran simbol: ']'"); :};
+/**/
+Relop ::= EQU {: RESULT = new Boolean(true); :}
+		  | NEQU {: RESULT = new Boolean(true); :}
+		  | GRT {: RESULT = new Boolean(false); :}
+		  | GEQU {: RESULT = new Boolean(false); :}
+		  | LSS {: RESULT = new Boolean(false); :}
+		  | LEQU {: RESULT = new Boolean(false); :};
+/**/
+Addop ::= ADD {: RESULT = Code.add; :} | MINUS {: RESULT = Code.sub; :};
+/**/
+Mulop ::= MUL {: RESULT = Code.mul; :} | DIV {: RESULT = Code.div; :} | PERCENT {: RESULT = Code.rem; :};
+/**/

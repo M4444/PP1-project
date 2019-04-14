@@ -1,0 +1,23 @@
+program print_test
+	int x;
+{
+	int k()
+	{
+		print(0);
+		
+		return 0;
+	}
+
+	int main()
+	{
+		x = 3;
+		x++;
+		x--;
+		print(x--);
+		print(2, 2);
+		
+		k();
+		
+		return 0;
+	}
+}

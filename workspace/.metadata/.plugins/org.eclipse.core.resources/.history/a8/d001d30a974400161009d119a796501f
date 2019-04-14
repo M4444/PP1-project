@@ -1,0 +1,28 @@
+program print_test
+	int x;
+{
+	int k()
+	{
+		print(0);
+		
+		return 0;
+	}
+
+	int main()
+	{
+		x = 3;
+		x++;
+		x--; x--;
+		print(x);
+		print(2, 2);
+		
+		x = new int;
+		
+		//read(x); works :D
+		//print(x, 5);
+		
+		k();
+		
+		return 0;
+	}
+}

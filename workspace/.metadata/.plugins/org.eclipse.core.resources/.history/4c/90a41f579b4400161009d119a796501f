@@ -1,0 +1,32 @@
+program print_test
+	int x;
+{
+	int k()
+	{
+		print(0);
+		
+		return 0;
+	}
+
+	int main()
+		int niz[];
+	{
+		x = 3;
+		x = 4*x 
+		-
+		 2;
+		x++;
+		x--; x--;
+		print(x);
+		print(2, 2);
+		
+		niz = new int[4];
+		
+		//read(x); works :D
+		//print(x, 5);
+		
+		k();
+		
+		return 0;
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/MJCompiler/test/rs/ac/bg/etf/pp1/sm120554d/MJParserTest.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/MJCompiler/test/out/izlaz.out}"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="rs.ac.bg.etf.pp1.sm120554d.MJParserTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="&quot;test/primer_program.mj&quot; &quot;test/program.mj&quot; &quot;test/test_count.mj&quot; &quot;test/test_error_recovery.mj&quot; &quot;test/test_print.mj&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MJCompiler"/>
+</launchConfiguration>

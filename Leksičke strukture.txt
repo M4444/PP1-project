@@ -1,0 +1,10 @@
+Leksičke Strukture
+
+Ključne reči: program, break, class, else, const, if, new, print, read, return, void, while, extends
+Vrste tokena: 	ident = letter {letter | digit | ʺ_ʺ}.
+				number = digit {digit}.
+				charConst = ʺʹʺ printableChar ʺʹʺ.
+				boolConst = (ʺtrueʺ | ʺfalseʺ).
+				strConst = ʺ\ʺʺ {znak} ʺ\ʺʺ
+Operatori: +, -, *, /, %, ==, !=, >, >=, <, <=, &&, ||, =, ++, --, ;, zarez, ., (, ), [, ], {, }
+Komentari: // do kraja linije

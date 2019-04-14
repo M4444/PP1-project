@@ -1,0 +1,141 @@
+INFO  05:51:32,062 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_error_recovery.mj
+INFO  05:51:32,089 - #2 program
+INFO  05:51:32,089 - #40 MJProgram
+INFO  05:51:32,089 - #40 int
+INFO  05:51:32,089 - #40 q
+INFO  05:51:32,089 - #35 +
+ERROR 05:51:32,089 - Sintaksna greska na liniji 2
+INFO  05:51:32,090 - #41 1
+INFO  05:51:32,090 - #7 ,
+INFO  05:51:32,090 - #40 w
+INFO  05:51:32,093 - #8 ;
+INFO  05:51:32,093 - #11 class
+INFO  05:51:32,093 - Deklarisana GLOBALNA PROMENLJIVA 'w' na liniji 2
+DEBUG 05:51:32,093 - Uspesan oporavak od greske pri DEFINICIJI GLOBALNE PROMENLJIVE na liniji 2. Siguran simbol: ','
+INFO  05:51:32,093 - #40 Klas
+INFO  05:51:32,093 - #3 {
+INFO  05:51:32,093 - #4 }
+INFO  05:51:32,093 - #11 class
+INFO  05:51:32,093 - #40 Klasa
+INFO  05:51:32,094 - #12 extends
+INFO  05:51:32,094 - #40 Klas
+INFO  05:51:32,094 - #35 +
+ERROR 05:51:32,094 - Sintaksna greska na liniji 6
+INFO  05:51:32,094 - #41 1
+INFO  05:51:32,094 - #3 {
+INFO  05:51:32,094 - #40 int
+INFO  05:51:32,094 - #40 aba
+INFO  05:51:32,094 - #3 {
+DEBUG 05:51:32,094 - Uspesan oporavak od greske pri DEKLARACIJI PROSIRENJA NATKLASE na liniji 6. Siguran simbol: '{'
+ERROR 05:51:32,094 - Sintaksna greska na liniji 9
+INFO  05:51:32,094 - #40 int
+INFO  05:51:32,094 - #40 method1
+INFO  05:51:32,094 - #13 (
+DEBUG 05:51:32,094 - Uspesan oporavak od greske pri DEKLARACIJI POLJA UNUTRASNJE KLASE na liniji 8. Siguran simbol: '{'
+INFO  05:51:32,095 - Obradjuje se METODA 'method1()' KLASE 'Klasa' na liniji 10
+INFO  05:51:32,095 - #40 int
+INFO  05:51:32,095 - #40 m1
+INFO  05:51:32,095 - #7 ,
+INFO  05:51:32,095 - #40 int
+INFO  05:51:32,095 - #40 m2
+INFO  05:51:32,095 - #14 )
+INFO  05:51:32,095 - #3 {
+INFO  05:51:32,096 - #18 return
+INFO  05:51:32,096 - #40 m1
+INFO  05:51:32,096 - #35 +
+INFO  05:51:32,096 - #40 m2
+INFO  05:51:32,096 - #8 ;
+INFO  05:51:32,097 - #4 }
+INFO  05:51:32,097 - #4 }
+INFO  05:51:32,097 - #4 }
+INFO  05:51:32,097 - #40 int
+INFO  05:51:32,097 - #40 q2
+INFO  05:51:32,097 - #7 ,
+INFO  05:51:32,097 - Deklarisana GLOBALNA PROMENLJIVA 'q2' na liniji 14
+INFO  05:51:32,097 - #40 w2
+INFO  05:51:32,097 - #35 +
+ERROR 05:51:32,097 - Sintaksna greska na liniji 14
+INFO  05:51:32,097 - #41 2
+INFO  05:51:32,097 - #8 ;
+INFO  05:51:32,097 - #3 {
+INFO  05:51:32,097 - #40 int
+INFO  05:51:32,098 - #40 funkcija
+DEBUG 05:51:32,098 - Uspesan oporavak od greske pri DEFINICIJI GLOBALNE PROMENLJIVE na liniji 14. Siguran simbol: ';'
+INFO  05:51:32,098 - #13 (
+INFO  05:51:32,098 - Obradjuje se GLOBALNA FUNKCIJA 'funkcija()' na liniji 16
+INFO  05:51:32,098 - #40 int
+INFO  05:51:32,098 - #40 a1
+INFO  05:51:32,098 - #6 =
+ERROR 05:51:32,098 - Sintaksna greska na liniji 16
+INFO  05:51:32,098 - #7 ,
+INFO  05:51:32,098 - #40 int
+INFO  05:51:32,098 - #40 a2
+INFO  05:51:32,098 - #7 ,
+DEBUG 05:51:32,098 - Uspesan oporavak od greske pri DEKLARACIJI FORMALNIH PARAMETARA FUNKCIJE na liniji 16. Siguran simbol: ','
+INFO  05:51:32,098 - #40 int
+INFO  05:51:32,098 - #40 a3
+INFO  05:51:32,098 - #6 =
+ERROR 05:51:32,099 - Sintaksna greska na liniji 16
+INFO  05:51:32,099 - #7 ,
+INFO  05:51:32,099 - #40 int
+INFO  05:51:32,099 - #40 a4
+INFO  05:51:32,099 - #7 ,
+DEBUG 05:51:32,099 - Uspesan oporavak od greske pri DEKLARACIJI FORMALNIH PARAMETARA FUNKCIJE na liniji 16. Siguran simbol: ','
+INFO  05:51:32,099 - #40 int
+INFO  05:51:32,099 - #40 a5
+INFO  05:51:32,099 - #6 =
+ERROR 05:51:32,099 - Sintaksna greska na liniji 16
+INFO  05:51:32,099 - #14 )
+INFO  05:51:32,099 - #3 {
+INFO  05:51:32,099 - #4 }
+INFO  05:51:32,099 - #15 void
+DEBUG 05:51:32,099 - Uspesan oporavak od greske pri DEKLARACIJI FORMALNIH PARAMETARA FUNKCIJE na liniji 16. Siguran simbol: ')'
+ERROR 05:51:32,099 - Semanticka greska na liniji 16: funkcija 'funkcija()' nema return iskaz
+INFO  05:51:32,099 - #40 main
+INFO  05:51:32,099 - #13 (
+INFO  05:51:32,099 - Obradjuje se GLOBALNA FUNKCIJA 'main()' na liniji 18
+INFO  05:51:32,099 - #14 )
+INFO  05:51:32,099 - #40 int
+INFO  05:51:32,100 - #40 niz
+INFO  05:51:32,100 - #7 ,
+INFO  05:51:32,100 - Deklarisana LOKALNA PROMENLJIVA 'niz' na liniji 19
+INFO  05:51:32,100 - #40 ge
+INFO  05:51:32,100 - #35 +
+ERROR 05:51:32,100 - Sintaksna greska na liniji 19
+INFO  05:51:32,100 - #41 1
+INFO  05:51:32,100 - #7 ,
+INFO  05:51:32,100 - #40 te
+INFO  05:51:32,100 - #8 ;
+INFO  05:51:32,100 - #40 int
+INFO  05:51:32,100 - #40 x
+INFO  05:51:32,100 - #7 ,
+DEBUG 05:51:32,100 - Uspesan oporavak od greske pri DEFINICIJI LOKALNE PROMENLJIVE na liniji 19. Siguran simbol: ';'
+INFO  05:51:32,101 - Deklarisana LOKALNA PROMENLJIVA 'x' na liniji 20
+INFO  05:51:32,101 - #40 y
+INFO  05:51:32,101 - #8 ;
+INFO  05:51:32,102 - Deklarisana LOKALNA PROMENLJIVA 'y' na liniji 20
+INFO  05:51:32,102 - #40 Klasa
+INFO  05:51:32,102 - #40 k
+INFO  05:51:32,102 - #8 ;
+INFO  05:51:32,102 - Deklarisana LOKALNA PROMENLJIVA 'k' na liniji 21
+INFO  05:51:32,102 - #40 int
+INFO  05:51:32,102 - #40 pp
+INFO  05:51:32,102 - #8 ;
+INFO  05:51:32,113 - Deklarisana LOKALNA PROMENLJIVA 'pp' na liniji 25
+INFO  05:51:32,113 - #3 {
+INFO  05:51:32,114 - #40 x
+INFO  05:51:32,114 - #6 =
+INFO  05:51:32,114 - #41 10
+INFO  05:51:32,114 - #8 ;
+INFO  05:51:32,114 - #40 niz
+INFO  05:51:32,114 - #9 [
+INFO  05:51:32,114 - #40 x
+ERROR 05:51:32,114 - Semanticka greska na liniji 30:'niz' nije niz!
+INFO  05:51:32,114 - #6 =
+ERROR 05:51:32,114 - Sintaksna greska na liniji 30
+INFO  05:51:32,115 - #10 ]
+INFO  05:51:32,115 - #6 =
+INFO  05:51:32,115 - #40 x
+INFO  05:51:32,115 - #8 ;
+DEBUG 05:51:32,115 - Uspesan oporavak od greske u IZRAZU INDEKSIRANJA NIZA na liniji 30. Siguran simbol: ']'
+INFO  05:51:32,115 - #20 print

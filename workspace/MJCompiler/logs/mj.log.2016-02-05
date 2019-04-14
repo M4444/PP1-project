@@ -1,0 +1,463 @@
+INFO  20:24:00,537 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:24:19,828 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:24:24,210 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:26:24,234 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:39:45,878 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:39:45,888 - #2 program
+INFO  20:39:45,888 - #41 MJProgram
+INFO  20:39:45,888 - #41 int
+INFO  20:39:45,888 - #41 x
+INFO  20:39:45,888 - #7 ,
+INFO  20:39:45,888 - #41 y
+INFO  20:39:45,888 - #8 ;
+INFO  20:39:45,888 - #3 {
+INFO  20:39:45,888 - #15 void
+INFO  20:39:45,888 - #41 main
+INFO  20:39:45,888 - #13 (
+INFO  20:39:45,888 - #14 )
+INFO  20:39:45,888 - #3 {
+INFO  20:39:45,888 - #4 }
+INFO  20:39:45,888 - #4 }
+INFO  20:39:45,888 - Print calls = 0
+INFO  20:42:07,346 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:42:07,356 - #2 program
+INFO  20:42:07,356 - #41 MJProgram
+INFO  20:42:07,356 - #41 int
+INFO  20:42:07,356 - #41 x
+INFO  20:42:07,356 - #7 ,
+INFO  20:42:07,356 - #41 y
+INFO  20:42:07,356 - #8 ;
+INFO  20:42:07,356 - #3 {
+INFO  20:42:07,356 - #15 void
+INFO  20:42:07,356 - #41 main
+INFO  20:42:07,356 - #13 (
+INFO  20:42:07,356 - #14 )
+INFO  20:42:07,356 - #3 {
+INFO  20:42:07,356 - #4 }
+INFO  20:42:07,356 - #4 }
+INFO  20:42:07,356 - Print calls = 0
+INFO  20:47:15,359 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:47:15,369 - #2 program
+INFO  20:47:15,369 - #41 MJProgram
+INFO  20:47:15,369 - #41 int
+INFO  20:47:15,369 - #41 x
+INFO  20:47:15,369 - #7 ,
+INFO  20:47:15,369 - #41 y
+INFO  20:47:15,369 - #8 ;
+INFO  20:47:15,369 - #3 {
+INFO  20:47:15,369 - #15 void
+INFO  20:47:15,369 - #41 main
+INFO  20:47:15,369 - #13 (
+INFO  20:47:15,369 - #14 )
+INFO  20:47:15,369 - #3 {
+INFO  20:47:15,369 - #20 print
+INFO  20:47:15,369 - #13 (
+INFO  20:47:15,369 - #42 1
+INFO  20:47:15,369 - #14 )
+INFO  20:47:15,369 - #8 ;
+INFO  20:47:15,369 - #20 print
+INFO  20:47:15,369 - #13 (
+INFO  20:47:15,369 - #42 2
+INFO  20:47:15,369 - #14 )
+INFO  20:47:15,369 - #8 ;
+INFO  20:47:15,369 - #4 }
+INFO  20:47:15,369 - #4 }
+INFO  20:47:15,369 - Print calls = 0
+INFO  20:48:02,382 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:48:02,392 - #2 program
+INFO  20:48:02,392 - #41 MJProgram
+INFO  20:48:02,392 - #41 int
+INFO  20:48:02,392 - #41 x
+INFO  20:48:02,392 - #7 ,
+INFO  20:48:02,392 - #41 y
+INFO  20:48:02,392 - #8 ;
+INFO  20:48:02,392 - #3 {
+INFO  20:48:02,392 - #15 void
+INFO  20:48:02,392 - #41 main
+INFO  20:48:02,392 - #13 (
+INFO  20:48:02,392 - #14 )
+INFO  20:48:02,392 - #3 {
+INFO  20:48:02,392 - #20 print
+INFO  20:48:02,392 - #13 (
+INFO  20:48:02,392 - #42 1
+INFO  20:48:02,392 - #14 )
+INFO  20:48:02,392 - #8 ;
+INFO  20:48:02,392 - #20 print
+INFO  20:48:02,392 - #13 (
+INFO  20:48:02,392 - #42 2
+INFO  20:48:02,392 - #14 )
+INFO  20:48:02,392 - #8 ;
+INFO  20:48:02,392 - #4 }
+INFO  20:48:02,392 - #4 }
+INFO  20:48:02,392 - Print calls = 2
+INFO  23:07:48,400 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:07:48,450 - #2 program
+INFO  23:07:48,450 - #41 MJProgram
+INFO  23:07:48,450 - #41 int
+INFO  23:07:48,450 - #41 x
+INFO  23:07:48,450 - #7 ,
+INFO  23:07:48,450 - #41 y
+INFO  23:07:48,450 - #6 =
+ERROR 23:07:48,450 - 
+Sintaksna greska na liniji 2
+ERROR 23:07:48,450 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+INFO  23:07:48,450 - Print calls = 0
+INFO  23:07:58,557 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:07:58,567 - #2 program
+INFO  23:07:58,567 - #41 MJProgram
+INFO  23:07:58,567 - #41 int
+INFO  23:07:58,567 - #41 x
+INFO  23:07:58,567 - #7 ,
+INFO  23:07:58,567 - #41 y
+INFO  23:07:58,567 - #8 ;
+INFO  23:07:58,567 - #3 {
+INFO  23:07:58,567 - #15 void
+INFO  23:07:58,567 - #41 main
+INFO  23:07:58,567 - #13 (
+INFO  23:07:58,567 - #14 )
+INFO  23:07:58,567 - #3 {
+INFO  23:07:58,567 - #20 print
+INFO  23:07:58,567 - #13 (
+INFO  23:07:58,567 - #42 1
+INFO  23:07:58,567 - #14 )
+INFO  23:07:58,567 - #8 ;
+INFO  23:07:58,567 - #20 print
+INFO  23:07:58,567 - #13 (
+INFO  23:07:58,567 - #42 2
+INFO  23:07:58,567 - #14 )
+INFO  23:07:58,567 - #8 ;
+INFO  23:07:58,567 - #4 }
+INFO  23:07:58,567 - #4 }
+INFO  23:07:58,567 - Print calls = 2
+INFO  23:11:58,847 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:11:58,857 - #2 program
+INFO  23:11:58,857 - #41 MJProgram
+INFO  23:11:58,857 - #41 int
+INFO  23:11:58,857 - #41 x
+INFO  23:11:58,857 - #7 ,
+INFO  23:11:58,857 - #41 y
+INFO  23:11:58,857 - #6 =
+ERROR 23:11:58,857 - 
+Sintaksna greska na liniji 2
+ERROR 23:11:58,857 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+INFO  23:11:58,862 - Print calls = 0
+INFO  23:12:22,537 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:12:22,547 - #2 program
+INFO  23:12:22,547 - #41 MJProgram
+INFO  23:12:22,547 - #41 int
+INFO  23:12:22,547 - #41 x
+INFO  23:12:22,547 - #7 ,
+INFO  23:12:22,547 - #41 y
+INFO  23:12:22,547 - #8 ;
+INFO  23:12:22,547 - #41 int
+INFO  23:12:22,547 - #41 z
+INFO  23:12:22,547 - #6 =
+ERROR 23:12:22,547 - 
+Sintaksna greska na liniji 3
+ERROR 23:12:22,547 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+INFO  23:12:22,547 - Print calls = 0
+INFO  23:14:28,153 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:14:28,163 - #2 program
+INFO  23:14:28,163 - #41 MJProgram
+INFO  23:14:28,163 - #41 int
+INFO  23:14:28,163 - #41 x
+INFO  23:14:28,163 - #7 ,
+INFO  23:14:28,163 - #41 y
+INFO  23:14:28,163 - #8 ;
+INFO  23:14:28,163 - #3 {
+INFO  23:14:28,163 - #15 void
+INFO  23:14:28,163 - #41 main
+INFO  23:14:28,163 - #13 (
+INFO  23:14:28,163 - #14 )
+INFO  23:14:28,163 - #3 {
+INFO  23:14:28,163 - #41 x
+INFO  23:14:28,163 - #6 =
+INFO  23:14:28,163 - #42 10
+INFO  23:14:28,163 - #8 ;
+INFO  23:14:28,163 - #20 print
+INFO  23:14:28,163 - #13 (
+INFO  23:14:28,163 - #42 1
+INFO  23:14:28,163 - #14 )
+INFO  23:14:28,163 - #8 ;
+INFO  23:14:28,163 - #20 print
+INFO  23:14:28,163 - #13 (
+INFO  23:14:28,163 - #42 2
+INFO  23:14:28,163 - #14 )
+INFO  23:14:28,163 - #8 ;
+INFO  23:14:28,163 - #4 }
+INFO  23:14:28,163 - #4 }
+INFO  23:14:28,163 - Print calls = 2
+INFO  23:19:34,489 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:19:34,500 - #2 program
+INFO  23:19:34,500 - #41 MJProgram
+INFO  23:19:34,500 - #41 int
+INFO  23:19:34,500 - #41 x
+INFO  23:19:34,500 - #7 ,
+INFO  23:19:34,500 - #41 y
+INFO  23:19:34,501 - #8 ;
+INFO  23:19:34,501 - #3 {
+INFO  23:19:34,501 - #15 void
+INFO  23:19:34,501 - #41 main
+INFO  23:19:34,501 - #13 (
+INFO  23:19:34,501 - #14 )
+INFO  23:19:34,501 - #3 {
+INFO  23:19:34,501 - #41 x
+INFO  23:19:34,501 - #6 =
+INFO  23:19:34,501 - #42 10
+INFO  23:19:34,501 - #8 ;
+INFO  23:19:34,501 - #20 print
+INFO  23:19:34,501 - #13 (
+INFO  23:19:34,501 - #42 1
+INFO  23:19:34,502 - #14 )
+INFO  23:19:34,502 - #8 ;
+INFO  23:19:34,502 - #20 print
+INFO  23:19:34,502 - #13 (
+INFO  23:19:34,502 - #42 2
+INFO  23:19:34,502 - #14 )
+INFO  23:19:34,502 - #8 ;
+INFO  23:19:34,502 - #41 x
+INFO  23:19:34,502 - #6 =
+INFO  23:19:34,502 - #41 y
+INFO  23:19:34,503 - #35 +
+INFO  23:19:34,503 - #42 3
+INFO  23:19:34,503 - #35 +
+INFO  23:19:34,503 - #41 x
+INFO  23:19:34,503 - #8 ;
+INFO  23:19:34,503 - #4 }
+INFO  23:19:34,503 - #4 }
+INFO  23:19:34,503 - Print calls = 2
+INFO  23:19:50,670 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:19:50,699 - #2 program
+INFO  23:19:50,700 - #41 MJProgram
+INFO  23:19:50,700 - #41 int
+INFO  23:19:50,700 - #41 x
+INFO  23:19:50,700 - #7 ,
+INFO  23:19:50,700 - #41 y
+INFO  23:19:50,700 - #8 ;
+INFO  23:19:50,700 - #3 {
+INFO  23:19:50,700 - #15 void
+INFO  23:19:50,700 - #41 main
+INFO  23:19:50,700 - #13 (
+INFO  23:19:50,700 - #14 )
+INFO  23:19:50,700 - #3 {
+INFO  23:19:50,700 - #41 x
+INFO  23:19:50,701 - #6 =
+INFO  23:19:50,701 - #42 10
+INFO  23:19:50,701 - #8 ;
+INFO  23:19:50,701 - #20 print
+INFO  23:19:50,701 - #13 (
+INFO  23:19:50,701 - #42 1
+INFO  23:19:50,701 - #14 )
+INFO  23:19:50,701 - #8 ;
+INFO  23:19:50,701 - #20 print
+INFO  23:19:50,701 - #13 (
+INFO  23:19:50,701 - #42 2
+INFO  23:19:50,701 - #14 )
+INFO  23:19:50,701 - #8 ;
+INFO  23:19:50,701 - #41 x
+INFO  23:19:50,701 - #6 =
+INFO  23:19:50,702 - #41 y
+INFO  23:19:50,702 - #35 +
+INFO  23:19:50,702 - #42 3
+INFO  23:19:50,702 - #35 +
+INFO  23:19:50,702 - #8 ;
+ERROR 23:19:50,702 - 
+Sintaksna greska na liniji 9
+ERROR 23:19:50,702 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  23:19:50,702 - Print calls = 2
+INFO  23:20:21,018 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:20:21,028 - #2 program
+INFO  23:20:21,033 - #41 MJProgram
+INFO  23:20:21,033 - #41 int
+INFO  23:20:21,033 - #41 x
+INFO  23:20:21,033 - #7 ,
+INFO  23:20:21,033 - #41 y
+INFO  23:20:21,033 - #8 ;
+INFO  23:20:21,033 - #3 {
+INFO  23:20:21,033 - #15 void
+INFO  23:20:21,033 - #41 main
+INFO  23:20:21,033 - #13 (
+INFO  23:20:21,033 - #14 )
+INFO  23:20:21,033 - #3 {
+INFO  23:20:21,033 - #41 x
+INFO  23:20:21,033 - #6 =
+INFO  23:20:21,033 - #42 10
+INFO  23:20:21,033 - #8 ;
+INFO  23:20:21,033 - #20 print
+INFO  23:20:21,033 - #13 (
+INFO  23:20:21,033 - #42 1
+INFO  23:20:21,033 - #14 )
+INFO  23:20:21,033 - #8 ;
+INFO  23:20:21,033 - #41 x
+INFO  23:20:21,033 - #6 =
+INFO  23:20:21,033 - #41 y
+INFO  23:20:21,033 - #35 +
+INFO  23:20:21,033 - #42 3
+INFO  23:20:21,033 - #35 +
+INFO  23:20:21,033 - #8 ;
+ERROR 23:20:21,033 - 
+Sintaksna greska na liniji 8
+ERROR 23:20:21,033 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
+INFO  23:20:21,033 - Print calls = 1
+INFO  23:23:19,830 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:23:19,840 - #2 program
+INFO  23:23:19,840 - #41 MJProgram
+INFO  23:23:19,840 - #41 int
+INFO  23:23:19,840 - #41 x
+INFO  23:23:19,840 - #7 ,
+INFO  23:23:19,840 - #41 y
+INFO  23:23:19,840 - #8 ;
+INFO  23:23:19,840 - #3 {
+INFO  23:23:19,840 - #15 void
+INFO  23:23:19,840 - #41 main
+INFO  23:23:19,840 - #13 (
+INFO  23:23:19,840 - #14 )
+INFO  23:23:19,840 - #3 {
+INFO  23:23:19,840 - #41 x
+INFO  23:23:19,840 - #6 =
+INFO  23:23:19,840 - #42 10
+INFO  23:23:19,840 - #8 ;
+INFO  23:23:19,840 - #20 print
+INFO  23:23:19,840 - #13 (
+INFO  23:23:19,845 - #42 1
+INFO  23:23:19,845 - #14 )
+INFO  23:23:19,845 - #8 ;
+INFO  23:23:19,845 - #41 x
+INFO  23:23:19,845 - #6 =
+INFO  23:23:19,845 - #41 y
+INFO  23:23:19,845 - #35 +
+INFO  23:23:19,845 - #42 3
+INFO  23:23:19,845 - #35 +
+INFO  23:23:19,845 - #8 ;
+ERROR 23:23:19,845 - 
+Sintaksna greska na liniji 8
+INFO  23:23:19,845 - #20 print
+INFO  23:23:19,845 - #13 (
+INFO  23:23:19,845 - #42 2
+INFO  23:23:19,845 - #14 )
+INFO  23:23:19,845 - #8 ;
+INFO  23:23:19,845 - #4 }
+INFO  23:23:19,845 - #4 }
+INFO  23:23:19,845 - Print calls = 2
+INFO  23:27:04,102 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:27:04,112 - #2 program
+INFO  23:27:04,112 - #41 MJProgram
+INFO  23:27:04,112 - #41 int
+INFO  23:27:04,112 - #41 x
+INFO  23:27:04,112 - #7 ,
+INFO  23:27:04,112 - #41 y
+INFO  23:27:04,112 - #8 ;
+INFO  23:27:04,112 - #3 {
+INFO  23:27:04,112 - #15 void
+INFO  23:27:04,112 - #41 main
+INFO  23:27:04,112 - #13 (
+INFO  23:27:04,112 - #14 )
+INFO  23:27:04,117 - #3 {
+INFO  23:27:04,117 - #41 x
+INFO  23:27:04,117 - #6 =
+INFO  23:27:04,117 - #42 10
+INFO  23:27:04,117 - #8 ;
+INFO  23:27:04,117 - #20 print
+INFO  23:27:04,117 - #13 (
+INFO  23:27:04,117 - #42 1
+INFO  23:27:04,117 - #14 )
+INFO  23:27:04,117 - #8 ;
+INFO  23:27:04,117 - #41 x
+INFO  23:27:04,117 - #6 =
+INFO  23:27:04,117 - #41 y
+INFO  23:27:04,117 - #35 +
+INFO  23:27:04,117 - #42 3
+INFO  23:27:04,117 - #35 +
+INFO  23:27:04,117 - #8 ;
+ERROR 23:27:04,117 - 
+Sintaksna greska na liniji 8
+INFO  23:27:04,117 - #20 print
+INFO  23:27:04,117 - #13 (
+INFO  23:27:04,117 - #42 2
+DEBUG 23:27:04,117 - Uspesan oporavak od greske pri dodeli vrednosti.
+INFO  23:27:04,117 - #14 )
+INFO  23:27:04,117 - #8 ;
+INFO  23:27:04,117 - #4 }
+INFO  23:27:04,117 - #4 }
+INFO  23:27:04,117 - Print calls = 2
+INFO  23:28:03,521 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:28:03,531 - #2 program
+INFO  23:28:03,531 - #41 MJProgram
+INFO  23:28:03,531 - #41 int
+INFO  23:28:03,531 - #41 x
+INFO  23:28:03,531 - #7 ,
+INFO  23:28:03,531 - #41 y
+INFO  23:28:03,531 - #8 ;
+INFO  23:28:03,531 - #3 {
+INFO  23:28:03,531 - #15 void
+INFO  23:28:03,531 - #41 main
+INFO  23:28:03,531 - #13 (
+INFO  23:28:03,531 - #14 )
+INFO  23:28:03,531 - #3 {
+INFO  23:28:03,531 - #41 x
+INFO  23:28:03,531 - #6 =
+INFO  23:28:03,531 - #42 10
+INFO  23:28:03,531 - #8 ;
+INFO  23:28:03,531 - #20 print
+INFO  23:28:03,531 - #13 (
+INFO  23:28:03,531 - #42 1
+INFO  23:28:03,531 - #14 )
+INFO  23:28:03,531 - #8 ;
+INFO  23:28:03,531 - #41 x
+INFO  23:28:03,531 - #6 =
+INFO  23:28:03,531 - #41 y
+INFO  23:28:03,531 - #35 +
+INFO  23:28:03,531 - #42 3
+INFO  23:28:03,531 - #35 +
+INFO  23:28:03,531 - #8 ;
+ERROR 23:28:03,531 - 
+Sintaksna greska na liniji 8
+INFO  23:28:03,531 - #20 print
+INFO  23:28:03,531 - #13 (
+INFO  23:28:03,531 - #42 2
+INFO  23:28:03,531 - #14 )
+INFO  23:28:03,531 - #8 ;
+INFO  23:28:03,531 - #4 }
+INFO  23:28:03,531 - #4 }
+INFO  23:28:03,531 - Print calls = 2
+INFO  23:28:16,070 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:28:16,080 - #2 program
+INFO  23:28:16,080 - #41 MJProgram
+INFO  23:28:16,080 - #41 int
+INFO  23:28:16,080 - #41 x
+INFO  23:28:16,085 - #7 ,
+INFO  23:28:16,085 - #41 y
+INFO  23:28:16,085 - #8 ;
+INFO  23:28:16,085 - #3 {
+INFO  23:28:16,085 - #15 void
+INFO  23:28:16,085 - #41 main
+INFO  23:28:16,085 - #13 (
+INFO  23:28:16,085 - #14 )
+INFO  23:28:16,085 - #3 {
+INFO  23:28:16,085 - #41 x
+INFO  23:28:16,085 - #6 =
+INFO  23:28:16,085 - #42 10
+INFO  23:28:16,085 - #8 ;
+INFO  23:28:16,085 - #20 print
+INFO  23:28:16,085 - #13 (
+INFO  23:28:16,085 - #42 1
+INFO  23:28:16,085 - #14 )
+INFO  23:28:16,085 - #8 ;
+INFO  23:28:16,085 - #41 x
+INFO  23:28:16,085 - #6 =
+INFO  23:28:16,085 - #41 y
+INFO  23:28:16,085 - #35 +
+INFO  23:28:16,085 - #42 3
+INFO  23:28:16,085 - #35 +
+INFO  23:28:16,085 - #8 ;
+ERROR 23:28:16,085 - 
+Sintaksna greska na liniji 8
+INFO  23:28:16,085 - #20 print
+INFO  23:28:16,085 - #13 (
+INFO  23:28:16,085 - #42 2
+DEBUG 23:28:16,085 - Uspesan oporavak od greske pri dodeli vrednosti.
+INFO  23:28:16,085 - #14 )
+INFO  23:28:16,085 - #8 ;
+INFO  23:28:16,085 - #4 }
+INFO  23:28:16,085 - #4 }
+INFO  23:28:16,085 - Print calls = 2

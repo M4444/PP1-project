@@ -1,0 +1,47 @@
+program MJProgram
+	int x,y;
+	int zz, niz1[];
+	
+	class Klasa
+	{
+		int aba;
+		//int method1(int m1, int m2) {return m1+m2;}
+		{
+			int method2()
+				int c;
+			{
+				c = 0;
+				return c+3;
+			}
+		}
+	}
+	
+	const int con = 5;
+	const char c = 'a';
+	
+	int niz2[];
+	
+{
+	int funkcija2(int a1, int a2, int a3, int a4)
+		char c;
+	{ 
+		return 4;
+	}
+
+	void main()
+		int z; 
+		Klasa k;
+	{	
+		while(x == 1)
+		{
+			break;
+		}
+		x = 10;
+		read(zz);
+		print(niz1[], 4);
+		//k.method1(1,2);
+		k.method2();
+		x = y+3;
+		print(2);
+	}
+}

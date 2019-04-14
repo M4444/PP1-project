@@ -1,0 +1,4887 @@
+INFO  17:43:41,470 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\primer_program.mj
+INFO  17:43:41,643 - #2 program
+INFO  17:43:41,643 - #41 P
+INFO  17:43:41,643 - #5 const
+INFO  17:43:41,644 - #41 int
+INFO  17:43:41,645 - #41 size
+INFO  17:43:41,645 - #6 =
+INFO  17:43:41,645 - #42 10
+INFO  17:43:41,645 - #8 ;
+INFO  17:43:41,645 - #11 class
+INFO  17:43:41,645 - #41 Table
+INFO  17:43:41,645 - #3 {
+INFO  17:43:41,645 - #41 int
+INFO  17:43:41,645 - #41 pos
+INFO  17:43:41,645 - #9 [
+INFO  17:43:41,645 - #10 ]
+INFO  17:43:41,646 - #7 ,
+INFO  17:43:41,646 - Deklarisana PROMENLJIVA 'pos' na liniji 4
+INFO  17:43:41,646 - #41 neg
+INFO  17:43:41,646 - #9 [
+INFO  17:43:41,646 - #10 ]
+INFO  17:43:41,646 - #8 ;
+INFO  17:43:41,646 - Deklarisana PROMENLJIVA 'neg' na liniji 4
+INFO  17:43:41,646 - #3 {
+INFO  17:43:41,646 - #15 void
+INFO  17:43:41,715 - #41 putp
+INFO  17:43:41,715 - #13 (
+INFO  17:43:41,715 - Obradjuje se funkcija 'putp()' na liniji 6
+INFO  17:43:41,715 - #41 int
+INFO  17:43:41,716 - #41 a
+INFO  17:43:41,716 - #7 ,
+INFO  17:43:41,716 - #41 int
+INFO  17:43:41,716 - #41 idx
+INFO  17:43:41,716 - #14 )
+INFO  17:43:41,716 - #3 {
+INFO  17:43:41,716 - #41 this
+INFO  17:43:41,716 - #28 .
+INFO  17:43:41,716 - #41 pos
+INFO  17:43:41,716 - #9 [
+INFO  17:43:41,716 - #41 idx
+INFO  17:43:41,716 - #10 ]
+INFO  17:43:41,716 - #6 =
+INFO  17:43:41,716 - #41 a
+INFO  17:43:41,716 - #8 ;
+INFO  17:43:41,716 - #4 }
+INFO  17:43:41,716 - #15 void
+INFO  17:43:41,717 - #41 putn
+INFO  17:43:41,717 - #13 (
+INFO  17:43:41,717 - Obradjuje se funkcija 'putn()' na liniji 7
+INFO  17:43:41,717 - #41 int
+INFO  17:43:41,717 - #41 a
+INFO  17:43:41,717 - #7 ,
+INFO  17:43:41,717 - #41 int
+INFO  17:43:41,717 - #41 idx
+INFO  17:43:41,717 - #14 )
+INFO  17:43:41,717 - #3 {
+INFO  17:43:41,717 - #41 this
+INFO  17:43:41,717 - #28 .
+INFO  17:43:41,717 - #41 neg
+INFO  17:43:41,717 - #9 [
+INFO  17:43:41,717 - #41 idx
+INFO  17:43:41,717 - #10 ]
+INFO  17:43:41,717 - #6 =
+INFO  17:43:41,717 - #41 a
+INFO  17:43:41,717 - #8 ;
+INFO  17:43:41,718 - #4 }
+INFO  17:43:41,718 - #41 int
+INFO  17:43:41,718 - #41 getp
+INFO  17:43:41,718 - #13 (
+INFO  17:43:41,718 - Obradjuje se funkcija 'getp()' na liniji 8
+INFO  17:43:41,718 - #41 int
+INFO  17:43:41,718 - #41 idx
+INFO  17:43:41,718 - #14 )
+INFO  17:43:41,718 - #3 {
+INFO  17:43:41,718 - #18 return
+INFO  17:43:41,718 - #41 pos
+INFO  17:43:41,718 - #9 [
+INFO  17:43:41,718 - #41 idx
+INFO  17:43:41,718 - #10 ]
+INFO  17:43:41,718 - #8 ;
+INFO  17:43:41,718 - #4 }
+INFO  17:43:41,718 - #41 int
+INFO  17:43:41,718 - #41 getn
+INFO  17:43:41,719 - #13 (
+INFO  17:43:41,719 - Obradjuje se funkcija 'getn()' na liniji 9
+INFO  17:43:41,719 - #41 int
+INFO  17:43:41,719 - #41 idx
+INFO  17:43:41,719 - #14 )
+INFO  17:43:41,719 - #3 {
+INFO  17:43:41,719 - #18 return
+INFO  17:43:41,719 - #41 neg
+INFO  17:43:41,719 - #9 [
+INFO  17:43:41,719 - #41 idx
+INFO  17:43:41,719 - #10 ]
+INFO  17:43:41,719 - #8 ;
+INFO  17:43:41,719 - #4 }
+INFO  17:43:41,719 - #4 }
+INFO  17:43:41,719 - #4 }
+INFO  17:43:41,719 - #41 Table
+INFO  17:43:41,719 - #41 val
+INFO  17:43:41,719 - #8 ;
+INFO  17:43:41,720 - Deklarisana PROMENLJIVA 'val' na liniji 12
+INFO  17:43:41,720 - #3 {
+INFO  17:43:41,720 - #15 void
+INFO  17:43:41,720 - #41 main
+INFO  17:43:41,720 - #13 (
+INFO  17:43:41,720 - Obradjuje se funkcija 'main()' na liniji 14
+INFO  17:43:41,720 - #14 )
+INFO  17:43:41,720 - #41 int
+INFO  17:43:41,720 - #41 x
+INFO  17:43:41,720 - #7 ,
+INFO  17:43:41,720 - Deklarisana PROMENLJIVA 'x' na liniji 15
+INFO  17:43:41,720 - #41 i
+INFO  17:43:41,720 - #8 ;
+INFO  17:43:41,720 - Deklarisana PROMENLJIVA 'i' na liniji 15
+INFO  17:43:41,720 - #3 {
+INFO  17:43:41,720 - #41 val
+INFO  17:43:41,720 - #6 =
+INFO  17:43:41,721 - #27 new
+INFO  17:43:41,721 - #41 Table
+INFO  17:43:41,721 - #8 ;
+INFO  17:43:41,721 - #41 val
+INFO  17:43:41,721 - #28 .
+INFO  17:43:41,721 - #41 pos
+INFO  17:43:41,721 - #6 =
+INFO  17:43:41,721 - #27 new
+INFO  17:43:41,721 - #41 int
+INFO  17:43:41,721 - #9 [
+INFO  17:43:41,721 - #41 size
+INFO  17:43:41,721 - #10 ]
+INFO  17:43:41,721 - #8 ;
+INFO  17:43:41,721 - #41 val
+ERROR 17:43:41,721 - Semanticka greska na liniji 19: nekompatibilni tipovi u dodeli vrednosti
+INFO  17:43:41,721 - #28 .
+INFO  17:43:41,722 - #41 neg
+INFO  17:43:41,722 - #6 =
+INFO  17:43:41,722 - #27 new
+INFO  17:43:41,722 - #41 int
+INFO  17:43:41,722 - #9 [
+INFO  17:43:41,722 - #41 size
+INFO  17:43:41,722 - #10 ]
+INFO  17:43:41,722 - #8 ;
+INFO  17:43:41,722 - #41 i
+ERROR 17:43:41,722 - Semanticka greska na liniji 20: nekompatibilni tipovi u dodeli vrednosti
+INFO  17:43:41,722 - #6 =
+INFO  17:43:41,722 - #42 0
+INFO  17:43:41,722 - #8 ;
+INFO  17:43:41,722 - #40 while
+INFO  17:43:41,722 - #13 (
+INFO  17:43:41,722 - #41 i
+INFO  17:43:41,722 - #33 <
+INFO  17:43:41,722 - #41 size
+INFO  17:43:41,722 - #14 )
+INFO  17:43:41,723 - #3 {
+INFO  17:43:41,723 - #41 val
+INFO  17:43:41,723 - #28 .
+INFO  17:43:41,723 - #41 putp
+INFO  17:43:41,723 - #13 (
+INFO  17:43:41,723 - #42 0
+INFO  17:43:41,723 - #7 ,
+INFO  17:43:41,723 - #41 i
+INFO  17:43:41,723 - #14 )
+INFO  17:43:41,723 - #8 ;
+INFO  17:43:41,723 - #41 val
+INFO  17:43:41,723 - Pronadjen poziv funkcije 'putp()' na liniji 24
+INFO  17:43:41,723 - #28 .
+INFO  17:43:41,723 - #41 putn
+INFO  17:43:41,723 - #13 (
+INFO  17:43:41,723 - #42 0
+INFO  17:43:41,723 - #7 ,
+INFO  17:43:41,723 - #41 i
+INFO  17:43:41,723 - #14 )
+INFO  17:43:41,724 - #8 ;
+INFO  17:43:41,724 - #41 i
+INFO  17:43:41,724 - Pronadjen poziv funkcije 'putn()' na liniji 25
+INFO  17:43:41,724 - #21 ++
+INFO  17:43:41,724 - #8 ;
+INFO  17:43:41,724 - #4 }
+INFO  17:43:41,724 - #19 read
+INFO  17:43:41,724 - #13 (
+INFO  17:43:41,724 - #41 x
+INFO  17:43:41,724 - #14 )
+INFO  17:43:41,724 - #8 ;
+INFO  17:43:41,724 - #40 while
+INFO  17:43:41,724 - #13 (
+INFO  17:43:41,724 - #41 x
+INFO  17:43:41,724 - #31 >
+INFO  17:43:41,724 - #42 0
+INFO  17:43:41,724 - #14 )
+INFO  17:43:41,724 - #3 {
+INFO  17:43:41,724 - #16 if
+INFO  17:43:41,724 - #13 (
+INFO  17:43:41,724 - #42 0
+INFO  17:43:41,725 - #34 <=
+INFO  17:43:41,725 - #41 x
+INFO  17:43:41,725 - #25 &&
+INFO  17:43:41,725 - #41 x
+INFO  17:43:41,725 - #33 <
+INFO  17:43:41,725 - #41 size
+INFO  17:43:41,725 - #14 )
+INFO  17:43:41,725 - #3 {
+INFO  17:43:41,725 - #41 val
+INFO  17:43:41,725 - #28 .
+INFO  17:43:41,725 - #41 putp
+INFO  17:43:41,725 - #13 (
+INFO  17:43:41,725 - #41 val
+INFO  17:43:41,725 - #28 .
+INFO  17:43:41,725 - #41 getp
+INFO  17:43:41,725 - #13 (
+INFO  17:43:41,725 - #41 x
+INFO  17:43:41,725 - #14 )
+INFO  17:43:41,725 - #35 +
+INFO  17:43:41,725 - Pronadjen poziv funkcije 'getp()' na liniji 33
+INFO  17:43:41,725 - #42 1
+INFO  17:43:41,726 - #14 )
+INFO  17:43:41,726 - #8 ;
+INFO  17:43:41,726 - #4 }
+INFO  17:43:41,726 - Pronadjen poziv funkcije 'putp()' na liniji 33
+INFO  17:43:41,726 - #23 else
+ERROR 17:43:41,726 - Sintaksna greska na liniji 34
+INFO  17:43:41,726 - #16 if
+INFO  17:43:41,726 - #13 (
+INFO  17:43:41,726 - #26 -
+INFO  17:43:41,727 - #41 size
+INFO  17:43:41,727 - #33 <
+INFO  17:43:41,727 - #41 x
+INFO  17:43:41,727 - #25 &&
+INFO  17:43:41,727 - #41 x
+INFO  17:43:41,727 - #33 <
+INFO  17:43:41,727 - #42 0
+INFO  17:43:41,727 - #14 )
+INFO  17:43:41,727 - #3 {
+INFO  17:43:41,727 - #41 val
+INFO  17:43:41,727 - #28 .
+INFO  17:43:41,727 - #41 putn
+INFO  17:43:41,727 - #13 (
+INFO  17:43:41,727 - #41 val
+INFO  17:43:41,727 - #28 .
+INFO  17:43:41,727 - #41 getn
+INFO  17:43:41,727 - #13 (
+INFO  17:43:41,727 - #26 -
+INFO  17:43:41,727 - #41 x
+INFO  17:43:41,727 - #14 )
+INFO  17:43:41,727 - #35 +
+INFO  17:43:41,727 - Pronadjen poziv funkcije 'getn()' na liniji 35
+INFO  17:43:41,727 - #42 1
+INFO  17:43:41,728 - #14 )
+INFO  17:43:41,728 - #8 ;
+INFO  17:43:41,728 - #4 }
+INFO  17:43:41,728 - Pronadjen poziv funkcije 'putn()' na liniji 35
+INFO  17:43:41,728 - #19 read
+DEBUG 17:43:41,728 - Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji 32. Siguran simbol: ')'
+INFO  17:43:41,728 - #13 (
+INFO  17:43:41,728 - #41 x
+INFO  17:43:41,728 - #14 )
+INFO  17:43:41,728 - #8 ;
+INFO  17:43:41,728 - #4 }
+INFO  17:43:41,728 - #4 }
+INFO  17:43:41,728 - #4 }
+INFO  17:43:41,728 - ==================SINTAKSNA ANALIZA==================
+INFO  17:43:41,728 - Broj globalnih promenljivih = 1
+INFO  17:43:41,728 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  17:43:41,728 - Broj globalnih konstanti = 1
+INFO  17:43:41,728 - Broj globalnih nizova = 0
+INFO  17:43:41,728 - ----------------------------------------------------
+INFO  17:43:41,728 - Broj globalnih funkcija = 1
+INFO  17:43:41,729 - Broj blokova naredbi = 3
+INFO  17:43:41,729 - Broj poziva funkcija = 6
+INFO  17:43:41,729 - Broj deklarisanih formalnih argumenata funkcija = 6
+INFO  17:43:41,729 - ----------------------------------------------------
+INFO  17:43:41,729 - Broj unutrasnjih klasa = 1
+INFO  17:43:41,729 - Broj metoda unutrasnjih klasa = 4
+INFO  17:43:41,729 - Broj polja unutrasnjih klasa = 2
+ERROR 17:43:41,729 - Parsiranje NIJE uspesno zavrseno!
+INFO  17:44:15,801 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\primer_program.mj
+INFO  17:44:15,822 - #2 program
+INFO  17:44:15,823 - #41 P
+INFO  17:44:15,823 - #5 const
+INFO  17:44:15,823 - #41 int
+INFO  17:44:15,823 - #41 size
+INFO  17:44:15,823 - #6 =
+INFO  17:44:15,823 - #42 10
+INFO  17:44:15,823 - #8 ;
+INFO  17:44:15,823 - #11 class
+INFO  17:44:15,823 - #41 Table
+INFO  17:44:15,823 - #3 {
+INFO  17:44:15,823 - #41 int
+INFO  17:44:15,823 - #41 pos
+INFO  17:44:15,823 - #9 [
+INFO  17:44:15,824 - #10 ]
+INFO  17:44:15,824 - #7 ,
+INFO  17:44:15,824 - Deklarisana PROMENLJIVA 'pos' na liniji 4
+INFO  17:44:15,824 - #41 neg
+INFO  17:44:15,824 - #9 [
+INFO  17:44:15,824 - #10 ]
+INFO  17:44:15,824 - #8 ;
+INFO  17:44:15,824 - Deklarisana PROMENLJIVA 'neg' na liniji 4
+INFO  17:44:15,824 - #3 {
+INFO  17:44:15,824 - #15 void
+INFO  17:44:15,824 - #41 putp
+INFO  17:44:15,824 - #13 (
+INFO  17:44:15,825 - Obradjuje se funkcija 'putp()' na liniji 6
+INFO  17:44:15,825 - #41 int
+INFO  17:44:15,825 - #41 a
+INFO  17:44:15,825 - #7 ,
+INFO  17:44:15,825 - #41 int
+INFO  17:44:15,825 - #41 idx
+INFO  17:44:15,825 - #14 )
+INFO  17:44:15,825 - #3 {
+INFO  17:44:15,825 - #41 this
+INFO  17:44:15,825 - #28 .
+INFO  17:44:15,825 - #41 pos
+INFO  17:44:15,825 - #9 [
+INFO  17:44:15,825 - #41 idx
+INFO  17:44:15,825 - #10 ]
+INFO  17:44:15,825 - #6 =
+INFO  17:44:15,826 - #41 a
+INFO  17:44:15,826 - #8 ;
+INFO  17:44:15,826 - #4 }
+INFO  17:44:15,826 - #15 void
+INFO  17:44:15,826 - #41 putn
+INFO  17:44:15,826 - #13 (
+INFO  17:44:15,826 - Obradjuje se funkcija 'putn()' na liniji 7
+INFO  17:44:15,826 - #41 int
+INFO  17:44:15,826 - #41 a
+INFO  17:44:15,826 - #7 ,
+INFO  17:44:15,826 - #41 int
+INFO  17:44:15,826 - #41 idx
+INFO  17:44:15,826 - #14 )
+INFO  17:44:15,826 - #3 {
+INFO  17:44:15,826 - #41 this
+INFO  17:44:15,827 - #28 .
+INFO  17:44:15,827 - #41 neg
+INFO  17:44:15,827 - #9 [
+INFO  17:44:15,827 - #41 idx
+INFO  17:44:15,827 - #10 ]
+INFO  17:44:15,827 - #6 =
+INFO  17:44:15,827 - #41 a
+INFO  17:44:15,827 - #8 ;
+INFO  17:44:15,827 - #4 }
+INFO  17:44:15,827 - #41 int
+INFO  17:44:15,827 - #41 getp
+INFO  17:44:15,827 - #13 (
+INFO  17:44:15,827 - Obradjuje se funkcija 'getp()' na liniji 8
+INFO  17:44:15,827 - #41 int
+INFO  17:44:15,828 - #41 idx
+INFO  17:44:15,828 - #14 )
+INFO  17:44:15,828 - #3 {
+INFO  17:44:15,828 - #18 return
+INFO  17:44:15,828 - #41 pos
+INFO  17:44:15,828 - #9 [
+INFO  17:44:15,828 - #41 idx
+INFO  17:44:15,828 - #10 ]
+INFO  17:44:15,828 - #8 ;
+INFO  17:44:15,828 - #4 }
+INFO  17:44:15,828 - #41 int
+INFO  17:44:15,828 - #41 getn
+INFO  17:44:15,828 - #13 (
+INFO  17:44:15,828 - Obradjuje se funkcija 'getn()' na liniji 9
+INFO  17:44:15,828 - #41 int
+INFO  17:44:15,829 - #41 idx
+INFO  17:44:15,829 - #14 )
+INFO  17:44:15,829 - #3 {
+INFO  17:44:15,829 - #18 return
+INFO  17:44:15,829 - #41 neg
+INFO  17:44:15,829 - #9 [
+INFO  17:44:15,829 - #41 idx
+INFO  17:44:15,829 - #10 ]
+INFO  17:44:15,829 - #8 ;
+INFO  17:44:15,829 - #4 }
+INFO  17:44:15,829 - #4 }
+INFO  17:44:15,829 - #4 }
+INFO  17:44:15,829 - #41 Table
+INFO  17:44:15,829 - #41 val
+INFO  17:44:15,829 - #8 ;
+INFO  17:44:15,829 - Deklarisana PROMENLJIVA 'val' na liniji 12
+INFO  17:44:15,829 - #3 {
+INFO  17:44:15,830 - #15 void
+INFO  17:44:15,830 - #41 main
+INFO  17:44:15,830 - #13 (
+INFO  17:44:15,830 - Obradjuje se funkcija 'main()' na liniji 14
+INFO  17:44:15,830 - #14 )
+INFO  17:44:15,830 - #41 int
+INFO  17:44:15,830 - #41 x
+INFO  17:44:15,830 - #7 ,
+INFO  17:44:15,830 - Deklarisana PROMENLJIVA 'x' na liniji 15
+INFO  17:44:15,830 - #41 i
+INFO  17:44:15,830 - #8 ;
+INFO  17:44:15,830 - Deklarisana PROMENLJIVA 'i' na liniji 15
+INFO  17:44:15,830 - #3 {
+INFO  17:44:15,830 - #41 val
+INFO  17:44:15,830 - #6 =
+INFO  17:44:15,830 - #27 new
+INFO  17:44:15,830 - #41 Table
+INFO  17:44:15,830 - #8 ;
+INFO  17:44:15,830 - #41 val
+INFO  17:44:15,830 - #28 .
+INFO  17:44:15,831 - #41 pos
+INFO  17:44:15,831 - #6 =
+INFO  17:44:15,831 - #27 new
+INFO  17:44:15,831 - #41 int
+INFO  17:44:15,831 - #9 [
+INFO  17:44:15,831 - #41 size
+INFO  17:44:15,831 - #10 ]
+INFO  17:44:15,831 - #8 ;
+INFO  17:44:15,831 - #41 val
+ERROR 17:44:15,831 - Semanticka greska na liniji 19: nekompatibilni tipovi u dodeli vrednosti
+INFO  17:44:15,831 - #28 .
+INFO  17:44:15,831 - #41 neg
+INFO  17:44:15,831 - #6 =
+INFO  17:44:15,831 - #27 new
+INFO  17:44:15,831 - #41 int
+INFO  17:44:15,831 - #9 [
+INFO  17:44:15,831 - #41 size
+INFO  17:44:15,832 - #10 ]
+INFO  17:44:15,832 - #8 ;
+INFO  17:44:15,832 - #41 i
+ERROR 17:44:15,832 - Semanticka greska na liniji 21: nekompatibilni tipovi u dodeli vrednosti
+INFO  17:44:15,832 - #6 =
+INFO  17:44:15,832 - #42 0
+INFO  17:44:15,832 - #8 ;
+INFO  17:44:15,832 - #40 while
+INFO  17:44:15,832 - #13 (
+INFO  17:44:15,832 - #41 i
+INFO  17:44:15,832 - #33 <
+INFO  17:44:15,832 - #41 size
+INFO  17:44:15,832 - #14 )
+INFO  17:44:15,832 - #3 {
+INFO  17:44:15,832 - #41 val
+INFO  17:44:15,832 - #28 .
+INFO  17:44:15,832 - #41 putp
+INFO  17:44:15,833 - #13 (
+INFO  17:44:15,833 - #42 0
+INFO  17:44:15,833 - #7 ,
+INFO  17:44:15,833 - #41 i
+INFO  17:44:15,833 - #14 )
+INFO  17:44:15,833 - #8 ;
+INFO  17:44:15,833 - #41 val
+INFO  17:44:15,833 - Pronadjen poziv funkcije 'putp()' na liniji 25
+INFO  17:44:15,833 - #28 .
+INFO  17:44:15,833 - #41 putn
+INFO  17:44:15,833 - #13 (
+INFO  17:44:15,833 - #42 0
+INFO  17:44:15,833 - #7 ,
+INFO  17:44:15,833 - #41 i
+INFO  17:44:15,833 - #14 )
+INFO  17:44:15,833 - #8 ;
+INFO  17:44:15,833 - #41 i
+INFO  17:44:15,833 - Pronadjen poziv funkcije 'putn()' na liniji 26
+INFO  17:44:15,833 - #21 ++
+INFO  17:44:15,833 - #8 ;
+INFO  17:44:15,834 - #4 }
+INFO  17:44:15,834 - #19 read
+INFO  17:44:15,834 - #13 (
+INFO  17:44:15,834 - #41 x
+INFO  17:44:15,834 - #14 )
+INFO  17:44:15,834 - #8 ;
+INFO  17:44:15,834 - #40 while
+INFO  17:44:15,834 - #13 (
+INFO  17:44:15,834 - #41 x
+INFO  17:44:15,834 - #31 >
+INFO  17:44:15,834 - #42 0
+INFO  17:44:15,834 - #14 )
+INFO  17:44:15,834 - #3 {
+INFO  17:44:15,834 - #16 if
+INFO  17:44:15,834 - #13 (
+INFO  17:44:15,834 - #42 0
+INFO  17:44:15,835 - #34 <=
+INFO  17:44:15,835 - #41 x
+INFO  17:44:15,835 - #25 &&
+INFO  17:44:15,835 - #41 x
+INFO  17:44:15,835 - #33 <
+INFO  17:44:15,835 - #41 size
+INFO  17:44:15,835 - #14 )
+INFO  17:44:15,835 - #3 {
+INFO  17:44:15,835 - #41 val
+INFO  17:44:15,835 - #28 .
+INFO  17:44:15,835 - #41 putp
+INFO  17:44:15,835 - #13 (
+INFO  17:44:15,835 - #41 val
+INFO  17:44:15,835 - #28 .
+INFO  17:44:15,835 - #41 getp
+INFO  17:44:15,835 - #13 (
+INFO  17:44:15,835 - #41 x
+INFO  17:44:15,835 - #14 )
+INFO  17:44:15,835 - #35 +
+INFO  17:44:15,836 - Pronadjen poziv funkcije 'getp()' na liniji 34
+INFO  17:44:15,836 - #42 1
+INFO  17:44:15,836 - #14 )
+INFO  17:44:15,836 - #8 ;
+INFO  17:44:15,836 - #4 }
+INFO  17:44:15,836 - Pronadjen poziv funkcije 'putp()' na liniji 34
+INFO  17:44:15,836 - #23 else
+ERROR 17:44:15,836 - Sintaksna greska na liniji 35
+INFO  17:44:15,836 - #16 if
+INFO  17:44:15,836 - #13 (
+INFO  17:44:15,836 - #26 -
+INFO  17:44:15,837 - #41 size
+INFO  17:44:15,837 - #33 <
+INFO  17:44:15,837 - #41 x
+INFO  17:44:15,837 - #25 &&
+INFO  17:44:15,837 - #41 x
+INFO  17:44:15,837 - #33 <
+INFO  17:44:15,837 - #42 0
+INFO  17:44:15,837 - #14 )
+INFO  17:44:15,837 - #3 {
+INFO  17:44:15,837 - #41 val
+INFO  17:44:15,839 - #28 .
+INFO  17:44:15,839 - #41 putn
+INFO  17:44:15,839 - #13 (
+INFO  17:44:15,839 - #41 val
+INFO  17:44:15,839 - #28 .
+INFO  17:44:15,839 - #41 getn
+INFO  17:44:15,839 - #13 (
+INFO  17:44:15,839 - #26 -
+INFO  17:44:15,839 - #41 x
+INFO  17:44:15,839 - #14 )
+INFO  17:44:15,840 - #35 +
+INFO  17:44:15,840 - Pronadjen poziv funkcije 'getn()' na liniji 36
+INFO  17:44:15,840 - #42 1
+INFO  17:44:15,840 - #14 )
+INFO  17:44:15,840 - #8 ;
+INFO  17:44:15,840 - #4 }
+INFO  17:44:15,840 - Pronadjen poziv funkcije 'putn()' na liniji 36
+INFO  17:44:15,840 - #19 read
+DEBUG 17:44:15,840 - Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji 33. Siguran simbol: ')'
+INFO  17:44:15,840 - #13 (
+INFO  17:44:15,840 - #41 x
+INFO  17:44:15,840 - #14 )
+INFO  17:44:15,840 - #8 ;
+INFO  17:44:15,840 - #4 }
+INFO  17:44:15,840 - #4 }
+INFO  17:44:15,840 - #4 }
+INFO  17:44:15,840 - ==================SINTAKSNA ANALIZA==================
+INFO  17:44:15,840 - Broj globalnih promenljivih = 1
+INFO  17:44:15,840 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  17:44:15,840 - Broj globalnih konstanti = 1
+INFO  17:44:15,841 - Broj globalnih nizova = 0
+INFO  17:44:15,841 - ----------------------------------------------------
+INFO  17:44:15,841 - Broj globalnih funkcija = 1
+INFO  17:44:15,841 - Broj blokova naredbi = 3
+INFO  17:44:15,841 - Broj poziva funkcija = 6
+INFO  17:44:15,841 - Broj deklarisanih formalnih argumenata funkcija = 6
+INFO  17:44:15,841 - ----------------------------------------------------
+INFO  17:44:15,841 - Broj unutrasnjih klasa = 1
+INFO  17:44:15,841 - Broj metoda unutrasnjih klasa = 4
+INFO  17:44:15,841 - Broj polja unutrasnjih klasa = 2
+ERROR 17:44:15,842 - Parsiranje NIJE uspesno zavrseno!
+INFO  18:01:49,653 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\primer_program.mj
+INFO  18:01:49,687 - #2 program
+INFO  18:01:49,687 - #41 P
+INFO  18:01:49,687 - #5 const
+INFO  18:01:49,687 - #41 int
+INFO  18:01:49,687 - #41 size
+INFO  18:01:49,687 - #6 =
+INFO  18:01:49,687 - #42 10
+INFO  18:01:49,687 - #8 ;
+INFO  18:01:49,687 - #11 class
+INFO  18:01:49,688 - #41 Table
+INFO  18:01:49,688 - #3 {
+INFO  18:01:49,688 - #41 int
+INFO  18:01:49,688 - #41 pos
+INFO  18:01:49,688 - #9 [
+INFO  18:01:49,688 - #10 ]
+INFO  18:01:49,688 - #7 ,
+INFO  18:01:49,688 - Deklarisana PROMENLJIVA 'pos' na liniji 4
+INFO  18:01:49,688 - #41 neg
+INFO  18:01:49,688 - #9 [
+INFO  18:01:49,688 - #10 ]
+INFO  18:01:49,688 - #8 ;
+INFO  18:01:49,688 - Deklarisana PROMENLJIVA 'neg' na liniji 4
+INFO  18:01:49,689 - #3 {
+INFO  18:01:49,689 - #15 void
+INFO  18:01:49,689 - #41 putp
+INFO  18:01:49,689 - #13 (
+INFO  18:01:49,689 - Obradjuje se funkcija 'putp()' na liniji 6
+INFO  18:01:49,689 - #41 int
+INFO  18:01:49,689 - #41 a
+INFO  18:01:49,689 - #7 ,
+INFO  18:01:49,689 - #41 int
+INFO  18:01:49,689 - #41 idx
+INFO  18:01:49,690 - #14 )
+INFO  18:01:49,690 - #3 {
+INFO  18:01:49,690 - #41 this
+INFO  18:01:49,690 - #28 .
+INFO  18:01:49,690 - #41 pos
+INFO  18:01:49,690 - #9 [
+INFO  18:01:49,690 - #41 idx
+INFO  18:01:49,690 - #10 ]
+INFO  18:01:49,690 - #6 =
+INFO  18:01:49,690 - #41 a
+INFO  18:01:49,690 - #8 ;
+INFO  18:01:49,690 - #4 }
+INFO  18:01:49,690 - #15 void
+INFO  18:01:49,690 - #41 putn
+INFO  18:01:49,690 - #13 (
+INFO  18:01:49,690 - Obradjuje se funkcija 'putn()' na liniji 7
+INFO  18:01:49,690 - #41 int
+INFO  18:01:49,690 - #41 a
+INFO  18:01:49,690 - #7 ,
+INFO  18:01:49,691 - #41 int
+INFO  18:01:49,691 - #41 idx
+INFO  18:01:49,691 - #14 )
+INFO  18:01:49,691 - #3 {
+INFO  18:01:49,691 - #41 this
+INFO  18:01:49,691 - #28 .
+INFO  18:01:49,691 - #41 neg
+INFO  18:01:49,691 - #9 [
+INFO  18:01:49,691 - #41 idx
+INFO  18:01:49,691 - #10 ]
+INFO  18:01:49,691 - #6 =
+INFO  18:01:49,691 - #41 a
+INFO  18:01:49,691 - #8 ;
+INFO  18:01:49,691 - #4 }
+INFO  18:01:49,691 - #41 int
+INFO  18:01:49,691 - #41 getp
+INFO  18:01:49,691 - #13 (
+INFO  18:01:49,691 - Obradjuje se funkcija 'getp()' na liniji 8
+INFO  18:01:49,692 - #41 int
+INFO  18:01:49,692 - #41 idx
+INFO  18:01:49,692 - #14 )
+INFO  18:01:49,692 - #3 {
+INFO  18:01:49,692 - #18 return
+INFO  18:01:49,692 - #41 pos
+INFO  18:01:49,692 - #9 [
+INFO  18:01:49,692 - #41 idx
+INFO  18:01:49,692 - #10 ]
+INFO  18:01:49,692 - #8 ;
+INFO  18:01:49,692 - #4 }
+INFO  18:01:49,692 - #41 int
+INFO  18:01:49,692 - #41 getn
+INFO  18:01:49,692 - #13 (
+INFO  18:01:49,692 - Obradjuje se funkcija 'getn()' na liniji 9
+INFO  18:01:49,692 - #41 int
+INFO  18:01:49,692 - #41 idx
+INFO  18:01:49,692 - #14 )
+INFO  18:01:49,692 - #3 {
+INFO  18:01:49,693 - #18 return
+INFO  18:01:49,693 - #41 neg
+INFO  18:01:49,693 - #9 [
+INFO  18:01:49,693 - #41 idx
+INFO  18:01:49,693 - #10 ]
+INFO  18:01:49,693 - #8 ;
+INFO  18:01:49,693 - #4 }
+INFO  18:01:49,693 - #4 }
+INFO  18:01:49,693 - #4 }
+INFO  18:01:49,693 - #41 Table
+INFO  18:01:49,693 - #41 val
+INFO  18:01:49,693 - #8 ;
+INFO  18:01:49,693 - Deklarisana PROMENLJIVA 'val' na liniji 12
+INFO  18:01:49,693 - #3 {
+INFO  18:01:49,693 - #15 void
+INFO  18:01:49,693 - #41 main
+INFO  18:01:49,693 - #13 (
+INFO  18:01:49,693 - Obradjuje se funkcija 'main()' na liniji 14
+INFO  18:01:49,693 - #14 )
+INFO  18:01:49,694 - #41 int
+INFO  18:01:49,694 - #41 x
+INFO  18:01:49,694 - #7 ,
+INFO  18:01:49,694 - Deklarisana PROMENLJIVA 'x' na liniji 15
+INFO  18:01:49,694 - #41 i
+INFO  18:01:49,694 - #8 ;
+INFO  18:01:49,694 - Deklarisana PROMENLJIVA 'i' na liniji 15
+INFO  18:01:49,694 - #3 {
+INFO  18:01:49,694 - #41 val
+INFO  18:01:49,694 - #6 =
+INFO  18:01:49,694 - #27 new
+INFO  18:01:49,694 - #41 Table
+INFO  18:01:49,694 - #8 ;
+INFO  18:01:49,694 - #41 val
+INFO  18:01:49,694 - #28 .
+INFO  18:01:49,694 - #41 pos
+INFO  18:01:49,694 - #6 =
+INFO  18:01:49,694 - #27 new
+INFO  18:01:49,694 - #41 int
+INFO  18:01:49,694 - #9 [
+INFO  18:01:49,694 - #41 size
+INFO  18:01:49,695 - #10 ]
+INFO  18:01:49,695 - #8 ;
+INFO  18:01:49,695 - #41 val
+INFO  18:01:49,695 - #28 .
+INFO  18:01:49,695 - #41 neg
+INFO  18:01:49,695 - #6 =
+INFO  18:01:49,695 - #27 new
+INFO  18:01:49,695 - #41 int
+INFO  18:01:49,695 - #9 [
+INFO  18:01:49,695 - #41 size
+INFO  18:01:49,695 - #10 ]
+INFO  18:01:49,695 - #8 ;
+INFO  18:01:49,695 - #41 i
+INFO  18:01:49,695 - #6 =
+INFO  18:01:49,695 - #42 0
+INFO  18:01:49,695 - #8 ;
+INFO  18:01:49,695 - #40 while
+INFO  18:01:49,695 - #13 (
+INFO  18:01:49,695 - #41 i
+INFO  18:01:49,695 - #33 <
+INFO  18:01:49,696 - #41 size
+INFO  18:01:49,696 - #14 )
+INFO  18:01:49,696 - #3 {
+INFO  18:01:49,696 - #41 val
+INFO  18:01:49,696 - #28 .
+INFO  18:01:49,696 - #41 putp
+INFO  18:01:49,696 - #13 (
+INFO  18:01:49,696 - #42 0
+INFO  18:01:49,696 - #7 ,
+INFO  18:01:49,696 - #41 i
+INFO  18:01:49,696 - #14 )
+INFO  18:01:49,696 - #8 ;
+INFO  18:01:49,696 - #41 val
+INFO  18:01:49,696 - Pronadjen poziv funkcije 'putp()' na liniji 24
+INFO  18:01:49,696 - #28 .
+INFO  18:01:49,696 - #41 putn
+INFO  18:01:49,696 - #13 (
+INFO  18:01:49,696 - #42 0
+INFO  18:01:49,697 - #7 ,
+INFO  18:01:49,697 - #41 i
+INFO  18:01:49,697 - #14 )
+INFO  18:01:49,697 - #8 ;
+INFO  18:01:49,697 - #41 i
+INFO  18:01:49,697 - Pronadjen poziv funkcije 'putn()' na liniji 25
+INFO  18:01:49,697 - #21 ++
+INFO  18:01:49,697 - #8 ;
+INFO  18:01:49,697 - #4 }
+INFO  18:01:49,697 - #19 read
+INFO  18:01:49,697 - #13 (
+INFO  18:01:49,697 - #41 x
+INFO  18:01:49,697 - #14 )
+INFO  18:01:49,697 - #8 ;
+INFO  18:01:49,697 - #40 while
+INFO  18:01:49,697 - #13 (
+INFO  18:01:49,697 - #41 x
+INFO  18:01:49,697 - #31 >
+INFO  18:01:49,697 - #42 0
+INFO  18:01:49,697 - #14 )
+INFO  18:01:49,697 - #3 {
+INFO  18:01:49,698 - #16 if
+INFO  18:01:49,698 - #13 (
+INFO  18:01:49,698 - #42 0
+INFO  18:01:49,698 - #34 <=
+INFO  18:01:49,698 - #41 x
+INFO  18:01:49,698 - #25 &&
+INFO  18:01:49,698 - #41 x
+INFO  18:01:49,698 - #33 <
+INFO  18:01:49,698 - #41 size
+INFO  18:01:49,698 - #14 )
+INFO  18:01:49,698 - #3 {
+INFO  18:01:49,698 - #41 val
+INFO  18:01:49,698 - #28 .
+INFO  18:01:49,698 - #41 putp
+INFO  18:01:49,698 - #13 (
+INFO  18:01:49,698 - #41 val
+INFO  18:01:49,698 - #28 .
+INFO  18:01:49,698 - #41 getp
+INFO  18:01:49,698 - #13 (
+INFO  18:01:49,698 - #41 x
+INFO  18:01:49,699 - #14 )
+INFO  18:01:49,699 - #35 +
+INFO  18:01:49,699 - Pronadjen poziv funkcije 'getp()' na liniji 33
+INFO  18:01:49,699 - #42 1
+INFO  18:01:49,699 - #14 )
+INFO  18:01:49,699 - #8 ;
+INFO  18:01:49,699 - #4 }
+INFO  18:01:49,699 - Pronadjen poziv funkcije 'putp()' na liniji 33
+INFO  18:01:49,699 - #23 else
+ERROR 18:01:49,699 - Sintaksna greska na liniji 34
+INFO  18:01:49,699 - #16 if
+INFO  18:01:49,699 - #13 (
+INFO  18:01:49,699 - #26 -
+INFO  18:01:49,700 - #41 size
+INFO  18:01:49,700 - #33 <
+INFO  18:01:49,700 - #41 x
+INFO  18:01:49,700 - #25 &&
+INFO  18:01:49,700 - #41 x
+INFO  18:01:49,700 - #33 <
+INFO  18:01:49,700 - #42 0
+INFO  18:01:49,700 - #14 )
+INFO  18:01:49,700 - #3 {
+INFO  18:01:49,700 - #41 val
+INFO  18:01:49,700 - #28 .
+INFO  18:01:49,700 - #41 putn
+INFO  18:01:49,700 - #13 (
+INFO  18:01:49,700 - #41 val
+INFO  18:01:49,700 - #28 .
+INFO  18:01:49,700 - #41 getn
+INFO  18:01:49,700 - #13 (
+INFO  18:01:49,700 - #26 -
+INFO  18:01:49,701 - #41 x
+INFO  18:01:49,701 - #14 )
+INFO  18:01:49,701 - #35 +
+INFO  18:01:49,701 - Pronadjen poziv funkcije 'getn()' na liniji 35
+INFO  18:01:49,701 - #42 1
+INFO  18:01:49,701 - #14 )
+INFO  18:01:49,701 - #8 ;
+INFO  18:01:49,701 - #4 }
+INFO  18:01:49,701 - Pronadjen poziv funkcije 'putn()' na liniji 35
+INFO  18:01:49,701 - #19 read
+DEBUG 18:01:49,702 - Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji 32. Siguran simbol: ')'
+INFO  18:01:49,702 - #13 (
+INFO  18:01:49,702 - #41 x
+INFO  18:01:49,702 - #14 )
+INFO  18:01:49,702 - #8 ;
+INFO  18:01:49,702 - #4 }
+INFO  18:01:49,702 - #4 }
+INFO  18:01:49,702 - #4 }
+INFO  18:01:49,702 - ==================SINTAKSNA ANALIZA==================
+INFO  18:01:49,702 - Broj globalnih promenljivih = 1
+INFO  18:01:49,702 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:01:49,702 - Broj globalnih konstanti = 1
+INFO  18:01:49,702 - Broj globalnih nizova = 0
+INFO  18:01:49,702 - ----------------------------------------------------
+INFO  18:01:49,702 - Broj globalnih funkcija = 1
+INFO  18:01:49,702 - Broj blokova naredbi = 3
+INFO  18:01:49,702 - Broj poziva funkcija = 6
+INFO  18:01:49,702 - Broj deklarisanih formalnih argumenata funkcija = 6
+INFO  18:01:49,702 - ----------------------------------------------------
+INFO  18:01:49,702 - Broj unutrasnjih klasa = 1
+INFO  18:01:49,702 - Broj metoda unutrasnjih klasa = 4
+INFO  18:01:49,702 - Broj polja unutrasnjih klasa = 2
+ERROR 18:01:49,703 - Parsiranje NIJE uspesno zavrseno!
+INFO  18:04:11,736 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\primer_program.mj
+INFO  18:04:11,753 - #2 program
+INFO  18:04:11,753 - #41 P
+INFO  18:04:11,753 - #5 const
+INFO  18:04:11,753 - #41 int
+INFO  18:04:11,753 - #41 size
+INFO  18:04:11,753 - #6 =
+INFO  18:04:11,753 - #42 10
+INFO  18:04:11,753 - #8 ;
+INFO  18:04:11,754 - #11 class
+INFO  18:04:11,754 - #41 Table
+INFO  18:04:11,754 - #3 {
+INFO  18:04:11,754 - #41 int
+INFO  18:04:11,754 - #41 pos
+INFO  18:04:11,754 - #9 [
+INFO  18:04:11,754 - #10 ]
+INFO  18:04:11,754 - #7 ,
+INFO  18:04:11,754 - Deklarisana PROMENLJIVA 'pos' na liniji 4
+INFO  18:04:11,754 - #41 neg
+INFO  18:04:11,754 - #9 [
+INFO  18:04:11,754 - #10 ]
+INFO  18:04:11,754 - #8 ;
+INFO  18:04:11,754 - Deklarisana PROMENLJIVA 'neg' na liniji 4
+INFO  18:04:11,755 - #3 {
+INFO  18:04:11,755 - #15 void
+INFO  18:04:11,755 - #41 putp
+INFO  18:04:11,755 - #13 (
+INFO  18:04:11,755 - Obradjuje se funkcija 'putp()' na liniji 6
+INFO  18:04:11,755 - #41 int
+INFO  18:04:11,755 - #41 a
+INFO  18:04:11,755 - #7 ,
+INFO  18:04:11,755 - #41 int
+INFO  18:04:11,755 - #41 idx
+INFO  18:04:11,755 - #14 )
+INFO  18:04:11,756 - #3 {
+INFO  18:04:11,756 - #41 this
+INFO  18:04:11,756 - #28 .
+INFO  18:04:11,756 - #41 pos
+INFO  18:04:11,756 - #9 [
+INFO  18:04:11,756 - #41 idx
+INFO  18:04:11,756 - #10 ]
+INFO  18:04:11,756 - #6 =
+INFO  18:04:11,756 - #41 a
+INFO  18:04:11,756 - #8 ;
+INFO  18:04:11,756 - #4 }
+INFO  18:04:11,756 - #15 void
+INFO  18:04:11,756 - #41 putn
+INFO  18:04:11,757 - #13 (
+INFO  18:04:11,757 - Obradjuje se funkcija 'putn()' na liniji 7
+INFO  18:04:11,757 - #41 int
+INFO  18:04:11,757 - #41 a
+INFO  18:04:11,757 - #7 ,
+INFO  18:04:11,757 - #41 int
+INFO  18:04:11,757 - #41 idx
+INFO  18:04:11,757 - #14 )
+INFO  18:04:11,757 - #3 {
+INFO  18:04:11,757 - #41 this
+INFO  18:04:11,757 - #28 .
+INFO  18:04:11,757 - #41 neg
+INFO  18:04:11,757 - #9 [
+INFO  18:04:11,757 - #41 idx
+INFO  18:04:11,757 - #10 ]
+INFO  18:04:11,757 - #6 =
+INFO  18:04:11,757 - #41 a
+INFO  18:04:11,757 - #8 ;
+INFO  18:04:11,757 - #4 }
+INFO  18:04:11,757 - #41 int
+INFO  18:04:11,758 - #41 getp
+INFO  18:04:11,758 - #13 (
+INFO  18:04:11,758 - Obradjuje se funkcija 'getp()' na liniji 8
+INFO  18:04:11,758 - #41 int
+INFO  18:04:11,758 - #41 idx
+INFO  18:04:11,758 - #14 )
+INFO  18:04:11,758 - #3 {
+INFO  18:04:11,758 - #18 return
+INFO  18:04:11,758 - #41 pos
+INFO  18:04:11,758 - #9 [
+INFO  18:04:11,758 - #41 idx
+INFO  18:04:11,758 - #10 ]
+INFO  18:04:11,758 - #8 ;
+INFO  18:04:11,758 - #4 }
+INFO  18:04:11,758 - #41 int
+INFO  18:04:11,758 - #41 getn
+INFO  18:04:11,759 - #13 (
+INFO  18:04:11,759 - Obradjuje se funkcija 'getn()' na liniji 9
+INFO  18:04:11,759 - #41 int
+INFO  18:04:11,759 - #41 idx
+INFO  18:04:11,759 - #14 )
+INFO  18:04:11,759 - #3 {
+INFO  18:04:11,759 - #18 return
+INFO  18:04:11,759 - #41 neg
+INFO  18:04:11,759 - #9 [
+INFO  18:04:11,759 - #41 idx
+INFO  18:04:11,759 - #10 ]
+INFO  18:04:11,759 - #8 ;
+INFO  18:04:11,759 - #4 }
+INFO  18:04:11,759 - #4 }
+INFO  18:04:11,759 - #4 }
+INFO  18:04:11,759 - #41 Table
+INFO  18:04:11,759 - #41 val
+INFO  18:04:11,759 - #8 ;
+INFO  18:04:11,759 - Deklarisana PROMENLJIVA 'val' na liniji 12
+INFO  18:04:11,760 - #3 {
+INFO  18:04:11,760 - #15 void
+INFO  18:04:11,760 - #41 main
+INFO  18:04:11,760 - #13 (
+INFO  18:04:11,760 - Obradjuje se funkcija 'main()' na liniji 14
+INFO  18:04:11,760 - #14 )
+INFO  18:04:11,760 - #41 int
+INFO  18:04:11,760 - #41 x
+INFO  18:04:11,760 - #7 ,
+INFO  18:04:11,760 - Deklarisana PROMENLJIVA 'x' na liniji 15
+INFO  18:04:11,760 - #41 i
+INFO  18:04:11,760 - #8 ;
+INFO  18:04:11,760 - Deklarisana PROMENLJIVA 'i' na liniji 15
+INFO  18:04:11,760 - #3 {
+INFO  18:04:11,760 - #41 val
+INFO  18:04:11,760 - #6 =
+INFO  18:04:11,760 - #27 new
+INFO  18:04:11,760 - #41 Table
+INFO  18:04:11,760 - #8 ;
+INFO  18:04:11,761 - #41 val
+INFO  18:04:11,761 - #28 .
+INFO  18:04:11,761 - #41 pos
+INFO  18:04:11,761 - #6 =
+INFO  18:04:11,761 - #27 new
+INFO  18:04:11,761 - #41 int
+INFO  18:04:11,761 - #9 [
+INFO  18:04:11,761 - #41 size
+INFO  18:04:11,761 - #10 ]
+INFO  18:04:11,761 - #8 ;
+INFO  18:04:11,761 - #41 val
+INFO  18:04:11,761 - #28 .
+INFO  18:04:11,761 - #41 neg
+INFO  18:04:11,761 - #6 =
+INFO  18:04:11,761 - #27 new
+INFO  18:04:11,761 - #41 int
+INFO  18:04:11,761 - #9 [
+INFO  18:04:11,761 - #41 size
+INFO  18:04:11,761 - #10 ]
+INFO  18:04:11,761 - #8 ;
+INFO  18:04:11,762 - #41 i
+INFO  18:04:11,762 - #6 =
+INFO  18:04:11,762 - #42 0
+INFO  18:04:11,762 - #8 ;
+INFO  18:04:11,762 - #40 while
+INFO  18:04:11,762 - #13 (
+INFO  18:04:11,762 - #41 i
+INFO  18:04:11,762 - #33 <
+INFO  18:04:11,762 - #41 size
+INFO  18:04:11,762 - #14 )
+INFO  18:04:11,762 - #3 {
+INFO  18:04:11,762 - #41 val
+INFO  18:04:11,762 - #28 .
+INFO  18:04:11,762 - #41 putp
+INFO  18:04:11,762 - #13 (
+INFO  18:04:11,762 - #42 0
+INFO  18:04:11,762 - #7 ,
+INFO  18:04:11,762 - #41 i
+INFO  18:04:11,763 - #14 )
+INFO  18:04:11,763 - #8 ;
+INFO  18:04:11,763 - #41 val
+INFO  18:04:11,763 - Pronadjen poziv funkcije 'putp()' na liniji 24
+INFO  18:04:11,763 - #28 .
+INFO  18:04:11,763 - #41 putn
+INFO  18:04:11,763 - #13 (
+INFO  18:04:11,763 - #42 0
+INFO  18:04:11,763 - #7 ,
+INFO  18:04:11,763 - #41 i
+INFO  18:04:11,763 - #14 )
+INFO  18:04:11,763 - #8 ;
+INFO  18:04:11,763 - #41 i
+INFO  18:04:11,763 - Pronadjen poziv funkcije 'putn()' na liniji 25
+INFO  18:04:11,763 - #21 ++
+INFO  18:04:11,763 - #8 ;
+INFO  18:04:11,763 - #4 }
+INFO  18:04:11,763 - #19 read
+INFO  18:04:11,763 - #13 (
+INFO  18:04:11,764 - #41 x
+INFO  18:04:11,764 - #14 )
+INFO  18:04:11,764 - #8 ;
+INFO  18:04:11,764 - #40 while
+INFO  18:04:11,764 - #13 (
+INFO  18:04:11,764 - #41 x
+INFO  18:04:11,764 - #31 >
+INFO  18:04:11,764 - #42 0
+INFO  18:04:11,764 - #14 )
+INFO  18:04:11,764 - #3 {
+INFO  18:04:11,764 - #16 if
+INFO  18:04:11,764 - #13 (
+INFO  18:04:11,764 - #42 0
+INFO  18:04:11,764 - #34 <=
+INFO  18:04:11,764 - #41 x
+INFO  18:04:11,764 - #25 &&
+INFO  18:04:11,764 - #41 x
+INFO  18:04:11,764 - #33 <
+INFO  18:04:11,764 - #41 size
+INFO  18:04:11,764 - #14 )
+INFO  18:04:11,765 - #3 {
+INFO  18:04:11,765 - #41 val
+INFO  18:04:11,765 - #28 .
+INFO  18:04:11,765 - #41 putp
+INFO  18:04:11,765 - #13 (
+INFO  18:04:11,765 - #41 val
+INFO  18:04:11,765 - #28 .
+INFO  18:04:11,765 - #41 getp
+INFO  18:04:11,765 - #13 (
+INFO  18:04:11,765 - #41 x
+INFO  18:04:11,765 - #14 )
+INFO  18:04:11,765 - #35 +
+INFO  18:04:11,765 - Pronadjen poziv funkcije 'getp()' na liniji 33
+INFO  18:04:11,765 - #42 1
+INFO  18:04:11,765 - #14 )
+INFO  18:04:11,765 - #8 ;
+INFO  18:04:11,765 - #4 }
+INFO  18:04:11,765 - Pronadjen poziv funkcije 'putp()' na liniji 33
+INFO  18:04:11,765 - #23 else
+ERROR 18:04:11,765 - Sintaksna greska na liniji 35
+INFO  18:04:11,765 - #16 if
+INFO  18:04:11,765 - #13 (
+INFO  18:04:11,765 - #26 -
+INFO  18:04:11,766 - #41 size
+INFO  18:04:11,766 - #33 <
+INFO  18:04:11,766 - #41 x
+INFO  18:04:11,766 - #25 &&
+INFO  18:04:11,766 - #41 x
+INFO  18:04:11,767 - #33 <
+INFO  18:04:11,767 - #42 0
+INFO  18:04:11,767 - #14 )
+INFO  18:04:11,767 - #3 {
+INFO  18:04:11,767 - #41 val
+INFO  18:04:11,767 - #28 .
+INFO  18:04:11,767 - #41 putn
+INFO  18:04:11,767 - #13 (
+INFO  18:04:11,767 - #41 val
+INFO  18:04:11,767 - #28 .
+INFO  18:04:11,767 - #41 getn
+INFO  18:04:11,767 - #13 (
+INFO  18:04:11,767 - #26 -
+INFO  18:04:11,767 - #41 x
+INFO  18:04:11,767 - #14 )
+INFO  18:04:11,767 - #35 +
+INFO  18:04:11,767 - Pronadjen poziv funkcije 'getn()' na liniji 48
+INFO  18:04:11,767 - #42 1
+INFO  18:04:11,767 - #14 )
+INFO  18:04:11,767 - #8 ;
+INFO  18:04:11,767 - #4 }
+INFO  18:04:11,768 - Pronadjen poziv funkcije 'putn()' na liniji 48
+INFO  18:04:11,768 - #19 read
+DEBUG 18:04:11,768 - Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji 32. Siguran simbol: ')'
+INFO  18:04:11,768 - #13 (
+INFO  18:04:11,768 - #41 x
+INFO  18:04:11,768 - #14 )
+INFO  18:04:11,768 - #8 ;
+INFO  18:04:11,768 - #4 }
+INFO  18:04:11,768 - #4 }
+INFO  18:04:11,768 - #4 }
+INFO  18:04:11,768 - ==================SINTAKSNA ANALIZA==================
+INFO  18:04:11,768 - Broj globalnih promenljivih = 1
+INFO  18:04:11,768 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:04:11,768 - Broj globalnih konstanti = 1
+INFO  18:04:11,768 - Broj globalnih nizova = 0
+INFO  18:04:11,768 - ----------------------------------------------------
+INFO  18:04:11,768 - Broj globalnih funkcija = 1
+INFO  18:04:11,768 - Broj blokova naredbi = 3
+INFO  18:04:11,768 - Broj poziva funkcija = 6
+INFO  18:04:11,768 - Broj deklarisanih formalnih argumenata funkcija = 6
+INFO  18:04:11,768 - ----------------------------------------------------
+INFO  18:04:11,768 - Broj unutrasnjih klasa = 1
+INFO  18:04:11,768 - Broj metoda unutrasnjih klasa = 4
+INFO  18:04:11,768 - Broj polja unutrasnjih klasa = 2
+ERROR 18:04:11,769 - Parsiranje NIJE uspesno zavrseno!
+INFO  18:06:00,810 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:06:00,828 - #2 program
+INFO  18:06:00,828 - #41 MJProgram
+INFO  18:06:00,828 - #41 int
+INFO  18:06:00,828 - #41 x
+INFO  18:06:00,828 - #7 ,
+INFO  18:06:00,828 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:06:00,828 - #41 y
+INFO  18:06:00,828 - #8 ;
+INFO  18:06:00,828 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:06:00,828 - #41 int
+INFO  18:06:00,828 - #41 zz
+INFO  18:06:00,829 - #7 ,
+INFO  18:06:00,829 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:06:00,829 - #41 niz1
+INFO  18:06:00,829 - #9 [
+INFO  18:06:00,829 - #10 ]
+INFO  18:06:00,829 - #8 ;
+INFO  18:06:00,829 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:06:00,829 - #11 class
+INFO  18:06:00,829 - #41 Klas
+INFO  18:06:00,829 - #3 {
+INFO  18:06:00,829 - #4 }
+INFO  18:06:00,829 - #11 class
+INFO  18:06:00,829 - #41 Klasa
+INFO  18:06:00,829 - #12 extends
+INFO  18:06:00,829 - #41 Klas
+INFO  18:06:00,829 - #3 {
+INFO  18:06:00,830 - #41 int
+INFO  18:06:00,830 - #41 aba
+INFO  18:06:00,830 - #8 ;
+INFO  18:06:00,830 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:06:00,830 - #3 {
+INFO  18:06:00,830 - #41 int
+INFO  18:06:00,830 - #41 method2
+INFO  18:06:00,830 - #13 (
+INFO  18:06:00,830 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:06:00,830 - #41 Klasa
+INFO  18:06:00,830 - #41 kl
+INFO  18:06:00,831 - #14 )
+INFO  18:06:00,831 - #41 int
+INFO  18:06:00,831 - #41 c
+INFO  18:06:00,831 - #8 ;
+INFO  18:06:00,831 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:06:00,831 - #3 {
+INFO  18:06:00,831 - #41 c
+INFO  18:06:00,831 - #6 =
+INFO  18:06:00,831 - #42 0
+INFO  18:06:00,831 - #8 ;
+INFO  18:06:00,831 - #18 return
+INFO  18:06:00,831 - #41 c
+INFO  18:06:00,831 - #35 +
+INFO  18:06:00,831 - #42 3
+INFO  18:06:00,831 - #8 ;
+INFO  18:06:00,831 - #4 }
+INFO  18:06:00,832 - #4 }
+INFO  18:06:00,832 - #4 }
+INFO  18:06:00,832 - #5 const
+INFO  18:06:00,832 - #41 int
+INFO  18:06:00,832 - #41 con
+INFO  18:06:00,832 - #6 =
+INFO  18:06:00,832 - #42 5
+INFO  18:06:00,832 - #8 ;
+INFO  18:06:00,832 - #5 const
+INFO  18:06:00,832 - #41 char
+INFO  18:06:00,832 - #41 c
+INFO  18:06:00,832 - #6 =
+INFO  18:06:00,832 - #44 a
+INFO  18:06:00,832 - #8 ;
+INFO  18:06:00,832 - #41 int
+INFO  18:06:00,832 - #41 niz2
+INFO  18:06:00,832 - #9 [
+INFO  18:06:00,832 - #10 ]
+INFO  18:06:00,832 - #8 ;
+INFO  18:06:00,833 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:06:00,833 - #3 {
+INFO  18:06:00,833 - #41 int
+INFO  18:06:00,833 - #41 funkcija2
+INFO  18:06:00,833 - #13 (
+INFO  18:06:00,833 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:06:00,833 - #41 int
+INFO  18:06:00,833 - #41 a1
+INFO  18:06:00,833 - #7 ,
+INFO  18:06:00,833 - #41 int
+INFO  18:06:00,833 - #41 a2
+INFO  18:06:00,833 - #7 ,
+INFO  18:06:00,833 - #41 int
+INFO  18:06:00,833 - #41 a3
+INFO  18:06:00,833 - #7 ,
+INFO  18:06:00,833 - #41 int
+INFO  18:06:00,833 - #41 a4
+INFO  18:06:00,833 - #14 )
+INFO  18:06:00,833 - #41 char
+INFO  18:06:00,834 - #41 c
+INFO  18:06:00,834 - #8 ;
+INFO  18:06:00,834 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:06:00,834 - #3 {
+INFO  18:06:00,834 - #18 return
+INFO  18:06:00,834 - #42 4
+INFO  18:06:00,834 - #8 ;
+INFO  18:06:00,834 - #4 }
+INFO  18:06:00,834 - #15 void
+INFO  18:06:00,834 - #41 main
+INFO  18:06:00,834 - #13 (
+INFO  18:06:00,834 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:06:00,834 - #14 )
+INFO  18:06:00,834 - #41 int
+INFO  18:06:00,834 - #41 z
+INFO  18:06:00,834 - #8 ;
+INFO  18:06:00,834 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:06:00,834 - #41 Klasa
+INFO  18:06:00,834 - #41 k
+INFO  18:06:00,835 - #8 ;
+INFO  18:06:00,835 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:06:00,835 - #3 {
+INFO  18:06:00,835 - #40 while
+INFO  18:06:00,835 - #13 (
+INFO  18:06:00,835 - #41 x
+INFO  18:06:00,835 - #29 ==
+INFO  18:06:00,835 - #42 1
+INFO  18:06:00,835 - #14 )
+INFO  18:06:00,835 - #3 {
+INFO  18:06:00,835 - #17 break
+INFO  18:06:00,835 - #8 ;
+INFO  18:06:00,835 - #4 }
+INFO  18:06:00,835 - #41 x
+INFO  18:06:00,835 - #6 =
+INFO  18:06:00,835 - #42 10
+INFO  18:06:00,835 - #8 ;
+INFO  18:06:00,836 - #19 read
+INFO  18:06:00,836 - #13 (
+INFO  18:06:00,836 - #41 zz
+INFO  18:06:00,836 - #14 )
+INFO  18:06:00,836 - #8 ;
+INFO  18:06:00,836 - #20 print
+INFO  18:06:00,836 - #13 (
+INFO  18:06:00,836 - #42 1
+INFO  18:06:00,836 - #7 ,
+INFO  18:06:00,836 - #42 4
+INFO  18:06:00,836 - #14 )
+INFO  18:06:00,836 - #8 ;
+INFO  18:06:00,836 - #20 print
+INFO  18:06:00,836 - #13 (
+INFO  18:06:00,836 - #41 eol
+INFO  18:06:00,836 - #14 )
+INFO  18:06:00,836 - #8 ;
+INFO  18:06:00,836 - #41 k
+INFO  18:06:00,836 - #28 .
+INFO  18:06:00,837 - #41 method2
+INFO  18:06:00,837 - #13 (
+INFO  18:06:00,837 - #14 )
+INFO  18:06:00,837 - #8 ;
+INFO  18:06:00,837 - #41 x
+INFO  18:06:00,837 - Pronadjen poziv funkcije 'method2()' na liniji 45
+INFO  18:06:00,837 - #6 =
+INFO  18:06:00,837 - #41 y
+INFO  18:06:00,837 - #35 +
+INFO  18:06:00,837 - #42 3
+INFO  18:06:00,837 - #8 ;
+INFO  18:06:00,837 - #20 print
+INFO  18:06:00,837 - #13 (
+INFO  18:06:00,837 - #42 2
+INFO  18:06:00,837 - #14 )
+INFO  18:06:00,837 - #8 ;
+INFO  18:06:00,837 - #4 }
+INFO  18:06:00,837 - #4 }
+INFO  18:06:00,837 - ==================SINTAKSNA ANALIZA==================
+INFO  18:06:00,838 - Broj globalnih promenljivih = 5
+INFO  18:06:00,838 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:06:00,838 - Broj globalnih konstanti = 2
+INFO  18:06:00,838 - Broj globalnih nizova = 2
+INFO  18:06:00,838 - ----------------------------------------------------
+INFO  18:06:00,838 - Broj globalnih funkcija = 2
+INFO  18:06:00,838 - Broj blokova naredbi = 1
+INFO  18:06:00,838 - Broj poziva funkcija = 4
+INFO  18:06:00,838 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  18:06:00,838 - ----------------------------------------------------
+INFO  18:06:00,838 - Broj unutrasnjih klasa = 2
+INFO  18:06:00,838 - Broj metoda unutrasnjih klasa = 1
+INFO  18:06:00,838 - Broj polja unutrasnjih klasa = 2
+INFO  18:06:00,839 - Parsiranje uspesno zavrseno!
+INFO  18:07:59,474 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:07:59,499 - #2 program
+INFO  18:07:59,499 - #41 MJProgram
+INFO  18:07:59,499 - #41 int
+INFO  18:07:59,499 - #41 x
+INFO  18:07:59,499 - #7 ,
+INFO  18:07:59,499 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:07:59,500 - #41 y
+INFO  18:07:59,500 - #8 ;
+INFO  18:07:59,500 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:07:59,500 - #41 int
+INFO  18:07:59,500 - #41 zz
+INFO  18:07:59,500 - #7 ,
+INFO  18:07:59,500 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:07:59,500 - #41 niz1
+INFO  18:07:59,500 - #9 [
+INFO  18:07:59,500 - #10 ]
+INFO  18:07:59,500 - #8 ;
+INFO  18:07:59,500 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:07:59,500 - #11 class
+INFO  18:07:59,500 - #41 Klas
+INFO  18:07:59,500 - #3 {
+INFO  18:07:59,500 - #4 }
+INFO  18:07:59,500 - #11 class
+INFO  18:07:59,501 - #41 Klasa
+INFO  18:07:59,501 - #12 extends
+INFO  18:07:59,501 - #41 Klas
+INFO  18:07:59,501 - #3 {
+INFO  18:07:59,501 - #41 int
+INFO  18:07:59,501 - #41 aba
+INFO  18:07:59,501 - #8 ;
+INFO  18:07:59,501 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:07:59,501 - #3 {
+INFO  18:07:59,501 - #41 int
+INFO  18:07:59,502 - #41 method2
+INFO  18:07:59,502 - #13 (
+INFO  18:07:59,502 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:07:59,502 - #41 Klasa
+INFO  18:07:59,502 - #41 kl
+INFO  18:07:59,502 - #14 )
+INFO  18:07:59,502 - #41 int
+INFO  18:07:59,502 - #41 c
+INFO  18:07:59,502 - #8 ;
+INFO  18:07:59,502 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:07:59,502 - #3 {
+INFO  18:07:59,502 - #41 c
+INFO  18:07:59,502 - #6 =
+INFO  18:07:59,503 - #42 0
+INFO  18:07:59,503 - #8 ;
+INFO  18:07:59,503 - #18 return
+INFO  18:07:59,503 - #41 c
+INFO  18:07:59,503 - #35 +
+INFO  18:07:59,503 - #42 3
+INFO  18:07:59,503 - #8 ;
+INFO  18:07:59,503 - #4 }
+INFO  18:07:59,503 - #4 }
+INFO  18:07:59,503 - #4 }
+INFO  18:07:59,503 - #5 const
+INFO  18:07:59,503 - #41 int
+INFO  18:07:59,503 - #41 con
+INFO  18:07:59,503 - #6 =
+INFO  18:07:59,503 - #42 5
+INFO  18:07:59,503 - #8 ;
+INFO  18:07:59,503 - #5 const
+INFO  18:07:59,504 - #41 char
+INFO  18:07:59,504 - #41 c
+INFO  18:07:59,504 - #6 =
+INFO  18:07:59,504 - #44 a
+INFO  18:07:59,504 - #8 ;
+INFO  18:07:59,504 - #41 int
+INFO  18:07:59,504 - #41 niz2
+INFO  18:07:59,504 - #9 [
+INFO  18:07:59,504 - #10 ]
+INFO  18:07:59,504 - #8 ;
+INFO  18:07:59,504 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:07:59,504 - #3 {
+INFO  18:07:59,504 - #41 int
+INFO  18:07:59,504 - #41 funkcija2
+INFO  18:07:59,504 - #13 (
+INFO  18:07:59,504 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:07:59,504 - #41 int
+INFO  18:07:59,505 - #41 a1
+INFO  18:07:59,505 - #7 ,
+INFO  18:07:59,505 - #41 int
+INFO  18:07:59,505 - #41 a2
+INFO  18:07:59,505 - #7 ,
+INFO  18:07:59,505 - #41 int
+INFO  18:07:59,505 - #41 a3
+INFO  18:07:59,505 - #7 ,
+INFO  18:07:59,505 - #41 int
+INFO  18:07:59,505 - #41 a4
+INFO  18:07:59,505 - #14 )
+INFO  18:07:59,505 - #41 char
+INFO  18:07:59,505 - #41 c
+INFO  18:07:59,505 - #8 ;
+INFO  18:07:59,505 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:07:59,505 - #3 {
+INFO  18:07:59,505 - #18 return
+INFO  18:07:59,505 - #42 4
+INFO  18:07:59,505 - #8 ;
+INFO  18:07:59,505 - #4 }
+INFO  18:07:59,506 - #15 void
+INFO  18:07:59,506 - #41 main
+INFO  18:07:59,506 - #13 (
+INFO  18:07:59,506 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:07:59,506 - #14 )
+INFO  18:07:59,506 - #41 int
+INFO  18:07:59,506 - #41 z
+INFO  18:07:59,506 - #8 ;
+INFO  18:07:59,506 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:07:59,506 - #41 Klasa
+INFO  18:07:59,506 - #41 k
+INFO  18:07:59,506 - #8 ;
+INFO  18:07:59,506 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:07:59,506 - #3 {
+INFO  18:07:59,506 - #40 while
+INFO  18:07:59,506 - #13 (
+INFO  18:07:59,506 - #41 x
+INFO  18:07:59,506 - #29 ==
+INFO  18:07:59,506 - #42 1
+INFO  18:07:59,507 - #14 )
+INFO  18:07:59,507 - #3 {
+INFO  18:07:59,507 - #17 break
+INFO  18:07:59,507 - #8 ;
+INFO  18:07:59,507 - #4 }
+INFO  18:07:59,507 - #16 if
+INFO  18:07:59,507 - #13 (
+INFO  18:07:59,507 - #42 0
+INFO  18:07:59,507 - #34 <=
+INFO  18:07:59,507 - #41 x
+INFO  18:07:59,507 - #25 &&
+INFO  18:07:59,507 - #41 x
+INFO  18:07:59,507 - #33 <
+INFO  18:07:59,507 - #41 con
+INFO  18:07:59,507 - #14 )
+INFO  18:07:59,507 - #3 {
+INFO  18:07:59,507 - #41 x
+INFO  18:07:59,507 - #6 =
+INFO  18:07:59,507 - #42 2
+INFO  18:07:59,507 - #8 ;
+INFO  18:07:59,508 - #4 }
+INFO  18:07:59,508 - #23 else
+ERROR 18:07:59,508 - Sintaksna greska na liniji 44
+INFO  18:07:59,508 - #16 if
+INFO  18:07:59,508 - #13 (
+INFO  18:07:59,508 - #26 -
+INFO  18:07:59,509 - #41 y
+INFO  18:07:59,509 - #33 <
+INFO  18:07:59,509 - #41 x
+INFO  18:07:59,509 - #25 &&
+INFO  18:07:59,509 - #41 x
+INFO  18:07:59,509 - #33 <
+INFO  18:07:59,509 - #42 0
+INFO  18:07:59,509 - #14 )
+INFO  18:07:59,509 - #3 {
+INFO  18:07:59,509 - #41 y
+INFO  18:07:59,509 - #6 =
+INFO  18:07:59,509 - #26 -
+INFO  18:07:59,509 - #42 1
+INFO  18:07:59,509 - #8 ;
+INFO  18:07:59,509 - #4 }
+INFO  18:07:59,509 - #41 x
+DEBUG 18:07:59,509 - Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji 41. Siguran simbol: ')'
+INFO  18:07:59,509 - #6 =
+INFO  18:07:59,509 - #42 10
+INFO  18:07:59,510 - #8 ;
+INFO  18:07:59,510 - #19 read
+INFO  18:07:59,510 - #13 (
+INFO  18:07:59,510 - #41 zz
+INFO  18:07:59,510 - #14 )
+INFO  18:07:59,510 - #8 ;
+INFO  18:07:59,510 - #20 print
+INFO  18:07:59,510 - #13 (
+INFO  18:07:59,510 - #42 1
+INFO  18:07:59,510 - #7 ,
+INFO  18:07:59,510 - #42 4
+INFO  18:07:59,510 - #14 )
+INFO  18:07:59,510 - #8 ;
+INFO  18:07:59,510 - #20 print
+INFO  18:07:59,510 - #13 (
+INFO  18:07:59,510 - #41 eol
+INFO  18:07:59,510 - #14 )
+INFO  18:07:59,510 - #8 ;
+INFO  18:07:59,510 - #41 k
+INFO  18:07:59,510 - #28 .
+INFO  18:07:59,510 - #41 method2
+INFO  18:07:59,511 - #13 (
+INFO  18:07:59,511 - #14 )
+INFO  18:07:59,511 - #8 ;
+INFO  18:07:59,511 - #41 x
+INFO  18:07:59,511 - Pronadjen poziv funkcije 'method2()' na liniji 55
+INFO  18:07:59,511 - #6 =
+INFO  18:07:59,511 - #41 y
+INFO  18:07:59,511 - #35 +
+INFO  18:07:59,511 - #42 3
+INFO  18:07:59,511 - #8 ;
+INFO  18:07:59,511 - #20 print
+INFO  18:07:59,511 - #13 (
+INFO  18:07:59,511 - #42 2
+INFO  18:07:59,511 - #14 )
+INFO  18:07:59,511 - #8 ;
+INFO  18:07:59,511 - #4 }
+INFO  18:07:59,511 - #4 }
+INFO  18:07:59,512 - ==================SINTAKSNA ANALIZA==================
+INFO  18:07:59,512 - Broj globalnih promenljivih = 5
+INFO  18:07:59,512 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:07:59,512 - Broj globalnih konstanti = 2
+INFO  18:07:59,512 - Broj globalnih nizova = 2
+INFO  18:07:59,512 - ----------------------------------------------------
+INFO  18:07:59,512 - Broj globalnih funkcija = 2
+INFO  18:07:59,512 - Broj blokova naredbi = 2
+INFO  18:07:59,512 - Broj poziva funkcija = 4
+INFO  18:07:59,512 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  18:07:59,512 - ----------------------------------------------------
+INFO  18:07:59,512 - Broj unutrasnjih klasa = 2
+INFO  18:07:59,512 - Broj metoda unutrasnjih klasa = 1
+INFO  18:07:59,512 - Broj polja unutrasnjih klasa = 2
+ERROR 18:07:59,514 - Parsiranje NIJE uspesno zavrseno!
+INFO  18:08:27,219 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:08:27,235 - #2 program
+INFO  18:08:27,235 - #41 MJProgram
+INFO  18:08:27,235 - #41 int
+INFO  18:08:27,235 - #41 x
+INFO  18:08:27,235 - #7 ,
+INFO  18:08:27,235 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:08:27,235 - #41 y
+INFO  18:08:27,235 - #8 ;
+INFO  18:08:27,236 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:08:27,236 - #41 int
+INFO  18:08:27,236 - #41 zz
+INFO  18:08:27,236 - #7 ,
+INFO  18:08:27,236 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:08:27,236 - #41 niz1
+INFO  18:08:27,236 - #9 [
+INFO  18:08:27,236 - #10 ]
+INFO  18:08:27,236 - #8 ;
+INFO  18:08:27,236 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:08:27,236 - #11 class
+INFO  18:08:27,236 - #41 Klas
+INFO  18:08:27,236 - #3 {
+INFO  18:08:27,236 - #4 }
+INFO  18:08:27,236 - #11 class
+INFO  18:08:27,236 - #41 Klasa
+INFO  18:08:27,236 - #12 extends
+INFO  18:08:27,237 - #41 Klas
+INFO  18:08:27,237 - #3 {
+INFO  18:08:27,237 - #41 int
+INFO  18:08:27,237 - #41 aba
+INFO  18:08:27,237 - #8 ;
+INFO  18:08:27,237 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:08:27,237 - #3 {
+INFO  18:08:27,237 - #41 int
+INFO  18:08:27,237 - #41 method2
+INFO  18:08:27,237 - #13 (
+INFO  18:08:27,237 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:08:27,237 - #41 Klasa
+INFO  18:08:27,237 - #41 kl
+INFO  18:08:27,238 - #14 )
+INFO  18:08:27,238 - #41 int
+INFO  18:08:27,238 - #41 c
+INFO  18:08:27,238 - #8 ;
+INFO  18:08:27,238 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:08:27,238 - #3 {
+INFO  18:08:27,238 - #41 c
+INFO  18:08:27,238 - #6 =
+INFO  18:08:27,238 - #42 0
+INFO  18:08:27,238 - #8 ;
+INFO  18:08:27,238 - #18 return
+INFO  18:08:27,238 - #41 c
+INFO  18:08:27,238 - #35 +
+INFO  18:08:27,238 - #42 3
+INFO  18:08:27,238 - #8 ;
+INFO  18:08:27,238 - #4 }
+INFO  18:08:27,238 - #4 }
+INFO  18:08:27,239 - #4 }
+INFO  18:08:27,239 - #5 const
+INFO  18:08:27,239 - #41 int
+INFO  18:08:27,239 - #41 con
+INFO  18:08:27,239 - #6 =
+INFO  18:08:27,239 - #42 5
+INFO  18:08:27,239 - #8 ;
+INFO  18:08:27,239 - #5 const
+INFO  18:08:27,239 - #41 char
+INFO  18:08:27,239 - #41 c
+INFO  18:08:27,239 - #6 =
+INFO  18:08:27,239 - #44 a
+INFO  18:08:27,239 - #8 ;
+INFO  18:08:27,239 - #41 int
+INFO  18:08:27,239 - #41 niz2
+INFO  18:08:27,239 - #9 [
+INFO  18:08:27,239 - #10 ]
+INFO  18:08:27,239 - #8 ;
+INFO  18:08:27,239 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:08:27,240 - #3 {
+INFO  18:08:27,240 - #41 int
+INFO  18:08:27,240 - #41 funkcija2
+INFO  18:08:27,240 - #13 (
+INFO  18:08:27,240 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:08:27,240 - #41 int
+INFO  18:08:27,240 - #41 a1
+INFO  18:08:27,240 - #7 ,
+INFO  18:08:27,240 - #41 int
+INFO  18:08:27,240 - #41 a2
+INFO  18:08:27,240 - #7 ,
+INFO  18:08:27,240 - #41 int
+INFO  18:08:27,240 - #41 a3
+INFO  18:08:27,240 - #7 ,
+INFO  18:08:27,240 - #41 int
+INFO  18:08:27,240 - #41 a4
+INFO  18:08:27,240 - #14 )
+INFO  18:08:27,240 - #41 char
+INFO  18:08:27,241 - #41 c
+INFO  18:08:27,241 - #8 ;
+INFO  18:08:27,241 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:08:27,241 - #3 {
+INFO  18:08:27,241 - #18 return
+INFO  18:08:27,241 - #42 4
+INFO  18:08:27,241 - #8 ;
+INFO  18:08:27,241 - #4 }
+INFO  18:08:27,241 - #15 void
+INFO  18:08:27,241 - #41 main
+INFO  18:08:27,241 - #13 (
+INFO  18:08:27,241 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:08:27,241 - #14 )
+INFO  18:08:27,241 - #41 int
+INFO  18:08:27,241 - #41 z
+INFO  18:08:27,241 - #8 ;
+INFO  18:08:27,241 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:08:27,241 - #41 Klasa
+INFO  18:08:27,241 - #41 k
+INFO  18:08:27,242 - #8 ;
+INFO  18:08:27,242 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:08:27,242 - #3 {
+INFO  18:08:27,242 - #40 while
+INFO  18:08:27,242 - #13 (
+INFO  18:08:27,242 - #41 x
+INFO  18:08:27,242 - #29 ==
+INFO  18:08:27,242 - #42 1
+INFO  18:08:27,242 - #14 )
+INFO  18:08:27,242 - #3 {
+INFO  18:08:27,242 - #17 break
+INFO  18:08:27,242 - #8 ;
+INFO  18:08:27,242 - #4 }
+INFO  18:08:27,242 - #16 if
+INFO  18:08:27,242 - #13 (
+INFO  18:08:27,242 - #42 0
+INFO  18:08:27,242 - #34 <=
+INFO  18:08:27,242 - #41 x
+INFO  18:08:27,243 - #25 &&
+INFO  18:08:27,243 - #41 x
+INFO  18:08:27,243 - #33 <
+INFO  18:08:27,243 - #41 con
+INFO  18:08:27,243 - #14 )
+INFO  18:08:27,243 - #3 {
+INFO  18:08:27,243 - #41 x
+INFO  18:08:27,243 - #6 =
+INFO  18:08:27,243 - #42 2
+INFO  18:08:27,243 - #8 ;
+INFO  18:08:27,243 - #4 }
+INFO  18:08:27,243 - #23 else
+ERROR 18:08:27,243 - Sintaksna greska na liniji 45
+INFO  18:08:27,243 - #3 {
+INFO  18:08:27,243 - #16 if
+INFO  18:08:27,243 - #13 (
+INFO  18:08:27,244 - #26 -
+INFO  18:08:27,244 - #41 y
+INFO  18:08:27,244 - #33 <
+INFO  18:08:27,244 - #41 x
+INFO  18:08:27,244 - #25 &&
+INFO  18:08:27,244 - #41 x
+INFO  18:08:27,244 - #33 <
+INFO  18:08:27,244 - #42 0
+INFO  18:08:27,244 - #14 )
+INFO  18:08:27,244 - #3 {
+INFO  18:08:27,244 - #41 y
+INFO  18:08:27,245 - #6 =
+INFO  18:08:27,245 - #26 -
+INFO  18:08:27,245 - #42 1
+INFO  18:08:27,245 - #8 ;
+INFO  18:08:27,245 - #4 }
+INFO  18:08:27,245 - #4 }
+DEBUG 18:08:27,245 - Uspesan oporavak od greske u LOGICKOM IZRAZU IF konstrukcije na liniji 41. Siguran simbol: ')'
+INFO  18:08:27,245 - #41 x
+INFO  18:08:27,245 - #6 =
+ERROR 18:08:27,245 - Sintaksna greska na liniji 53
+ERROR 18:08:27,245 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 53
+INFO  18:09:46,314 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:09:46,332 - #2 program
+INFO  18:09:46,332 - #41 MJProgram
+INFO  18:09:46,332 - #41 int
+INFO  18:09:46,332 - #41 x
+INFO  18:09:46,332 - #7 ,
+INFO  18:09:46,333 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:09:46,333 - #41 y
+INFO  18:09:46,333 - #8 ;
+INFO  18:09:46,333 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:09:46,333 - #41 int
+INFO  18:09:46,333 - #41 zz
+INFO  18:09:46,333 - #7 ,
+INFO  18:09:46,333 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:09:46,333 - #41 niz1
+INFO  18:09:46,333 - #9 [
+INFO  18:09:46,333 - #10 ]
+INFO  18:09:46,333 - #8 ;
+INFO  18:09:46,333 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:09:46,335 - #11 class
+INFO  18:09:46,335 - #41 Klas
+INFO  18:09:46,335 - #3 {
+INFO  18:09:46,335 - #4 }
+INFO  18:09:46,335 - #11 class
+INFO  18:09:46,335 - #41 Klasa
+INFO  18:09:46,335 - #12 extends
+INFO  18:09:46,335 - #41 Klas
+INFO  18:09:46,335 - #3 {
+INFO  18:09:46,335 - #41 int
+INFO  18:09:46,335 - #41 aba
+INFO  18:09:46,335 - #8 ;
+INFO  18:09:46,335 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:09:46,335 - #3 {
+INFO  18:09:46,335 - #41 int
+INFO  18:09:46,336 - #41 method2
+INFO  18:09:46,336 - #13 (
+INFO  18:09:46,336 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:09:46,336 - #41 Klasa
+INFO  18:09:46,336 - #41 kl
+INFO  18:09:46,336 - #14 )
+INFO  18:09:46,336 - #41 int
+INFO  18:09:46,336 - #41 c
+INFO  18:09:46,336 - #8 ;
+INFO  18:09:46,336 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:09:46,336 - #3 {
+INFO  18:09:46,336 - #41 c
+INFO  18:09:46,336 - #6 =
+INFO  18:09:46,337 - #42 0
+INFO  18:09:46,337 - #8 ;
+INFO  18:09:46,337 - #18 return
+INFO  18:09:46,337 - #41 c
+INFO  18:09:46,337 - #35 +
+INFO  18:09:46,337 - #42 3
+INFO  18:09:46,337 - #8 ;
+INFO  18:09:46,337 - #4 }
+INFO  18:09:46,337 - #4 }
+INFO  18:09:46,337 - #4 }
+INFO  18:09:46,337 - #5 const
+INFO  18:09:46,337 - #41 int
+INFO  18:09:46,337 - #41 con
+INFO  18:09:46,337 - #6 =
+INFO  18:09:46,337 - #42 5
+INFO  18:09:46,337 - #8 ;
+INFO  18:09:46,337 - #5 const
+INFO  18:09:46,338 - #41 char
+INFO  18:09:46,338 - #41 c
+INFO  18:09:46,338 - #6 =
+INFO  18:09:46,338 - #44 a
+INFO  18:09:46,338 - #8 ;
+INFO  18:09:46,338 - #41 int
+INFO  18:09:46,338 - #41 niz2
+INFO  18:09:46,338 - #9 [
+INFO  18:09:46,338 - #10 ]
+INFO  18:09:46,338 - #8 ;
+INFO  18:09:46,338 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:09:46,338 - #3 {
+INFO  18:09:46,338 - #41 int
+INFO  18:09:46,338 - #41 funkcija2
+INFO  18:09:46,338 - #13 (
+INFO  18:09:46,338 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:09:46,338 - #41 int
+INFO  18:09:46,339 - #41 a1
+INFO  18:09:46,339 - #7 ,
+INFO  18:09:46,339 - #41 int
+INFO  18:09:46,339 - #41 a2
+INFO  18:09:46,339 - #7 ,
+INFO  18:09:46,339 - #41 int
+INFO  18:09:46,339 - #41 a3
+INFO  18:09:46,339 - #7 ,
+INFO  18:09:46,339 - #41 int
+INFO  18:09:46,339 - #41 a4
+INFO  18:09:46,339 - #14 )
+INFO  18:09:46,339 - #41 char
+INFO  18:09:46,339 - #41 c
+INFO  18:09:46,339 - #8 ;
+INFO  18:09:46,339 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:09:46,339 - #3 {
+INFO  18:09:46,339 - #18 return
+INFO  18:09:46,339 - #42 4
+INFO  18:09:46,339 - #8 ;
+INFO  18:09:46,339 - #4 }
+INFO  18:09:46,340 - #15 void
+INFO  18:09:46,340 - #41 main
+INFO  18:09:46,340 - #13 (
+INFO  18:09:46,340 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:09:46,340 - #14 )
+INFO  18:09:46,340 - #41 int
+INFO  18:09:46,340 - #41 z
+INFO  18:09:46,340 - #8 ;
+INFO  18:09:46,340 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:09:46,340 - #41 Klasa
+INFO  18:09:46,340 - #41 k
+INFO  18:09:46,340 - #8 ;
+INFO  18:09:46,341 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:09:46,341 - #3 {
+INFO  18:09:46,341 - #40 while
+INFO  18:09:46,341 - #13 (
+INFO  18:09:46,341 - #41 x
+INFO  18:09:46,341 - #29 ==
+INFO  18:09:46,341 - #42 1
+INFO  18:09:46,341 - #14 )
+INFO  18:09:46,342 - #3 {
+INFO  18:09:46,342 - #17 break
+INFO  18:09:46,342 - #8 ;
+INFO  18:09:46,342 - #4 }
+INFO  18:09:46,342 - #16 if
+INFO  18:09:46,342 - #13 (
+INFO  18:09:46,342 - #42 0
+INFO  18:09:46,342 - #34 <=
+INFO  18:09:46,342 - #41 x
+INFO  18:09:46,342 - #25 &&
+INFO  18:09:46,342 - #41 x
+INFO  18:09:46,342 - #33 <
+INFO  18:09:46,343 - #41 con
+INFO  18:09:46,343 - #14 )
+INFO  18:09:46,343 - #3 {
+INFO  18:09:46,343 - #41 x
+INFO  18:09:46,343 - #6 =
+INFO  18:09:46,343 - #42 2
+INFO  18:09:46,343 - #8 ;
+INFO  18:09:46,343 - #4 }
+INFO  18:09:46,343 - #41 x
+INFO  18:09:46,343 - #6 =
+INFO  18:09:46,343 - #42 10
+INFO  18:09:46,343 - #8 ;
+INFO  18:09:46,343 - #19 read
+INFO  18:09:46,343 - #13 (
+INFO  18:09:46,343 - #41 zz
+INFO  18:09:46,343 - #14 )
+INFO  18:09:46,344 - #8 ;
+INFO  18:09:46,344 - #20 print
+INFO  18:09:46,344 - #13 (
+INFO  18:09:46,344 - #42 1
+INFO  18:09:46,344 - #7 ,
+INFO  18:09:46,344 - #42 4
+INFO  18:09:46,344 - #14 )
+INFO  18:09:46,344 - #8 ;
+INFO  18:09:46,344 - #20 print
+INFO  18:09:46,344 - #13 (
+INFO  18:09:46,344 - #41 eol
+INFO  18:09:46,344 - #14 )
+INFO  18:09:46,344 - #8 ;
+INFO  18:09:46,344 - #41 k
+INFO  18:09:46,344 - #28 .
+INFO  18:09:46,344 - #41 method2
+INFO  18:09:46,344 - #13 (
+INFO  18:09:46,345 - #14 )
+INFO  18:09:46,345 - #8 ;
+INFO  18:09:46,345 - #41 x
+INFO  18:09:46,345 - Pronadjen poziv funkcije 'method2()' na liniji 58
+INFO  18:09:46,345 - #6 =
+INFO  18:09:46,345 - #41 y
+INFO  18:09:46,346 - #35 +
+INFO  18:09:46,346 - #42 3
+INFO  18:09:46,346 - #8 ;
+INFO  18:09:46,346 - #20 print
+INFO  18:09:46,346 - #13 (
+INFO  18:09:46,346 - #42 2
+INFO  18:09:46,346 - #14 )
+INFO  18:09:46,346 - #8 ;
+INFO  18:09:46,346 - #4 }
+INFO  18:09:46,346 - #4 }
+INFO  18:09:46,346 - ==================SINTAKSNA ANALIZA==================
+INFO  18:09:46,346 - Broj globalnih promenljivih = 5
+INFO  18:09:46,346 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:09:46,346 - Broj globalnih konstanti = 2
+INFO  18:09:46,346 - Broj globalnih nizova = 2
+INFO  18:09:46,346 - ----------------------------------------------------
+INFO  18:09:46,346 - Broj globalnih funkcija = 2
+INFO  18:09:46,346 - Broj blokova naredbi = 2
+INFO  18:09:46,346 - Broj poziva funkcija = 4
+INFO  18:09:46,347 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  18:09:46,347 - ----------------------------------------------------
+INFO  18:09:46,347 - Broj unutrasnjih klasa = 2
+INFO  18:09:46,347 - Broj metoda unutrasnjih klasa = 1
+INFO  18:09:46,347 - Broj polja unutrasnjih klasa = 2
+INFO  18:09:46,347 - Parsiranje uspesno zavrseno!
+INFO  18:09:56,116 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:09:56,133 - #2 program
+INFO  18:09:56,133 - #41 MJProgram
+INFO  18:09:56,133 - #41 int
+INFO  18:09:56,134 - #41 x
+INFO  18:09:56,134 - #7 ,
+INFO  18:09:56,134 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:09:56,134 - #41 y
+INFO  18:09:56,134 - #8 ;
+INFO  18:09:56,134 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:09:56,134 - #41 int
+INFO  18:09:56,134 - #41 zz
+INFO  18:09:56,134 - #7 ,
+INFO  18:09:56,134 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:09:56,134 - #41 niz1
+INFO  18:09:56,134 - #9 [
+INFO  18:09:56,134 - #10 ]
+INFO  18:09:56,134 - #8 ;
+INFO  18:09:56,134 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:09:56,134 - #11 class
+INFO  18:09:56,135 - #41 Klas
+INFO  18:09:56,135 - #3 {
+INFO  18:09:56,135 - #4 }
+INFO  18:09:56,135 - #11 class
+INFO  18:09:56,135 - #41 Klasa
+INFO  18:09:56,135 - #12 extends
+INFO  18:09:56,135 - #41 Klas
+INFO  18:09:56,135 - #3 {
+INFO  18:09:56,135 - #41 int
+INFO  18:09:56,135 - #41 aba
+INFO  18:09:56,135 - #8 ;
+INFO  18:09:56,135 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:09:56,135 - #3 {
+INFO  18:09:56,135 - #41 int
+INFO  18:09:56,136 - #41 method2
+INFO  18:09:56,136 - #13 (
+INFO  18:09:56,136 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:09:56,136 - #41 Klasa
+INFO  18:09:56,136 - #41 kl
+INFO  18:09:56,136 - #14 )
+INFO  18:09:56,136 - #41 int
+INFO  18:09:56,136 - #41 c
+INFO  18:09:56,136 - #8 ;
+INFO  18:09:56,136 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:09:56,136 - #3 {
+INFO  18:09:56,136 - #41 c
+INFO  18:09:56,136 - #6 =
+INFO  18:09:56,136 - #42 0
+INFO  18:09:56,136 - #8 ;
+INFO  18:09:56,136 - #18 return
+INFO  18:09:56,136 - #41 c
+INFO  18:09:56,137 - #35 +
+INFO  18:09:56,137 - #42 3
+INFO  18:09:56,137 - #8 ;
+INFO  18:09:56,137 - #4 }
+INFO  18:09:56,137 - #4 }
+INFO  18:09:56,137 - #4 }
+INFO  18:09:56,137 - #5 const
+INFO  18:09:56,137 - #41 int
+INFO  18:09:56,137 - #41 con
+INFO  18:09:56,137 - #6 =
+INFO  18:09:56,137 - #42 5
+INFO  18:09:56,137 - #8 ;
+INFO  18:09:56,137 - #5 const
+INFO  18:09:56,137 - #41 char
+INFO  18:09:56,137 - #41 c
+INFO  18:09:56,137 - #6 =
+INFO  18:09:56,137 - #44 a
+INFO  18:09:56,138 - #8 ;
+INFO  18:09:56,138 - #41 int
+INFO  18:09:56,138 - #41 niz2
+INFO  18:09:56,138 - #9 [
+INFO  18:09:56,138 - #10 ]
+INFO  18:09:56,138 - #8 ;
+INFO  18:09:56,138 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:09:56,138 - #3 {
+INFO  18:09:56,138 - #41 int
+INFO  18:09:56,138 - #41 funkcija2
+INFO  18:09:56,138 - #13 (
+INFO  18:09:56,138 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:09:56,138 - #41 int
+INFO  18:09:56,138 - #41 a1
+INFO  18:09:56,138 - #7 ,
+INFO  18:09:56,138 - #41 int
+INFO  18:09:56,138 - #41 a2
+INFO  18:09:56,138 - #7 ,
+INFO  18:09:56,138 - #41 int
+INFO  18:09:56,139 - #41 a3
+INFO  18:09:56,139 - #7 ,
+INFO  18:09:56,139 - #41 int
+INFO  18:09:56,139 - #41 a4
+INFO  18:09:56,139 - #14 )
+INFO  18:09:56,139 - #41 char
+INFO  18:09:56,139 - #41 c
+INFO  18:09:56,139 - #8 ;
+INFO  18:09:56,139 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:09:56,139 - #3 {
+INFO  18:09:56,139 - #18 return
+INFO  18:09:56,139 - #42 4
+INFO  18:09:56,139 - #8 ;
+INFO  18:09:56,139 - #4 }
+INFO  18:09:56,139 - #15 void
+INFO  18:09:56,139 - #41 main
+INFO  18:09:56,139 - #13 (
+INFO  18:09:56,139 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:09:56,140 - #14 )
+INFO  18:09:56,140 - #41 int
+INFO  18:09:56,141 - #41 z
+INFO  18:09:56,141 - #8 ;
+INFO  18:09:56,141 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:09:56,141 - #41 Klasa
+INFO  18:09:56,141 - #41 k
+INFO  18:09:56,141 - #8 ;
+INFO  18:09:56,141 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:09:56,141 - #3 {
+INFO  18:09:56,141 - #40 while
+INFO  18:09:56,141 - #13 (
+INFO  18:09:56,141 - #41 x
+INFO  18:09:56,141 - #29 ==
+INFO  18:09:56,141 - #42 1
+INFO  18:09:56,141 - #14 )
+INFO  18:09:56,141 - #3 {
+INFO  18:09:56,141 - #17 break
+INFO  18:09:56,141 - #8 ;
+INFO  18:09:56,141 - #4 }
+INFO  18:09:56,141 - #16 if
+INFO  18:09:56,142 - #13 (
+INFO  18:09:56,142 - #42 0
+INFO  18:09:56,142 - #34 <=
+INFO  18:09:56,142 - #41 x
+INFO  18:09:56,142 - #25 &&
+INFO  18:09:56,142 - #41 x
+INFO  18:09:56,142 - #33 <
+INFO  18:09:56,142 - #41 con
+INFO  18:09:56,142 - #14 )
+INFO  18:09:56,142 - #3 {
+INFO  18:09:56,142 - #41 x
+INFO  18:09:56,142 - #6 =
+INFO  18:09:56,142 - #42 2
+INFO  18:09:56,142 - #8 ;
+INFO  18:09:56,142 - #4 }
+INFO  18:09:56,142 - #23 else
+ERROR 18:09:56,142 - Sintaksna greska na liniji 45
+INFO  18:09:56,143 - #3 {
+INFO  18:09:56,143 - #4 }
+INFO  18:09:56,143 - #41 x
+INFO  18:09:56,143 - #6 =
+INFO  18:09:56,143 - #42 10
+INFO  18:09:56,144 - #8 ;
+INFO  18:09:56,144 - #19 read
+INFO  18:09:56,144 - #13 (
+INFO  18:09:56,144 - #41 zz
+INFO  18:09:56,144 - #14 )
+INFO  18:09:56,144 - #8 ;
+INFO  18:09:56,144 - #20 print
+INFO  18:09:56,144 - #13 (
+INFO  18:09:56,144 - #42 1
+INFO  18:09:56,144 - #7 ,
+INFO  18:09:56,144 - #42 4
+INFO  18:09:56,144 - #14 )
+INFO  18:09:56,144 - #8 ;
+INFO  18:09:56,144 - #20 print
+INFO  18:09:56,144 - #13 (
+INFO  18:09:56,144 - #41 eol
+INFO  18:09:56,144 - #14 )
+INFO  18:09:56,144 - #8 ;
+INFO  18:09:56,144 - #41 k
+INFO  18:09:56,144 - #28 .
+INFO  18:09:56,144 - #41 method2
+INFO  18:09:56,144 - #13 (
+INFO  18:09:56,144 - #14 )
+INFO  18:09:56,145 - #8 ;
+INFO  18:09:56,145 - #41 x
+INFO  18:09:56,145 - #6 =
+INFO  18:09:56,145 - #41 y
+INFO  18:09:56,145 - #35 +
+INFO  18:09:56,145 - #42 3
+INFO  18:09:56,145 - #8 ;
+INFO  18:09:56,145 - #20 print
+INFO  18:09:56,145 - #13 (
+INFO  18:09:56,145 - #42 2
+INFO  18:09:56,145 - #14 )
+INFO  18:09:56,145 - #8 ;
+INFO  18:09:56,145 - #4 }
+INFO  18:09:56,145 - #4 }
+ERROR 18:09:56,145 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 62
+INFO  18:11:15,600 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:11:15,617 - #2 program
+INFO  18:11:15,617 - #41 MJProgram
+INFO  18:11:15,617 - #41 int
+INFO  18:11:15,617 - #41 x
+INFO  18:11:15,617 - #7 ,
+INFO  18:11:15,618 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:11:15,618 - #41 y
+INFO  18:11:15,618 - #8 ;
+INFO  18:11:15,618 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:11:15,618 - #41 int
+INFO  18:11:15,618 - #41 zz
+INFO  18:11:15,618 - #7 ,
+INFO  18:11:15,618 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:11:15,618 - #41 niz1
+INFO  18:11:15,618 - #9 [
+INFO  18:11:15,618 - #10 ]
+INFO  18:11:15,618 - #8 ;
+INFO  18:11:15,618 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:11:15,618 - #11 class
+INFO  18:11:15,618 - #41 Klas
+INFO  18:11:15,618 - #3 {
+INFO  18:11:15,619 - #4 }
+INFO  18:11:15,619 - #11 class
+INFO  18:11:15,619 - #41 Klasa
+INFO  18:11:15,619 - #12 extends
+INFO  18:11:15,619 - #41 Klas
+INFO  18:11:15,619 - #3 {
+INFO  18:11:15,619 - #41 int
+INFO  18:11:15,619 - #41 aba
+INFO  18:11:15,619 - #8 ;
+INFO  18:11:15,619 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:11:15,619 - #3 {
+INFO  18:11:15,619 - #41 int
+INFO  18:11:15,620 - #41 method2
+INFO  18:11:15,620 - #13 (
+INFO  18:11:15,620 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:11:15,620 - #41 Klasa
+INFO  18:11:15,620 - #41 kl
+INFO  18:11:15,620 - #14 )
+INFO  18:11:15,620 - #41 int
+INFO  18:11:15,620 - #41 c
+INFO  18:11:15,620 - #8 ;
+INFO  18:11:15,620 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:11:15,620 - #3 {
+INFO  18:11:15,620 - #41 c
+INFO  18:11:15,620 - #6 =
+INFO  18:11:15,621 - #42 0
+INFO  18:11:15,621 - #8 ;
+INFO  18:11:15,621 - #18 return
+INFO  18:11:15,621 - #41 c
+INFO  18:11:15,621 - #35 +
+INFO  18:11:15,621 - #42 3
+INFO  18:11:15,621 - #8 ;
+INFO  18:11:15,621 - #4 }
+INFO  18:11:15,621 - #4 }
+INFO  18:11:15,621 - #4 }
+INFO  18:11:15,621 - #5 const
+INFO  18:11:15,621 - #41 int
+INFO  18:11:15,621 - #41 con
+INFO  18:11:15,621 - #6 =
+INFO  18:11:15,621 - #42 5
+INFO  18:11:15,621 - #8 ;
+INFO  18:11:15,622 - #5 const
+INFO  18:11:15,622 - #41 char
+INFO  18:11:15,622 - #41 c
+INFO  18:11:15,622 - #6 =
+INFO  18:11:15,622 - #44 a
+INFO  18:11:15,622 - #8 ;
+INFO  18:11:15,622 - #41 int
+INFO  18:11:15,622 - #41 niz2
+INFO  18:11:15,622 - #9 [
+INFO  18:11:15,622 - #10 ]
+INFO  18:11:15,622 - #8 ;
+INFO  18:11:15,622 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:11:15,622 - #3 {
+INFO  18:11:15,622 - #41 int
+INFO  18:11:15,622 - #41 funkcija2
+INFO  18:11:15,622 - #13 (
+INFO  18:11:15,622 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:11:15,622 - #41 int
+INFO  18:11:15,622 - #41 a1
+INFO  18:11:15,623 - #7 ,
+INFO  18:11:15,623 - #41 int
+INFO  18:11:15,623 - #41 a2
+INFO  18:11:15,623 - #7 ,
+INFO  18:11:15,623 - #41 int
+INFO  18:11:15,623 - #41 a3
+INFO  18:11:15,623 - #7 ,
+INFO  18:11:15,623 - #41 int
+INFO  18:11:15,623 - #41 a4
+INFO  18:11:15,623 - #14 )
+INFO  18:11:15,623 - #41 char
+INFO  18:11:15,623 - #41 c
+INFO  18:11:15,623 - #8 ;
+INFO  18:11:15,623 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:11:15,623 - #3 {
+INFO  18:11:15,623 - #18 return
+INFO  18:11:15,623 - #42 4
+INFO  18:11:15,623 - #8 ;
+INFO  18:11:15,623 - #4 }
+INFO  18:11:15,624 - #15 void
+INFO  18:11:15,624 - #41 main
+INFO  18:11:15,624 - #13 (
+INFO  18:11:15,624 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:11:15,624 - #14 )
+INFO  18:11:15,624 - #41 int
+INFO  18:11:15,624 - #41 z
+INFO  18:11:15,624 - #8 ;
+INFO  18:11:15,624 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:11:15,624 - #41 Klasa
+INFO  18:11:15,624 - #41 k
+INFO  18:11:15,624 - #8 ;
+INFO  18:11:15,624 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:11:15,624 - #3 {
+INFO  18:11:15,624 - #40 while
+INFO  18:11:15,624 - #13 (
+INFO  18:11:15,624 - #41 x
+INFO  18:11:15,624 - #29 ==
+INFO  18:11:15,624 - #42 1
+INFO  18:11:15,624 - #14 )
+INFO  18:11:15,625 - #3 {
+INFO  18:11:15,625 - #17 break
+INFO  18:11:15,625 - #8 ;
+INFO  18:11:15,625 - #4 }
+INFO  18:11:15,625 - #16 if
+INFO  18:11:15,625 - #13 (
+INFO  18:11:15,625 - #42 0
+INFO  18:11:15,625 - #34 <=
+INFO  18:11:15,625 - #41 x
+INFO  18:11:15,625 - #25 &&
+INFO  18:11:15,625 - #41 x
+INFO  18:11:15,625 - #33 <
+INFO  18:11:15,625 - #41 con
+INFO  18:11:15,625 - #14 )
+INFO  18:11:15,626 - #3 {
+INFO  18:11:15,626 - #41 x
+INFO  18:11:15,626 - #6 =
+INFO  18:11:15,626 - #42 2
+INFO  18:11:15,626 - #8 ;
+INFO  18:11:15,626 - #4 }
+INFO  18:11:15,626 - #23 else
+ERROR 18:11:15,626 - Sintaksna greska na liniji 45
+INFO  18:11:15,626 - #3 {
+INFO  18:11:15,626 - #4 }
+INFO  18:11:15,626 - #41 x
+INFO  18:11:15,627 - #6 =
+INFO  18:11:15,627 - #42 10
+INFO  18:11:15,627 - #8 ;
+INFO  18:11:15,627 - #19 read
+INFO  18:11:15,627 - #13 (
+INFO  18:11:15,627 - #41 zz
+INFO  18:11:15,627 - #14 )
+INFO  18:11:15,627 - #8 ;
+INFO  18:11:15,627 - #20 print
+INFO  18:11:15,627 - #13 (
+INFO  18:11:15,627 - #42 1
+INFO  18:11:15,627 - #7 ,
+INFO  18:11:15,627 - #42 4
+INFO  18:11:15,627 - #14 )
+INFO  18:11:15,627 - #8 ;
+INFO  18:11:15,628 - #20 print
+INFO  18:11:15,628 - #13 (
+INFO  18:11:15,628 - #41 eol
+INFO  18:11:15,628 - #14 )
+INFO  18:11:15,628 - #8 ;
+INFO  18:11:15,628 - #41 k
+INFO  18:11:15,628 - #28 .
+INFO  18:11:15,628 - #41 method2
+INFO  18:11:15,628 - #13 (
+INFO  18:11:15,628 - #14 )
+INFO  18:11:15,628 - #8 ;
+INFO  18:11:15,628 - #41 x
+INFO  18:11:15,628 - #6 =
+INFO  18:11:15,628 - #41 y
+INFO  18:11:15,628 - #35 +
+INFO  18:11:15,628 - #42 3
+INFO  18:11:15,628 - #8 ;
+INFO  18:11:15,628 - #20 print
+INFO  18:11:15,628 - #13 (
+INFO  18:11:15,628 - #42 2
+INFO  18:11:15,629 - #14 )
+INFO  18:11:15,629 - #8 ;
+INFO  18:11:15,629 - #4 }
+INFO  18:11:15,629 - #4 }
+ERROR 18:11:15,629 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 64
+INFO  18:21:11,428 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:21:11,448 - #2 program
+INFO  18:21:11,448 - #41 MJProgram
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 x
+INFO  18:21:11,448 - #7 ,
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:21:11,448 - #41 y
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 zz
+INFO  18:21:11,448 - #7 ,
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:21:11,448 - #41 niz1
+INFO  18:21:11,448 - #9 [
+INFO  18:21:11,448 - #10 ]
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:21:11,448 - #11 class
+INFO  18:21:11,448 - #41 Klas
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #11 class
+INFO  18:21:11,448 - #41 Klasa
+INFO  18:21:11,448 - #12 extends
+INFO  18:21:11,448 - #41 Klas
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 aba
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 method2
+INFO  18:21:11,448 - #13 (
+INFO  18:21:11,448 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:21:11,448 - #41 Klasa
+INFO  18:21:11,448 - #41 kl
+INFO  18:21:11,448 - #14 )
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 c
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #41 c
+INFO  18:21:11,448 - #6 =
+INFO  18:21:11,448 - #42 0
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #18 return
+INFO  18:21:11,448 - #41 c
+INFO  18:21:11,448 - #35 +
+INFO  18:21:11,448 - #42 3
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #5 const
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 con
+INFO  18:21:11,448 - #6 =
+INFO  18:21:11,448 - #42 5
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #5 const
+INFO  18:21:11,448 - #41 char
+INFO  18:21:11,448 - #41 c
+INFO  18:21:11,448 - #6 =
+INFO  18:21:11,448 - #44 a
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 niz2
+INFO  18:21:11,448 - #9 [
+INFO  18:21:11,448 - #10 ]
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 funkcija2
+INFO  18:21:11,448 - #13 (
+INFO  18:21:11,448 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 a1
+INFO  18:21:11,448 - #7 ,
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 a2
+INFO  18:21:11,448 - #7 ,
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 a3
+INFO  18:21:11,448 - #7 ,
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 a4
+INFO  18:21:11,448 - #14 )
+INFO  18:21:11,448 - #41 char
+INFO  18:21:11,448 - #41 c
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #18 return
+INFO  18:21:11,448 - #42 4
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #15 void
+INFO  18:21:11,448 - #41 main
+INFO  18:21:11,448 - #13 (
+INFO  18:21:11,448 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:21:11,448 - #14 )
+INFO  18:21:11,448 - #41 int
+INFO  18:21:11,448 - #41 z
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:21:11,448 - #41 Klasa
+INFO  18:21:11,448 - #41 k
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #40 while
+INFO  18:21:11,448 - #13 (
+INFO  18:21:11,448 - #41 x
+INFO  18:21:11,448 - #29 ==
+INFO  18:21:11,448 - #42 1
+INFO  18:21:11,448 - #14 )
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #17 break
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #16 if
+INFO  18:21:11,448 - #13 (
+INFO  18:21:11,448 - #42 0
+INFO  18:21:11,448 - #34 <=
+INFO  18:21:11,448 - #41 x
+INFO  18:21:11,448 - #25 &&
+INFO  18:21:11,448 - #41 x
+INFO  18:21:11,448 - #33 <
+INFO  18:21:11,448 - #41 con
+INFO  18:21:11,448 - #14 )
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #41 x
+INFO  18:21:11,448 - #6 =
+INFO  18:21:11,448 - #42 2
+INFO  18:21:11,448 - #8 ;
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #23 else
+ERROR 18:21:11,448 - Sintaksna greska na liniji 45
+INFO  18:21:11,448 - #3 {
+INFO  18:21:11,448 - #4 }
+INFO  18:21:11,448 - #41 x
+INFO  18:21:11,458 - #6 =
+INFO  18:21:11,458 - #42 10
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #19 read
+INFO  18:21:11,458 - #13 (
+INFO  18:21:11,458 - #41 zz
+INFO  18:21:11,458 - #14 )
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #20 print
+INFO  18:21:11,458 - #13 (
+INFO  18:21:11,458 - #42 1
+INFO  18:21:11,458 - #7 ,
+INFO  18:21:11,458 - #42 4
+INFO  18:21:11,458 - #14 )
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #20 print
+INFO  18:21:11,458 - #13 (
+INFO  18:21:11,458 - #41 eol
+INFO  18:21:11,458 - #14 )
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #41 k
+INFO  18:21:11,458 - #28 .
+INFO  18:21:11,458 - #41 method2
+INFO  18:21:11,458 - #13 (
+INFO  18:21:11,458 - #14 )
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #41 x
+INFO  18:21:11,458 - #6 =
+INFO  18:21:11,458 - #41 y
+INFO  18:21:11,458 - #35 +
+INFO  18:21:11,458 - #42 3
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #20 print
+INFO  18:21:11,458 - #13 (
+INFO  18:21:11,458 - #42 2
+INFO  18:21:11,458 - #14 )
+INFO  18:21:11,458 - #8 ;
+INFO  18:21:11,458 - #4 }
+INFO  18:21:11,458 - #4 }
+ERROR 18:21:11,458 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 64
+INFO  18:25:22,149 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:25:22,169 - #2 program
+INFO  18:25:22,169 - #41 MJProgram
+INFO  18:25:22,169 - #41 int
+INFO  18:25:22,169 - #41 x
+INFO  18:25:22,169 - #7 ,
+INFO  18:25:22,169 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:25:22,169 - #41 y
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:25:22,169 - #41 int
+INFO  18:25:22,169 - #41 zz
+INFO  18:25:22,169 - #7 ,
+INFO  18:25:22,169 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:25:22,169 - #41 niz1
+INFO  18:25:22,169 - #9 [
+INFO  18:25:22,169 - #10 ]
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:25:22,169 - #11 class
+INFO  18:25:22,169 - #41 Klas
+INFO  18:25:22,169 - #3 {
+INFO  18:25:22,169 - #4 }
+INFO  18:25:22,169 - #11 class
+INFO  18:25:22,169 - #41 Klasa
+INFO  18:25:22,169 - #12 extends
+INFO  18:25:22,169 - #41 Klas
+INFO  18:25:22,169 - #3 {
+INFO  18:25:22,169 - #41 int
+INFO  18:25:22,169 - #41 aba
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:25:22,169 - #3 {
+INFO  18:25:22,169 - #41 int
+INFO  18:25:22,169 - #41 method2
+INFO  18:25:22,169 - #13 (
+INFO  18:25:22,169 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:25:22,169 - #41 Klasa
+INFO  18:25:22,169 - #41 kl
+INFO  18:25:22,169 - #14 )
+INFO  18:25:22,169 - #41 int
+INFO  18:25:22,169 - #41 c
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:25:22,169 - #3 {
+INFO  18:25:22,169 - #41 c
+INFO  18:25:22,169 - #6 =
+INFO  18:25:22,169 - #42 0
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - #18 return
+INFO  18:25:22,169 - #41 c
+INFO  18:25:22,169 - #35 +
+INFO  18:25:22,169 - #42 3
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - #4 }
+INFO  18:25:22,169 - #4 }
+INFO  18:25:22,169 - #4 }
+INFO  18:25:22,169 - #5 const
+INFO  18:25:22,169 - #41 int
+INFO  18:25:22,169 - #41 con
+INFO  18:25:22,169 - #6 =
+INFO  18:25:22,169 - #42 5
+INFO  18:25:22,169 - #8 ;
+INFO  18:25:22,169 - #5 const
+INFO  18:25:22,169 - #41 char
+INFO  18:25:22,169 - #41 c
+INFO  18:25:22,169 - #6 =
+INFO  18:25:22,169 - #44 a
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 niz2
+INFO  18:25:22,179 - #9 [
+INFO  18:25:22,179 - #10 ]
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:25:22,179 - #3 {
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 funkcija2
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 a1
+INFO  18:25:22,179 - #7 ,
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 a2
+INFO  18:25:22,179 - #7 ,
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 a3
+INFO  18:25:22,179 - #7 ,
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 a4
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #41 char
+INFO  18:25:22,179 - #41 c
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:25:22,179 - #3 {
+INFO  18:25:22,179 - #18 return
+INFO  18:25:22,179 - #42 4
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #4 }
+INFO  18:25:22,179 - #15 void
+INFO  18:25:22,179 - #41 main
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #41 int
+INFO  18:25:22,179 - #41 z
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:25:22,179 - #41 Klasa
+INFO  18:25:22,179 - #41 k
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:25:22,179 - #3 {
+INFO  18:25:22,179 - #40 while
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - #41 x
+INFO  18:25:22,179 - #29 ==
+INFO  18:25:22,179 - #42 1
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #3 {
+INFO  18:25:22,179 - #17 break
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #4 }
+INFO  18:25:22,179 - #16 if
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - #42 0
+INFO  18:25:22,179 - #34 <=
+INFO  18:25:22,179 - #41 x
+INFO  18:25:22,179 - #25 &&
+INFO  18:25:22,179 - #41 x
+INFO  18:25:22,179 - #33 <
+INFO  18:25:22,179 - #41 con
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #3 {
+INFO  18:25:22,179 - #41 x
+INFO  18:25:22,179 - #6 =
+INFO  18:25:22,179 - #42 2
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #4 }
+INFO  18:25:22,179 - #23 else
+INFO  18:25:22,179 - #3 {
+INFO  18:25:22,179 - #4 }
+INFO  18:25:22,179 - #41 x
+INFO  18:25:22,179 - #6 =
+INFO  18:25:22,179 - #42 10
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #19 read
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - #41 zz
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #20 print
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - #42 1
+INFO  18:25:22,179 - #7 ,
+INFO  18:25:22,179 - #42 4
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #20 print
+INFO  18:25:22,179 - #13 (
+INFO  18:25:22,179 - #41 eol
+INFO  18:25:22,179 - #14 )
+INFO  18:25:22,179 - #8 ;
+INFO  18:25:22,179 - #41 k
+INFO  18:25:22,190 - #28 .
+INFO  18:25:22,190 - #41 method2
+INFO  18:25:22,190 - #13 (
+INFO  18:25:22,190 - #14 )
+INFO  18:25:22,190 - #8 ;
+INFO  18:25:22,190 - #41 x
+INFO  18:25:22,190 - Pronadjen poziv funkcije 'method2()' na liniji 60
+INFO  18:25:22,190 - #6 =
+INFO  18:25:22,191 - #41 y
+INFO  18:25:22,191 - #35 +
+INFO  18:25:22,191 - #42 3
+INFO  18:25:22,191 - #8 ;
+INFO  18:25:22,191 - #20 print
+INFO  18:25:22,191 - #13 (
+INFO  18:25:22,191 - #42 2
+INFO  18:25:22,191 - #14 )
+INFO  18:25:22,191 - #8 ;
+INFO  18:25:22,191 - #4 }
+INFO  18:25:22,191 - #4 }
+INFO  18:25:22,191 - ==================SINTAKSNA ANALIZA==================
+INFO  18:25:22,192 - Broj globalnih promenljivih = 5
+INFO  18:25:22,192 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:25:22,192 - Broj globalnih konstanti = 2
+INFO  18:25:22,192 - Broj globalnih nizova = 2
+INFO  18:25:22,192 - ----------------------------------------------------
+INFO  18:25:22,192 - Broj globalnih funkcija = 2
+INFO  18:25:22,192 - Broj blokova naredbi = 3
+INFO  18:25:22,192 - Broj poziva funkcija = 4
+INFO  18:25:22,192 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  18:25:22,192 - ----------------------------------------------------
+INFO  18:25:22,192 - Broj unutrasnjih klasa = 2
+INFO  18:25:22,192 - Broj metoda unutrasnjih klasa = 1
+INFO  18:25:22,192 - Broj polja unutrasnjih klasa = 2
+INFO  18:25:22,193 - Parsiranje uspesno zavrseno!
+INFO  18:25:38,473 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:25:38,503 - #2 program
+INFO  18:25:38,503 - #41 MJProgram
+INFO  18:25:38,503 - #41 int
+INFO  18:25:38,503 - #41 x
+INFO  18:25:38,503 - #7 ,
+INFO  18:25:38,503 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  18:25:38,503 - #41 y
+INFO  18:25:38,503 - #8 ;
+INFO  18:25:38,503 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  18:25:38,503 - #41 int
+INFO  18:25:38,503 - #41 zz
+INFO  18:25:38,503 - #7 ,
+INFO  18:25:38,503 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  18:25:38,503 - #41 niz1
+INFO  18:25:38,503 - #9 [
+INFO  18:25:38,503 - #10 ]
+INFO  18:25:38,503 - #8 ;
+INFO  18:25:38,503 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  18:25:38,503 - #11 class
+INFO  18:25:38,503 - #41 Klas
+INFO  18:25:38,503 - #3 {
+INFO  18:25:38,503 - #4 }
+INFO  18:25:38,503 - #11 class
+INFO  18:25:38,503 - #41 Klasa
+INFO  18:25:38,503 - #12 extends
+INFO  18:25:38,503 - #41 Klas
+INFO  18:25:38,503 - #3 {
+INFO  18:25:38,503 - #41 int
+INFO  18:25:38,503 - #41 aba
+INFO  18:25:38,503 - #8 ;
+INFO  18:25:38,503 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  18:25:38,503 - #3 {
+INFO  18:25:38,503 - #41 int
+INFO  18:25:38,503 - #41 method2
+INFO  18:25:38,503 - #13 (
+INFO  18:25:38,503 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  18:25:38,503 - #41 Klasa
+INFO  18:25:38,503 - #41 kl
+INFO  18:25:38,503 - #14 )
+INFO  18:25:38,503 - #41 int
+INFO  18:25:38,503 - #41 c
+INFO  18:25:38,503 - #8 ;
+INFO  18:25:38,503 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  18:25:38,503 - #3 {
+INFO  18:25:38,503 - #41 c
+INFO  18:25:38,503 - #6 =
+INFO  18:25:38,503 - #42 0
+INFO  18:25:38,503 - #8 ;
+INFO  18:25:38,503 - #18 return
+INFO  18:25:38,503 - #41 c
+INFO  18:25:38,503 - #35 +
+INFO  18:25:38,503 - #42 3
+INFO  18:25:38,503 - #8 ;
+INFO  18:25:38,503 - #4 }
+INFO  18:25:38,503 - #4 }
+INFO  18:25:38,503 - #4 }
+INFO  18:25:38,513 - #5 const
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 con
+INFO  18:25:38,513 - #6 =
+INFO  18:25:38,513 - #42 5
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #5 const
+INFO  18:25:38,513 - #41 char
+INFO  18:25:38,513 - #41 c
+INFO  18:25:38,513 - #6 =
+INFO  18:25:38,513 - #44 a
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 niz2
+INFO  18:25:38,513 - #9 [
+INFO  18:25:38,513 - #10 ]
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 funkcija2
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 a1
+INFO  18:25:38,513 - #7 ,
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 a2
+INFO  18:25:38,513 - #7 ,
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 a3
+INFO  18:25:38,513 - #7 ,
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 a4
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #41 char
+INFO  18:25:38,513 - #41 c
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #18 return
+INFO  18:25:38,513 - #42 4
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #4 }
+INFO  18:25:38,513 - #15 void
+INFO  18:25:38,513 - #41 main
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #41 int
+INFO  18:25:38,513 - #41 z
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  18:25:38,513 - #41 Klasa
+INFO  18:25:38,513 - #41 k
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #40 while
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #29 ==
+INFO  18:25:38,513 - #42 1
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #17 break
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #4 }
+INFO  18:25:38,513 - #16 if
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #42 0
+INFO  18:25:38,513 - #34 <=
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #25 &&
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #33 <
+INFO  18:25:38,513 - #41 con
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #6 =
+INFO  18:25:38,513 - #42 2
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #4 }
+INFO  18:25:38,513 - #23 else
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #16 if
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #26 -
+INFO  18:25:38,513 - #41 y
+INFO  18:25:38,513 - #33 <
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #25 &&
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #33 <
+INFO  18:25:38,513 - #42 0
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #3 {
+INFO  18:25:38,513 - #41 y
+INFO  18:25:38,513 - #6 =
+INFO  18:25:38,513 - #26 -
+INFO  18:25:38,513 - #42 1
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #4 }
+INFO  18:25:38,513 - #4 }
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - #6 =
+INFO  18:25:38,513 - #42 10
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #19 read
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #41 zz
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #20 print
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #42 1
+INFO  18:25:38,513 - #7 ,
+INFO  18:25:38,513 - #42 4
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #20 print
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #41 eol
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #41 k
+INFO  18:25:38,513 - #28 .
+INFO  18:25:38,513 - #41 method2
+INFO  18:25:38,513 - #13 (
+INFO  18:25:38,513 - #14 )
+INFO  18:25:38,513 - #8 ;
+INFO  18:25:38,513 - #41 x
+INFO  18:25:38,513 - Pronadjen poziv funkcije 'method2()' na liniji 58
+INFO  18:25:38,527 - #6 =
+INFO  18:25:38,527 - #41 y
+INFO  18:25:38,527 - #35 +
+INFO  18:25:38,527 - #42 3
+INFO  18:25:38,527 - #8 ;
+INFO  18:25:38,527 - #20 print
+INFO  18:25:38,528 - #13 (
+INFO  18:25:38,528 - #42 2
+INFO  18:25:38,528 - #14 )
+INFO  18:25:38,528 - #8 ;
+INFO  18:25:38,528 - #4 }
+INFO  18:25:38,528 - #4 }
+INFO  18:25:38,528 - ==================SINTAKSNA ANALIZA==================
+INFO  18:25:38,528 - Broj globalnih promenljivih = 5
+INFO  18:25:38,528 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:25:38,528 - Broj globalnih konstanti = 2
+INFO  18:25:38,528 - Broj globalnih nizova = 2
+INFO  18:25:38,528 - ----------------------------------------------------
+INFO  18:25:38,528 - Broj globalnih funkcija = 2
+INFO  18:25:38,528 - Broj blokova naredbi = 4
+INFO  18:25:38,528 - Broj poziva funkcija = 4
+INFO  18:25:38,528 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  18:25:38,528 - ----------------------------------------------------
+INFO  18:25:38,528 - Broj unutrasnjih klasa = 2
+INFO  18:25:38,528 - Broj metoda unutrasnjih klasa = 1
+INFO  18:25:38,529 - Broj polja unutrasnjih klasa = 2
+INFO  18:25:38,529 - Parsiranje uspesno zavrseno!
+INFO  18:25:44,969 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\primer_program.mj
+INFO  18:25:44,989 - #2 program
+INFO  18:25:44,989 - #41 P
+INFO  18:25:44,989 - #5 const
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 size
+INFO  18:25:44,989 - #6 =
+INFO  18:25:44,989 - #42 10
+INFO  18:25:44,989 - #8 ;
+INFO  18:25:44,989 - #11 class
+INFO  18:25:44,989 - #41 Table
+INFO  18:25:44,989 - #3 {
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 pos
+INFO  18:25:44,989 - #9 [
+INFO  18:25:44,989 - #10 ]
+INFO  18:25:44,989 - #7 ,
+INFO  18:25:44,989 - Deklarisana PROMENLJIVA 'pos' na liniji 4
+INFO  18:25:44,989 - #41 neg
+INFO  18:25:44,989 - #9 [
+INFO  18:25:44,989 - #10 ]
+INFO  18:25:44,989 - #8 ;
+INFO  18:25:44,989 - Deklarisana PROMENLJIVA 'neg' na liniji 4
+INFO  18:25:44,989 - #3 {
+INFO  18:25:44,989 - #15 void
+INFO  18:25:44,989 - #41 putp
+INFO  18:25:44,989 - #13 (
+INFO  18:25:44,989 - Obradjuje se funkcija 'putp()' na liniji 6
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 a
+INFO  18:25:44,989 - #7 ,
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 idx
+INFO  18:25:44,989 - #14 )
+INFO  18:25:44,989 - #3 {
+INFO  18:25:44,989 - #41 this
+INFO  18:25:44,989 - #28 .
+INFO  18:25:44,989 - #41 pos
+INFO  18:25:44,989 - #9 [
+INFO  18:25:44,989 - #41 idx
+INFO  18:25:44,989 - #10 ]
+INFO  18:25:44,989 - #6 =
+INFO  18:25:44,989 - #41 a
+INFO  18:25:44,989 - #8 ;
+INFO  18:25:44,989 - #4 }
+INFO  18:25:44,989 - #15 void
+INFO  18:25:44,989 - #41 putn
+INFO  18:25:44,989 - #13 (
+INFO  18:25:44,989 - Obradjuje se funkcija 'putn()' na liniji 7
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 a
+INFO  18:25:44,989 - #7 ,
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 idx
+INFO  18:25:44,989 - #14 )
+INFO  18:25:44,989 - #3 {
+INFO  18:25:44,989 - #41 this
+INFO  18:25:44,989 - #28 .
+INFO  18:25:44,989 - #41 neg
+INFO  18:25:44,989 - #9 [
+INFO  18:25:44,989 - #41 idx
+INFO  18:25:44,989 - #10 ]
+INFO  18:25:44,989 - #6 =
+INFO  18:25:44,989 - #41 a
+INFO  18:25:44,989 - #8 ;
+INFO  18:25:44,989 - #4 }
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 getp
+INFO  18:25:44,989 - #13 (
+INFO  18:25:44,989 - Obradjuje se funkcija 'getp()' na liniji 8
+INFO  18:25:44,989 - #41 int
+INFO  18:25:44,989 - #41 idx
+INFO  18:25:44,989 - #14 )
+INFO  18:25:44,989 - #3 {
+INFO  18:25:44,989 - #18 return
+INFO  18:25:44,989 - #41 pos
+INFO  18:25:44,989 - #9 [
+INFO  18:25:44,989 - #41 idx
+INFO  18:25:44,989 - #10 ]
+INFO  18:25:44,989 - #8 ;
+INFO  18:25:44,999 - #4 }
+INFO  18:25:44,999 - #41 int
+INFO  18:25:44,999 - #41 getn
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - Obradjuje se funkcija 'getn()' na liniji 9
+INFO  18:25:44,999 - #41 int
+INFO  18:25:44,999 - #41 idx
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #18 return
+INFO  18:25:44,999 - #41 neg
+INFO  18:25:44,999 - #9 [
+INFO  18:25:44,999 - #41 idx
+INFO  18:25:44,999 - #10 ]
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #4 }
+INFO  18:25:44,999 - #4 }
+INFO  18:25:44,999 - #4 }
+INFO  18:25:44,999 - #41 Table
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - Deklarisana PROMENLJIVA 'val' na liniji 12
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #15 void
+INFO  18:25:44,999 - #41 main
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - Obradjuje se funkcija 'main()' na liniji 14
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #41 int
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #7 ,
+INFO  18:25:44,999 - Deklarisana PROMENLJIVA 'x' na liniji 15
+INFO  18:25:44,999 - #41 i
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - Deklarisana PROMENLJIVA 'i' na liniji 15
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #6 =
+INFO  18:25:44,999 - #27 new
+INFO  18:25:44,999 - #41 Table
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 pos
+INFO  18:25:44,999 - #6 =
+INFO  18:25:44,999 - #27 new
+INFO  18:25:44,999 - #41 int
+INFO  18:25:44,999 - #9 [
+INFO  18:25:44,999 - #41 size
+INFO  18:25:44,999 - #10 ]
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 neg
+INFO  18:25:44,999 - #6 =
+INFO  18:25:44,999 - #27 new
+INFO  18:25:44,999 - #41 int
+INFO  18:25:44,999 - #9 [
+INFO  18:25:44,999 - #41 size
+INFO  18:25:44,999 - #10 ]
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #41 i
+INFO  18:25:44,999 - #6 =
+INFO  18:25:44,999 - #42 0
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #40 while
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #41 i
+INFO  18:25:44,999 - #33 <
+INFO  18:25:44,999 - #41 size
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 putp
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #42 0
+INFO  18:25:44,999 - #7 ,
+INFO  18:25:44,999 - #41 i
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - Pronadjen poziv funkcije 'putp()' na liniji 24
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 putn
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #42 0
+INFO  18:25:44,999 - #7 ,
+INFO  18:25:44,999 - #41 i
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #41 i
+INFO  18:25:44,999 - Pronadjen poziv funkcije 'putn()' na liniji 25
+INFO  18:25:44,999 - #21 ++
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #4 }
+INFO  18:25:44,999 - #19 read
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #40 while
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #31 >
+INFO  18:25:44,999 - #42 0
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #16 if
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #42 0
+INFO  18:25:44,999 - #34 <=
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #25 &&
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #33 <
+INFO  18:25:44,999 - #41 size
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 putp
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 getp
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #35 +
+INFO  18:25:44,999 - Pronadjen poziv funkcije 'getp()' na liniji 33
+INFO  18:25:44,999 - #42 1
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #8 ;
+INFO  18:25:44,999 - #4 }
+INFO  18:25:44,999 - Pronadjen poziv funkcije 'putp()' na liniji 33
+INFO  18:25:44,999 - #23 else
+INFO  18:25:44,999 - #16 if
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #26 -
+INFO  18:25:44,999 - #41 size
+INFO  18:25:44,999 - #33 <
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #25 &&
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #33 <
+INFO  18:25:44,999 - #42 0
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #3 {
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 putn
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #41 val
+INFO  18:25:44,999 - #28 .
+INFO  18:25:44,999 - #41 getn
+INFO  18:25:44,999 - #13 (
+INFO  18:25:44,999 - #26 -
+INFO  18:25:44,999 - #41 x
+INFO  18:25:44,999 - #14 )
+INFO  18:25:44,999 - #35 +
+INFO  18:25:44,999 - Pronadjen poziv funkcije 'getn()' na liniji 35
+INFO  18:25:45,009 - #42 1
+INFO  18:25:45,009 - #14 )
+INFO  18:25:45,009 - #8 ;
+INFO  18:25:45,009 - #4 }
+INFO  18:25:45,009 - Pronadjen poziv funkcije 'putn()' na liniji 35
+INFO  18:25:45,009 - #19 read
+INFO  18:25:45,009 - #13 (
+INFO  18:25:45,009 - #41 x
+INFO  18:25:45,009 - #14 )
+INFO  18:25:45,009 - #8 ;
+INFO  18:25:45,009 - #4 }
+INFO  18:25:45,009 - #4 }
+INFO  18:25:45,009 - #4 }
+INFO  18:25:45,009 - ==================SINTAKSNA ANALIZA==================
+INFO  18:25:45,009 - Broj globalnih promenljivih = 1
+INFO  18:25:45,009 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  18:25:45,009 - Broj globalnih konstanti = 1
+INFO  18:25:45,009 - Broj globalnih nizova = 0
+INFO  18:25:45,009 - ----------------------------------------------------
+INFO  18:25:45,009 - Broj globalnih funkcija = 1
+INFO  18:25:45,009 - Broj blokova naredbi = 4
+INFO  18:25:45,009 - Broj poziva funkcija = 6
+INFO  18:25:45,009 - Broj deklarisanih formalnih argumenata funkcija = 6
+INFO  18:25:45,009 - ----------------------------------------------------
+INFO  18:25:45,009 - Broj unutrasnjih klasa = 1
+INFO  18:25:45,009 - Broj metoda unutrasnjih klasa = 4
+INFO  18:25:45,009 - Broj polja unutrasnjih klasa = 2
+INFO  18:25:45,009 - Parsiranje uspesno zavrseno!
+INFO  19:17:51,908 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\primer_program.mj
+INFO  19:17:51,938 - #2 program
+INFO  19:17:51,938 - #41 P
+INFO  19:17:51,938 - #5 const
+INFO  19:40:53,036 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  19:40:53,056 - #41 Program
+ERROR 19:40:53,056 - Sintaksna greska na liniji 1
+ERROR 19:40:53,056 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1
+INFO  19:41:23,490 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  19:41:23,505 - #2 program
+INFO  19:41:23,505 - #41 print_test
+INFO  19:41:23,505 - #3 {
+INFO  19:41:23,505 - #15 void
+INFO  19:41:23,505 - #41 main
+INFO  19:41:23,505 - #13 (
+INFO  19:41:23,505 - Obradjuje se funkcija 'main()' na liniji 3
+INFO  19:41:23,505 - #14 )
+INFO  19:41:23,505 - #3 {
+INFO  19:41:23,505 - #20 print
+INFO  19:41:23,505 - #13 (
+INFO  19:41:23,505 - #42 1
+INFO  19:41:23,505 - #14 )
+INFO  19:41:23,510 - #8 ;
+INFO  19:41:23,510 - #20 print
+INFO  19:41:23,510 - #13 (
+INFO  19:41:23,510 - #42 2
+INFO  19:41:23,510 - #14 )
+INFO  19:41:23,510 - #8 ;
+INFO  19:41:23,510 - #4 }
+INFO  19:41:23,510 - #4 }
+INFO  19:41:23,510 - ==================SINTAKSNA ANALIZA==================
+INFO  19:41:23,510 - Broj globalnih promenljivih = 0
+INFO  19:41:23,510 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  19:41:23,510 - Broj globalnih konstanti = 0
+INFO  19:41:23,510 - Broj globalnih nizova = 0
+INFO  19:41:23,510 - ----------------------------------------------------
+INFO  19:41:23,510 - Broj globalnih funkcija = 1
+INFO  19:41:23,510 - Broj blokova naredbi = 0
+INFO  19:41:23,510 - Broj poziva funkcija = 2
+INFO  19:41:23,510 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  19:41:23,510 - ----------------------------------------------------
+INFO  19:41:23,510 - Broj unutrasnjih klasa = 0
+INFO  19:41:23,510 - Broj metoda unutrasnjih klasa = 0
+INFO  19:41:23,510 - Broj polja unutrasnjih klasa = 0
+INFO  19:41:23,510 - Parsiranje uspesno zavrseno!
+INFO  19:43:40,274 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  19:43:40,293 - #2 program
+INFO  19:43:40,293 - #41 print_test
+INFO  19:43:40,293 - #3 {
+INFO  19:43:40,293 - #41 int
+INFO  19:43:40,293 - #41 main
+INFO  19:43:40,293 - #13 (
+INFO  19:43:40,293 - Obradjuje se funkcija 'main()' na liniji 3
+INFO  19:43:40,293 - #14 )
+INFO  19:43:40,293 - #3 {
+INFO  19:43:40,293 - #20 print
+INFO  19:43:40,293 - #13 (
+INFO  19:43:40,294 - #42 1
+INFO  19:43:40,294 - #14 )
+INFO  19:43:40,295 - #8 ;
+INFO  19:43:40,295 - #20 print
+INFO  19:43:40,295 - #13 (
+INFO  19:43:40,295 - #42 2
+INFO  19:43:40,295 - #14 )
+INFO  19:43:40,295 - #8 ;
+INFO  19:43:40,295 - #4 }
+INFO  19:43:40,295 - #4 }
+ERROR 19:43:40,295 - Semanticka greska na liniji 3: funkcija 'main()' nema return iskaz
+INFO  19:43:40,295 - ==================SINTAKSNA ANALIZA==================
+INFO  19:43:40,296 - Broj globalnih promenljivih = 0
+INFO  19:43:40,296 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  19:43:40,296 - Broj globalnih konstanti = 0
+INFO  19:43:40,296 - Broj globalnih nizova = 0
+INFO  19:43:40,296 - ----------------------------------------------------
+INFO  19:43:40,296 - Broj globalnih funkcija = 1
+INFO  19:43:40,296 - Broj blokova naredbi = 0
+INFO  19:43:40,296 - Broj poziva funkcija = 2
+INFO  19:43:40,296 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  19:43:40,296 - ----------------------------------------------------
+INFO  19:43:40,296 - Broj unutrasnjih klasa = 0
+INFO  19:43:40,296 - Broj metoda unutrasnjih klasa = 0
+INFO  19:43:40,296 - Broj polja unutrasnjih klasa = 0
+ERROR 19:43:40,297 - Parsiranje NIJE uspesno zavrseno!
+INFO  19:43:50,642 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  19:43:50,657 - #2 program
+INFO  19:43:50,657 - #41 print_test
+INFO  19:43:50,657 - #3 {
+INFO  19:43:50,657 - #41 int
+INFO  19:43:50,657 - #41 main
+INFO  19:43:50,657 - #13 (
+INFO  19:43:50,657 - Obradjuje se funkcija 'main()' na liniji 3
+INFO  19:43:50,657 - #14 )
+INFO  19:43:50,657 - #3 {
+INFO  19:43:50,657 - #20 print
+INFO  19:43:50,662 - #13 (
+INFO  19:43:50,662 - #42 1
+INFO  19:43:50,662 - #14 )
+INFO  19:43:50,662 - #8 ;
+INFO  19:43:50,662 - #20 print
+INFO  19:43:50,662 - #13 (
+INFO  19:43:50,662 - #42 2
+INFO  19:43:50,662 - #14 )
+INFO  19:43:50,662 - #8 ;
+INFO  19:43:50,662 - #18 return
+INFO  19:43:50,662 - #42 0
+INFO  19:43:50,662 - #8 ;
+INFO  19:43:50,662 - #4 }
+INFO  19:43:50,662 - #4 }
+INFO  19:43:50,662 - ==================SINTAKSNA ANALIZA==================
+INFO  19:43:50,662 - Broj globalnih promenljivih = 0
+INFO  19:43:50,662 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  19:43:50,662 - Broj globalnih konstanti = 0
+INFO  19:43:50,662 - Broj globalnih nizova = 0
+INFO  19:43:50,662 - ----------------------------------------------------
+INFO  19:43:50,662 - Broj globalnih funkcija = 1
+INFO  19:43:50,662 - Broj blokova naredbi = 0
+INFO  19:43:50,662 - Broj poziva funkcija = 2
+INFO  19:43:50,662 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  19:43:50,662 - ----------------------------------------------------
+INFO  19:43:50,662 - Broj unutrasnjih klasa = 0
+INFO  19:43:50,662 - Broj metoda unutrasnjih klasa = 0
+INFO  19:43:50,662 - Broj polja unutrasnjih klasa = 0
+INFO  19:43:50,662 - Parsiranje uspesno zavrseno!
+INFO  21:13:32,359 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:13:32,389 - #2 program
+INFO  21:13:32,389 - #41 print_test
+INFO  21:13:32,389 - #3 {
+INFO  21:13:32,389 - #41 int
+INFO  21:13:32,389 - #41 main
+INFO  21:13:32,389 - #13 (
+INFO  21:13:32,389 - Obradjuje se funkcija 'main()' na liniji 3
+INFO  21:13:32,389 - #14 )
+INFO  21:13:32,389 - #3 {
+INFO  21:13:32,389 - #20 print
+INFO  21:13:32,394 - #13 (
+INFO  21:13:32,394 - #42 1
+INFO  21:13:32,394 - #14 )
+INFO  21:13:32,394 - #8 ;
+INFO  21:13:32,394 - #20 print
+INFO  21:13:32,394 - #13 (
+INFO  21:13:32,394 - #42 2
+INFO  21:13:32,394 - #14 )
+INFO  21:13:32,394 - #8 ;
+INFO  21:13:32,394 - #18 return
+INFO  21:13:32,394 - #42 0
+INFO  21:13:32,394 - #8 ;
+INFO  21:13:32,394 - #4 }
+INFO  21:13:32,394 - #4 }
+INFO  21:13:32,394 - ==================SINTAKSNA ANALIZA==================
+INFO  21:13:32,394 - Broj globalnih promenljivih = 0
+INFO  21:13:32,394 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:13:32,394 - Broj globalnih konstanti = 0
+INFO  21:13:32,394 - Broj globalnih nizova = 0
+INFO  21:13:32,394 - ----------------------------------------------------
+INFO  21:13:32,394 - Broj globalnih funkcija = 1
+INFO  21:13:32,394 - Broj blokova naredbi = 0
+INFO  21:13:32,394 - Broj poziva funkcija = 2
+INFO  21:13:32,394 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:13:32,394 - ----------------------------------------------------
+INFO  21:13:32,394 - Broj unutrasnjih klasa = 0
+INFO  21:13:32,394 - Broj metoda unutrasnjih klasa = 0
+INFO  21:13:32,394 - Broj polja unutrasnjih klasa = 0
+INFO  21:13:32,394 - Parsiranje uspesno zavrseno!
+INFO  21:31:21,038 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:31:21,053 - #2 program
+INFO  21:31:21,053 - #41 print_test
+INFO  21:31:21,053 - #41 int
+INFO  21:31:21,053 - #41 x
+INFO  21:31:21,053 - #8 ;
+INFO  21:31:21,053 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  21:31:21,053 - #3 {
+INFO  21:31:21,053 - #41 int
+INFO  21:31:21,053 - #41 main
+INFO  21:31:21,053 - #13 (
+INFO  21:31:21,053 - Obradjuje se funkcija 'main()' na liniji 4
+INFO  21:31:21,053 - #14 )
+INFO  21:31:21,053 - #3 {
+INFO  21:31:21,053 - #41 x
+INFO  21:31:21,053 - #6 =
+INFO  21:31:21,053 - #42 3
+INFO  21:31:21,058 - #8 ;
+INFO  21:31:21,058 - #20 print
+INFO  21:31:21,058 - #13 (
+INFO  21:31:21,058 - #41 x
+INFO  21:31:21,058 - #14 )
+INFO  21:31:21,058 - #8 ;
+INFO  21:31:21,058 - #20 print
+INFO  21:31:21,058 - #13 (
+INFO  21:31:21,058 - #42 2
+INFO  21:31:21,058 - #14 )
+INFO  21:31:21,058 - #8 ;
+INFO  21:31:21,058 - #18 return
+INFO  21:31:21,058 - #42 0
+INFO  21:31:21,058 - #8 ;
+INFO  21:31:21,058 - #4 }
+INFO  21:31:21,058 - #4 }
+INFO  21:31:21,058 - ==================SINTAKSNA ANALIZA==================
+INFO  21:31:21,058 - Broj globalnih promenljivih = 1
+INFO  21:31:21,058 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:31:21,058 - Broj globalnih konstanti = 0
+INFO  21:31:21,058 - Broj globalnih nizova = 0
+INFO  21:31:21,058 - ----------------------------------------------------
+INFO  21:31:21,058 - Broj globalnih funkcija = 1
+INFO  21:31:21,058 - Broj blokova naredbi = 0
+INFO  21:31:21,058 - Broj poziva funkcija = 2
+INFO  21:31:21,058 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:31:21,058 - ----------------------------------------------------
+INFO  21:31:21,058 - Broj unutrasnjih klasa = 0
+INFO  21:31:21,058 - Broj metoda unutrasnjih klasa = 0
+INFO  21:31:21,058 - Broj polja unutrasnjih klasa = 0
+INFO  21:31:21,063 - Parsiranje uspesno zavrseno!
+INFO  21:34:49,407 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:34:49,440 - #2 program
+INFO  21:34:49,440 - #41 print_test
+INFO  21:34:49,440 - #41 int
+INFO  21:34:49,440 - #41 x
+INFO  21:34:49,440 - #8 ;
+INFO  21:34:49,440 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  21:34:49,440 - #3 {
+INFO  21:34:49,440 - #41 int
+INFO  21:34:49,440 - #41 main
+INFO  21:34:49,440 - #13 (
+INFO  21:34:49,440 - Obradjuje se funkcija 'main()' na liniji 4
+INFO  21:34:49,440 - #14 )
+INFO  21:34:49,440 - #3 {
+INFO  21:34:49,445 - #41 x
+INFO  21:34:49,445 - #6 =
+INFO  21:34:49,445 - #42 3
+INFO  21:34:49,445 - #8 ;
+INFO  21:34:49,445 - #20 print
+INFO  21:34:49,445 - #13 (
+INFO  21:34:49,445 - #41 x
+INFO  21:34:49,445 - #14 )
+INFO  21:34:49,445 - #8 ;
+INFO  21:34:49,445 - #20 print
+INFO  21:34:49,445 - #13 (
+INFO  21:34:49,445 - #42 2
+INFO  21:34:49,445 - #14 )
+INFO  21:34:49,445 - #8 ;
+INFO  21:34:49,445 - #18 return
+INFO  21:34:49,445 - #42 0
+INFO  21:34:49,445 - #8 ;
+INFO  21:34:49,445 - #4 }
+INFO  21:34:49,445 - #4 }
+INFO  21:34:49,445 - ==================SINTAKSNA ANALIZA==================
+INFO  21:34:49,445 - Broj globalnih promenljivih = 1
+INFO  21:34:49,445 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:34:49,445 - Broj globalnih konstanti = 0
+INFO  21:34:49,445 - Broj globalnih nizova = 0
+INFO  21:34:49,445 - ----------------------------------------------------
+INFO  21:34:49,445 - Broj globalnih funkcija = 1
+INFO  21:34:49,445 - Broj blokova naredbi = 0
+INFO  21:34:49,445 - Broj poziva funkcija = 2
+INFO  21:34:49,445 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:34:49,445 - ----------------------------------------------------
+INFO  21:34:49,445 - Broj unutrasnjih klasa = 0
+INFO  21:34:49,445 - Broj metoda unutrasnjih klasa = 0
+INFO  21:34:49,445 - Broj polja unutrasnjih klasa = 0
+INFO  21:34:49,450 - Parsiranje uspesno zavrseno!
+INFO  21:38:05,861 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:38:05,887 - #2 program
+INFO  21:38:05,888 - #41 print_test
+INFO  21:38:05,888 - #41 int
+INFO  21:38:05,888 - #41 x
+INFO  21:38:05,888 - #8 ;
+INFO  21:38:05,888 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  21:38:05,888 - #3 {
+INFO  21:38:05,888 - #41 int
+INFO  21:38:05,888 - #41 main
+INFO  21:38:05,888 - #13 (
+INFO  21:38:05,888 - Obradjuje se funkcija 'main()' na liniji 4
+INFO  21:38:05,888 - #14 )
+INFO  21:38:05,888 - #3 {
+INFO  21:38:05,889 - #41 x
+INFO  21:38:05,889 - #6 =
+INFO  21:38:05,890 - #42 3
+INFO  21:38:05,890 - #8 ;
+INFO  21:38:05,890 - #20 print
+INFO  21:38:05,890 - #13 (
+INFO  21:38:05,891 - #41 x
+INFO  21:38:05,891 - #14 )
+INFO  21:38:05,891 - #8 ;
+INFO  21:38:05,891 - #20 print
+INFO  21:38:05,891 - #13 (
+INFO  21:38:05,891 - #42 2
+INFO  21:38:05,891 - #14 )
+INFO  21:38:05,891 - #8 ;
+INFO  21:38:05,891 - #18 return
+INFO  21:38:05,892 - #42 0
+INFO  21:38:05,892 - #8 ;
+INFO  21:38:05,892 - #4 }
+INFO  21:38:05,892 - #4 }
+INFO  21:38:05,892 - ==================SINTAKSNA ANALIZA==================
+INFO  21:38:05,892 - Broj globalnih promenljivih = 1
+INFO  21:38:05,892 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:38:05,892 - Broj globalnih konstanti = 0
+INFO  21:38:05,892 - Broj globalnih nizova = 0
+INFO  21:38:05,892 - ----------------------------------------------------
+INFO  21:38:05,892 - Broj globalnih funkcija = 1
+INFO  21:38:05,892 - Broj blokova naredbi = 0
+INFO  21:38:05,892 - Broj poziva funkcija = 2
+INFO  21:38:05,892 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:38:05,892 - ----------------------------------------------------
+INFO  21:38:05,892 - Broj unutrasnjih klasa = 0
+INFO  21:38:05,892 - Broj metoda unutrasnjih klasa = 0
+INFO  21:38:05,893 - Broj polja unutrasnjih klasa = 0
+INFO  21:38:05,895 - Parsiranje uspesno zavrseno!
+INFO  21:42:33,834 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:42:33,854 - #2 program
+INFO  21:42:33,854 - #41 print_test
+INFO  21:42:33,854 - #41 int
+INFO  21:42:33,854 - #41 x
+INFO  21:42:33,854 - #8 ;
+INFO  21:42:33,854 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  21:42:33,854 - #3 {
+INFO  21:42:33,854 - #41 int
+INFO  21:42:33,854 - #41 main
+INFO  21:42:33,854 - #13 (
+INFO  21:42:33,854 - Obradjuje se funkcija 'main()' na liniji 4
+INFO  21:42:33,854 - #14 )
+INFO  21:42:33,854 - #3 {
+INFO  21:42:33,854 - #41 x
+INFO  21:42:33,854 - #6 =
+INFO  21:42:33,854 - #42 3
+INFO  21:42:33,854 - #8 ;
+INFO  21:42:33,854 - #20 print
+INFO  21:42:33,854 - #13 (
+INFO  21:42:33,854 - #41 x
+INFO  21:42:33,854 - #14 )
+INFO  21:42:33,854 - #8 ;
+INFO  21:42:33,854 - #20 print
+INFO  21:42:33,854 - #13 (
+INFO  21:42:33,854 - #42 2
+INFO  21:42:33,854 - #14 )
+INFO  21:42:33,854 - #8 ;
+INFO  21:42:33,854 - #18 return
+INFO  21:42:33,854 - #42 0
+INFO  21:42:33,854 - #8 ;
+INFO  21:42:33,854 - #4 }
+INFO  21:42:33,854 - #4 }
+INFO  21:42:33,854 - ==================SINTAKSNA ANALIZA==================
+INFO  21:42:33,854 - Broj globalnih promenljivih = 1
+INFO  21:42:33,854 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:42:33,854 - Broj globalnih konstanti = 0
+INFO  21:42:33,854 - Broj globalnih nizova = 0
+INFO  21:42:33,854 - ----------------------------------------------------
+INFO  21:42:33,854 - Broj globalnih funkcija = 1
+INFO  21:42:33,854 - Broj blokova naredbi = 0
+INFO  21:42:33,854 - Broj poziva funkcija = 2
+INFO  21:42:33,854 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:42:33,854 - ----------------------------------------------------
+INFO  21:42:33,854 - Broj unutrasnjih klasa = 0
+INFO  21:42:33,854 - Broj metoda unutrasnjih klasa = 0
+INFO  21:42:33,854 - Broj polja unutrasnjih klasa = 0
+INFO  21:42:33,859 - Parsiranje uspesno zavrseno!
+INFO  21:52:55,167 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:52:55,192 - #2 program
+INFO  21:52:55,192 - #41 print_test
+INFO  21:52:55,192 - #41 int
+INFO  21:52:55,192 - #41 x
+INFO  21:52:55,193 - #8 ;
+INFO  21:52:55,193 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  21:52:55,193 - #3 {
+INFO  21:52:55,193 - #41 int
+INFO  21:52:55,193 - #41 k
+INFO  21:52:55,193 - #13 (
+INFO  21:52:55,193 - Obradjuje se funkcija 'k()' na liniji 4
+INFO  21:52:55,193 - #14 )
+INFO  21:52:55,193 - #3 {
+INFO  21:52:55,194 - #20 print
+INFO  21:52:55,194 - #13 (
+INFO  21:52:55,194 - #42 0
+INFO  21:52:55,194 - #14 )
+INFO  21:52:55,195 - #8 ;
+INFO  21:52:55,195 - #4 }
+INFO  21:52:55,195 - #41 int
+ERROR 21:52:55,196 - Semanticka greska na liniji 4: funkcija 'k()' nema return iskaz
+INFO  21:52:55,196 - #41 main
+INFO  21:52:55,197 - #13 (
+INFO  21:52:55,197 - Obradjuje se funkcija 'main()' na liniji 9
+INFO  21:52:55,197 - #14 )
+INFO  21:52:55,197 - #3 {
+INFO  21:52:55,197 - #41 x
+INFO  21:52:55,197 - #6 =
+INFO  21:52:55,197 - #42 3
+INFO  21:52:55,197 - #8 ;
+INFO  21:52:55,197 - #20 print
+INFO  21:52:55,197 - #13 (
+INFO  21:52:55,197 - #41 x
+INFO  21:52:55,197 - #14 )
+INFO  21:52:55,197 - #8 ;
+INFO  21:52:55,197 - #20 print
+INFO  21:52:55,198 - #13 (
+INFO  21:52:55,198 - #42 2
+INFO  21:52:55,198 - #14 )
+INFO  21:52:55,198 - #8 ;
+INFO  21:52:55,198 - #41 k
+INFO  21:52:55,198 - #13 (
+INFO  21:52:55,198 - #14 )
+INFO  21:52:55,198 - #8 ;
+INFO  21:52:55,198 - #18 return
+INFO  21:52:55,198 - Pronadjen poziv funkcije 'k()' na liniji 15
+INFO  21:52:55,198 - #42 0
+INFO  21:52:55,198 - #8 ;
+INFO  21:52:55,198 - #4 }
+INFO  21:52:55,198 - #4 }
+INFO  21:52:55,198 - ==================SINTAKSNA ANALIZA==================
+INFO  21:52:55,198 - Broj globalnih promenljivih = 1
+INFO  21:52:55,198 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:52:55,199 - Broj globalnih konstanti = 0
+INFO  21:52:55,199 - Broj globalnih nizova = 0
+INFO  21:52:55,199 - ----------------------------------------------------
+INFO  21:52:55,199 - Broj globalnih funkcija = 2
+INFO  21:52:55,199 - Broj blokova naredbi = 0
+INFO  21:52:55,199 - Broj poziva funkcija = 3
+INFO  21:52:55,199 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:52:55,199 - ----------------------------------------------------
+INFO  21:52:55,199 - Broj unutrasnjih klasa = 0
+INFO  21:52:55,199 - Broj metoda unutrasnjih klasa = 0
+INFO  21:52:55,199 - Broj polja unutrasnjih klasa = 0
+ERROR 21:52:55,200 - Parsiranje NIJE uspesno zavrseno!
+INFO  21:53:41,008 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  21:53:41,028 - #2 program
+INFO  21:53:41,028 - #41 print_test
+INFO  21:53:41,028 - #41 int
+INFO  21:53:41,028 - #41 x
+INFO  21:53:41,028 - #8 ;
+INFO  21:53:41,028 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  21:53:41,028 - #3 {
+INFO  21:53:41,028 - #41 int
+INFO  21:53:41,028 - #41 k
+INFO  21:53:41,028 - #13 (
+INFO  21:53:41,028 - Obradjuje se funkcija 'k()' na liniji 4
+INFO  21:53:41,028 - #14 )
+INFO  21:53:41,028 - #3 {
+INFO  21:53:41,028 - #20 print
+INFO  21:53:41,028 - #13 (
+INFO  21:53:41,028 - #42 0
+INFO  21:53:41,028 - #14 )
+INFO  21:53:41,028 - #8 ;
+INFO  21:53:41,028 - #18 return
+INFO  21:53:41,028 - #42 0
+INFO  21:53:41,033 - #8 ;
+INFO  21:53:41,033 - #4 }
+INFO  21:53:41,033 - #41 int
+INFO  21:53:41,033 - #41 main
+INFO  21:53:41,033 - #13 (
+INFO  21:53:41,033 - Obradjuje se funkcija 'main()' na liniji 11
+INFO  21:53:41,033 - #14 )
+INFO  21:53:41,033 - #3 {
+INFO  21:53:41,033 - #41 x
+INFO  21:53:41,033 - #6 =
+INFO  21:53:41,033 - #42 3
+INFO  21:53:41,033 - #8 ;
+INFO  21:53:41,033 - #20 print
+INFO  21:53:41,033 - #13 (
+INFO  21:53:41,033 - #41 x
+INFO  21:53:41,033 - #14 )
+INFO  21:53:41,033 - #8 ;
+INFO  21:53:41,033 - #20 print
+INFO  21:53:41,033 - #13 (
+INFO  21:53:41,033 - #42 2
+INFO  21:53:41,033 - #14 )
+INFO  21:53:41,033 - #8 ;
+INFO  21:53:41,033 - #41 k
+INFO  21:53:41,033 - #13 (
+INFO  21:53:41,033 - #14 )
+INFO  21:53:41,033 - #8 ;
+INFO  21:53:41,033 - #18 return
+INFO  21:53:41,033 - Pronadjen poziv funkcije 'k()' na liniji 17
+INFO  21:53:41,033 - #42 0
+INFO  21:53:41,033 - #8 ;
+INFO  21:53:41,033 - #4 }
+INFO  21:53:41,033 - #4 }
+INFO  21:53:41,033 - ==================SINTAKSNA ANALIZA==================
+INFO  21:53:41,033 - Broj globalnih promenljivih = 1
+INFO  21:53:41,033 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  21:53:41,033 - Broj globalnih konstanti = 0
+INFO  21:53:41,033 - Broj globalnih nizova = 0
+INFO  21:53:41,033 - ----------------------------------------------------
+INFO  21:53:41,033 - Broj globalnih funkcija = 2
+INFO  21:53:41,033 - Broj blokova naredbi = 0
+INFO  21:53:41,033 - Broj poziva funkcija = 3
+INFO  21:53:41,033 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  21:53:41,033 - ----------------------------------------------------
+INFO  21:53:41,033 - Broj unutrasnjih klasa = 0
+INFO  21:53:41,033 - Broj metoda unutrasnjih klasa = 0
+INFO  21:53:41,033 - Broj polja unutrasnjih klasa = 0
+INFO  21:53:41,038 - Parsiranje uspesno zavrseno!
+INFO  22:49:39,536 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  22:49:39,646 - #2 program
+INFO  22:49:39,646 - #41 print_test
+INFO  22:49:39,646 - #41 int
+INFO  22:49:39,646 - #41 x
+INFO  22:49:39,646 - #8 ;
+INFO  22:49:39,646 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  22:49:39,646 - #3 {
+INFO  22:49:39,646 - #41 int
+INFO  22:49:39,646 - #41 k
+INFO  22:49:39,646 - #13 (
+INFO  22:49:39,646 - Obradjuje se funkcija 'k()' na liniji 4
+INFO  22:49:39,646 - #14 )
+INFO  22:49:39,646 - #3 {
+INFO  22:49:39,651 - #20 print
+INFO  22:49:39,651 - #13 (
+INFO  22:49:39,651 - #42 0
+INFO  22:49:39,651 - #14 )
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #18 return
+INFO  22:49:39,651 - #42 0
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #4 }
+INFO  22:49:39,651 - #41 int
+INFO  22:49:39,651 - #41 main
+INFO  22:49:39,651 - #13 (
+INFO  22:49:39,651 - Obradjuje se funkcija 'main()' na liniji 11
+INFO  22:49:39,651 - #14 )
+INFO  22:49:39,651 - #3 {
+INFO  22:49:39,651 - #41 x
+INFO  22:49:39,651 - #6 =
+INFO  22:49:39,651 - #42 3
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #20 print
+INFO  22:49:39,651 - #13 (
+INFO  22:49:39,651 - #41 x
+INFO  22:49:39,651 - #14 )
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #20 print
+INFO  22:49:39,651 - #13 (
+INFO  22:49:39,651 - #42 2
+INFO  22:49:39,651 - #14 )
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #41 k
+INFO  22:49:39,651 - #13 (
+INFO  22:49:39,651 - #14 )
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #18 return
+INFO  22:49:39,651 - Pronadjen poziv funkcije 'k()' na liniji 17
+INFO  22:49:39,651 - #42 0
+INFO  22:49:39,651 - #8 ;
+INFO  22:49:39,651 - #4 }
+INFO  22:49:39,651 - #4 }
+INFO  22:49:39,651 - Velicina koda (pc): 31B
+INFO  22:49:39,651 - ==================SINTAKSNA ANALIZA==================
+INFO  22:49:39,651 - Broj globalnih promenljivih = 1
+INFO  22:49:39,651 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  22:49:39,651 - Broj globalnih konstanti = 0
+INFO  22:49:39,651 - Broj globalnih nizova = 0
+INFO  22:49:39,651 - ----------------------------------------------------
+INFO  22:49:39,651 - Broj globalnih funkcija = 2
+INFO  22:49:39,651 - Broj blokova naredbi = 0
+INFO  22:49:39,651 - Broj poziva funkcija = 3
+INFO  22:49:39,651 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  22:49:39,651 - ----------------------------------------------------
+INFO  22:49:39,651 - Broj unutrasnjih klasa = 0
+INFO  22:49:39,651 - Broj metoda unutrasnjih klasa = 0
+INFO  22:49:39,651 - Broj polja unutrasnjih klasa = 0
+INFO  22:49:39,656 - Parsiranje uspesno zavrseno!
+INFO  22:49:59,689 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  22:49:59,709 - #2 program
+INFO  22:49:59,709 - #41 print_test
+INFO  22:49:59,709 - #41 int
+INFO  22:49:59,710 - #41 x
+INFO  22:49:59,710 - #8 ;
+INFO  22:49:59,710 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  22:49:59,710 - #3 {
+INFO  22:49:59,710 - #41 int
+INFO  22:49:59,710 - #41 k
+INFO  22:49:59,710 - #13 (
+INFO  22:49:59,710 - Obradjuje se funkcija 'k()' na liniji 4
+INFO  22:49:59,710 - #14 )
+INFO  22:49:59,710 - #3 {
+INFO  22:49:59,711 - #20 print
+INFO  22:49:59,711 - #13 (
+INFO  22:49:59,712 - #42 0
+INFO  22:49:59,712 - #14 )
+INFO  22:49:59,712 - #8 ;
+INFO  22:49:59,712 - #18 return
+INFO  22:49:59,712 - #42 0
+INFO  22:49:59,712 - #8 ;
+INFO  22:49:59,712 - #4 }
+INFO  22:49:59,712 - #41 int
+INFO  22:49:59,712 - #41 main
+INFO  22:49:59,712 - #13 (
+INFO  22:49:59,713 - Obradjuje se funkcija 'main()' na liniji 11
+INFO  22:49:59,713 - #14 )
+INFO  22:49:59,713 - #3 {
+INFO  22:49:59,713 - #41 x
+INFO  22:49:59,713 - #6 =
+INFO  22:49:59,713 - #42 3
+INFO  22:49:59,713 - #8 ;
+INFO  22:49:59,713 - #20 print
+INFO  22:49:59,713 - #13 (
+INFO  22:49:59,713 - #41 x
+INFO  22:49:59,713 - #14 )
+INFO  22:49:59,713 - #8 ;
+INFO  22:49:59,713 - #20 print
+INFO  22:49:59,713 - #13 (
+INFO  22:49:59,713 - #42 2
+INFO  22:49:59,713 - #14 )
+INFO  22:49:59,713 - #8 ;
+INFO  22:49:59,714 - #41 k
+INFO  22:49:59,714 - #13 (
+INFO  22:49:59,714 - #14 )
+INFO  22:49:59,714 - #8 ;
+INFO  22:49:59,714 - #18 return
+INFO  22:49:59,714 - Pronadjen poziv funkcije 'k()' na liniji 17
+INFO  22:49:59,714 - #42 0
+INFO  22:49:59,714 - #8 ;
+INFO  22:49:59,714 - #4 }
+INFO  22:49:59,714 - #4 }
+INFO  22:49:59,714 - Velicina koda (pc): 31B
+INFO  22:49:59,714 - ==================SINTAKSNA ANALIZA==================
+INFO  22:49:59,714 - Broj globalnih promenljivih = 1
+INFO  22:49:59,714 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  22:49:59,714 - Broj globalnih konstanti = 0
+INFO  22:49:59,714 - Broj globalnih nizova = 0
+INFO  22:49:59,714 - ----------------------------------------------------
+INFO  22:49:59,714 - Broj globalnih funkcija = 2
+INFO  22:49:59,714 - Broj blokova naredbi = 0
+INFO  22:49:59,715 - Broj poziva funkcija = 3
+INFO  22:49:59,715 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  22:49:59,715 - ----------------------------------------------------
+INFO  22:49:59,715 - Broj unutrasnjih klasa = 0
+INFO  22:49:59,715 - Broj metoda unutrasnjih klasa = 0
+INFO  22:49:59,715 - Broj polja unutrasnjih klasa = 0
+INFO  22:49:59,716 - Parsiranje uspesno zavrseno!
+INFO  22:54:24,586 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  22:54:24,603 - #2 program
+INFO  22:54:24,603 - #41 print_test
+INFO  22:54:24,603 - #41 int
+INFO  22:54:24,603 - #41 x
+INFO  22:54:24,603 - #8 ;
+INFO  22:54:24,603 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  22:54:24,603 - #3 {
+INFO  22:54:24,603 - #41 int
+INFO  22:54:24,603 - #41 k
+INFO  22:54:24,603 - #13 (
+INFO  22:54:24,603 - Obradjuje se funkcija 'k()' na liniji 4
+INFO  22:54:24,603 - #14 )
+INFO  22:54:24,603 - #3 {
+INFO  22:54:24,603 - #20 print
+INFO  22:54:24,603 - #13 (
+INFO  22:54:24,603 - #42 0
+INFO  22:54:24,603 - #14 )
+INFO  22:54:24,603 - #8 ;
+INFO  22:54:24,603 - #18 return
+INFO  22:54:24,603 - #42 0
+INFO  22:54:24,603 - #8 ;
+INFO  22:54:24,603 - #4 }
+INFO  22:54:24,603 - #41 int
+INFO  22:54:24,603 - #41 main
+INFO  22:54:24,603 - #13 (
+INFO  22:54:24,603 - Obradjuje se funkcija 'main()' na liniji 11
+INFO  22:54:24,608 - #14 )
+INFO  22:54:24,608 - #3 {
+INFO  22:54:24,608 - #41 x
+INFO  22:54:24,608 - #6 =
+INFO  22:54:24,608 - #42 3
+INFO  22:54:24,608 - #8 ;
+INFO  22:54:24,608 - #20 print
+INFO  22:54:24,608 - #13 (
+INFO  22:54:24,608 - #41 x
+INFO  22:54:24,608 - #14 )
+INFO  22:54:24,608 - #8 ;
+INFO  22:54:24,608 - #20 print
+INFO  22:54:24,608 - #13 (
+INFO  22:54:24,608 - #42 2
+INFO  22:54:24,608 - #14 )
+INFO  22:54:24,608 - #8 ;
+INFO  22:54:24,608 - #41 k
+INFO  22:54:24,608 - #13 (
+INFO  22:54:24,608 - #14 )
+INFO  22:54:24,608 - #8 ;
+INFO  22:54:24,608 - #18 return
+INFO  22:54:24,608 - Pronadjen poziv funkcije 'k()' na liniji 17
+INFO  22:54:24,608 - #42 0
+INFO  22:54:24,608 - #8 ;
+INFO  22:54:24,608 - #4 }
+INFO  22:54:24,608 - #4 }
+INFO  22:54:24,608 - ==================SINTAKSNA ANALIZA==================
+INFO  22:54:24,608 - Broj globalnih promenljivih = 1
+INFO  22:54:24,608 - Broj lokalnih promenljivih u Main funkciji = 0
+INFO  22:54:24,608 - Broj globalnih konstanti = 0
+INFO  22:54:24,608 - Broj globalnih nizova = 0
+INFO  22:54:24,608 - ----------------------------------------------------
+INFO  22:54:24,608 - Broj globalnih funkcija = 2
+INFO  22:54:24,608 - Broj blokova naredbi = 0
+INFO  22:54:24,608 - Broj poziva funkcija = 3
+INFO  22:54:24,608 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  22:54:24,608 - ----------------------------------------------------
+INFO  22:54:24,608 - Broj unutrasnjih klasa = 0
+INFO  22:54:24,608 - Broj metoda unutrasnjih klasa = 0
+INFO  22:54:24,608 - Broj polja unutrasnjih klasa = 0
+INFO  22:54:24,613 - Parsiranje uspesno zavrseno!
+INFO  23:19:14,188 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:19:14,208 - #2 program
+INFO  23:19:14,208 - #41 MJProgram
+INFO  23:19:14,208 - #41 int
+INFO  23:19:14,208 - #41 x
+INFO  23:19:14,208 - #7 ,
+INFO  23:19:14,208 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  23:19:14,208 - #41 y
+INFO  23:19:14,208 - #8 ;
+INFO  23:19:14,209 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  23:19:14,209 - #41 int
+INFO  23:19:14,209 - #41 zz
+INFO  23:19:14,209 - #7 ,
+INFO  23:19:14,209 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  23:19:14,209 - #41 niz1
+INFO  23:19:14,209 - #9 [
+INFO  23:19:14,209 - #10 ]
+INFO  23:19:14,209 - #8 ;
+INFO  23:19:14,209 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  23:19:14,209 - #11 class
+INFO  23:19:14,209 - #41 Klas
+INFO  23:19:14,209 - #3 {
+INFO  23:19:14,209 - #4 }
+INFO  23:19:14,209 - #11 class
+INFO  23:19:14,209 - #41 Klasa
+INFO  23:19:14,210 - #12 extends
+INFO  23:19:14,210 - #41 Klas
+INFO  23:19:14,210 - #3 {
+INFO  23:19:14,210 - #41 int
+INFO  23:19:14,210 - #41 aba
+INFO  23:19:14,210 - #8 ;
+INFO  23:19:14,210 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  23:19:14,210 - #3 {
+INFO  23:19:14,210 - #41 int
+INFO  23:19:14,210 - #41 method2
+INFO  23:19:14,210 - #13 (
+INFO  23:19:14,210 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  23:19:14,210 - #41 Klasa
+INFO  23:19:14,211 - #41 kl
+INFO  23:19:14,211 - #14 )
+INFO  23:19:14,211 - #41 int
+INFO  23:19:14,212 - #41 c
+INFO  23:19:14,212 - #8 ;
+INFO  23:19:14,212 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  23:19:14,212 - #3 {
+INFO  23:19:14,212 - #41 c
+INFO  23:19:14,212 - #6 =
+INFO  23:19:14,212 - #42 0
+INFO  23:19:14,212 - #8 ;
+INFO  23:19:14,212 - #18 return
+INFO  23:19:14,212 - #41 c
+INFO  23:19:14,212 - #35 +
+INFO  23:19:14,212 - #42 3
+INFO  23:19:14,212 - #8 ;
+INFO  23:19:14,213 - #4 }
+INFO  23:19:14,213 - #4 }
+INFO  23:19:14,213 - #4 }
+INFO  23:19:14,213 - #5 const
+INFO  23:19:14,213 - #41 int
+INFO  23:19:14,213 - #41 con
+INFO  23:19:14,213 - #6 =
+INFO  23:19:14,213 - #42 5
+INFO  23:19:14,213 - #8 ;
+INFO  23:19:14,213 - #5 const
+INFO  23:19:14,213 - #41 char
+INFO  23:19:14,213 - #41 c
+INFO  23:19:14,213 - #6 =
+INFO  23:19:14,213 - #44 a
+INFO  23:19:14,213 - #8 ;
+INFO  23:19:14,213 - #41 int
+INFO  23:19:14,214 - #41 niz2
+INFO  23:19:14,214 - #9 [
+INFO  23:19:14,214 - #10 ]
+INFO  23:19:14,214 - #8 ;
+INFO  23:19:14,214 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  23:19:14,214 - #3 {
+INFO  23:19:14,214 - #41 int
+INFO  23:19:14,214 - #41 funkcija2
+INFO  23:19:14,214 - #13 (
+INFO  23:19:14,214 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  23:19:14,214 - #41 int
+INFO  23:19:14,214 - #41 a1
+INFO  23:19:14,214 - #7 ,
+INFO  23:19:14,214 - #41 int
+INFO  23:19:14,214 - #41 a2
+INFO  23:19:14,214 - #7 ,
+INFO  23:19:14,214 - #41 int
+INFO  23:19:14,214 - #41 a3
+INFO  23:19:14,214 - #7 ,
+INFO  23:19:14,215 - #41 int
+INFO  23:19:14,215 - #41 a4
+INFO  23:19:14,215 - #14 )
+INFO  23:19:14,215 - #41 char
+INFO  23:19:14,215 - #41 c
+INFO  23:19:14,215 - #8 ;
+INFO  23:19:14,215 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  23:19:14,215 - #3 {
+INFO  23:19:14,215 - #18 return
+INFO  23:19:14,215 - #42 4
+INFO  23:19:14,215 - #8 ;
+INFO  23:19:14,215 - #4 }
+INFO  23:19:14,215 - #15 void
+INFO  23:19:14,215 - #41 main
+INFO  23:19:14,215 - #13 (
+INFO  23:19:14,215 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  23:19:14,215 - #14 )
+INFO  23:19:14,215 - #41 int
+INFO  23:19:14,216 - #41 z
+INFO  23:19:14,216 - #8 ;
+INFO  23:19:14,216 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  23:19:14,216 - #41 Klasa
+INFO  23:19:14,216 - #41 k
+INFO  23:19:14,216 - #8 ;
+INFO  23:19:14,216 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  23:19:14,216 - #3 {
+INFO  23:19:14,216 - #40 while
+INFO  23:19:14,216 - #13 (
+INFO  23:19:14,216 - #41 x
+INFO  23:19:14,216 - #29 ==
+INFO  23:19:14,216 - #42 1
+INFO  23:19:14,216 - #14 )
+INFO  23:19:14,216 - #3 {
+INFO  23:19:14,216 - #17 break
+INFO  23:19:14,216 - #8 ;
+INFO  23:19:14,216 - #4 }
+INFO  23:19:14,217 - #41 x
+INFO  23:19:14,217 - #6 =
+INFO  23:19:14,217 - #42 10
+INFO  23:19:14,217 - #8 ;
+INFO  23:19:14,217 - #19 read
+INFO  23:19:14,217 - #13 (
+INFO  23:19:14,217 - #41 zz
+INFO  23:19:14,217 - #14 )
+INFO  23:19:14,217 - #8 ;
+INFO  23:19:14,217 - #20 print
+INFO  23:19:14,217 - #13 (
+INFO  23:19:14,217 - #42 1
+INFO  23:19:14,217 - #7 ,
+INFO  23:19:14,217 - #42 4
+INFO  23:19:14,217 - #14 )
+INFO  23:19:14,217 - #8 ;
+INFO  23:19:14,217 - #20 print
+INFO  23:19:14,218 - #13 (
+INFO  23:19:14,218 - #41 eol
+INFO  23:19:14,218 - #14 )
+INFO  23:19:14,218 - #8 ;
+INFO  23:19:14,218 - #41 k
+INFO  23:19:14,218 - #28 .
+INFO  23:19:14,218 - #41 method2
+INFO  23:19:14,218 - #13 (
+INFO  23:19:14,218 - #14 )
+INFO  23:19:14,218 - #8 ;
+INFO  23:19:14,218 - #41 x
+INFO  23:19:14,218 - Pronadjen poziv funkcije 'method2()' na liniji 46
+INFO  23:19:14,218 - #6 =
+INFO  23:19:14,218 - #41 y
+INFO  23:19:14,219 - #35 +
+INFO  23:19:14,219 - #42 3
+INFO  23:19:14,219 - #8 ;
+INFO  23:19:14,219 - #20 print
+INFO  23:19:14,219 - #13 (
+INFO  23:19:14,219 - #42 2
+INFO  23:19:14,219 - #14 )
+INFO  23:19:14,219 - #8 ;
+INFO  23:19:14,219 - #4 }
+INFO  23:19:14,219 - #4 }
+INFO  23:19:14,219 - ==================SINTAKSNA ANALIZA==================
+INFO  23:19:14,219 - Broj globalnih promenljivih = 5
+INFO  23:19:14,219 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  23:19:14,219 - Broj globalnih konstanti = 2
+INFO  23:19:14,219 - Broj globalnih nizova = 2
+INFO  23:19:14,219 - ----------------------------------------------------
+INFO  23:19:14,219 - Broj globalnih funkcija = 2
+INFO  23:19:14,220 - Broj blokova naredbi = 1
+INFO  23:19:14,220 - Broj poziva funkcija = 4
+INFO  23:19:14,220 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  23:19:14,220 - ----------------------------------------------------
+INFO  23:19:14,220 - Broj unutrasnjih klasa = 2
+INFO  23:19:14,220 - Broj metoda unutrasnjih klasa = 1
+INFO  23:19:14,220 - Broj polja unutrasnjih klasa = 2
+INFO  23:19:14,222 - Parsiranje uspesno zavrseno!
+INFO  23:25:41,854 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:25:41,874 - #2 program
+INFO  23:25:41,874 - #41 MJProgram
+INFO  23:25:41,874 - #41 int
+INFO  23:25:41,874 - #41 x
+INFO  23:25:41,874 - #7 ,
+INFO  23:25:41,874 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  23:25:41,874 - #41 y
+INFO  23:25:41,874 - #8 ;
+INFO  23:25:41,874 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  23:25:41,874 - #41 int
+INFO  23:25:41,874 - #41 zz
+INFO  23:25:41,874 - #7 ,
+INFO  23:25:41,874 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  23:25:41,874 - #41 niz1
+INFO  23:25:41,874 - #9 [
+INFO  23:25:41,874 - #10 ]
+INFO  23:25:41,874 - #8 ;
+INFO  23:25:41,874 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  23:25:41,874 - #11 class
+INFO  23:25:41,874 - #41 Klas
+INFO  23:25:41,874 - #3 {
+INFO  23:25:41,874 - #4 }
+INFO  23:25:41,874 - #11 class
+INFO  23:25:41,874 - #41 Klasa
+INFO  23:25:41,874 - #12 extends
+INFO  23:25:41,874 - #41 Klas
+INFO  23:25:41,874 - #3 {
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 aba
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - Deklarisana PROMENLJIVA 'aba' na liniji 8
+INFO  23:25:41,879 - #3 {
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 method2
+INFO  23:25:41,879 - #13 (
+INFO  23:25:41,879 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  23:25:41,879 - #41 Klasa
+INFO  23:25:41,879 - #41 kl
+INFO  23:25:41,879 - #14 )
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 c
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  23:25:41,879 - #3 {
+INFO  23:25:41,879 - #41 c
+INFO  23:25:41,879 - #6 =
+INFO  23:25:41,879 - #42 0
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - #18 return
+INFO  23:25:41,879 - #41 c
+INFO  23:25:41,879 - #35 +
+INFO  23:25:41,879 - #42 3
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - #4 }
+INFO  23:25:41,879 - #4 }
+INFO  23:25:41,879 - #4 }
+INFO  23:25:41,879 - #5 const
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 con
+INFO  23:25:41,879 - #6 =
+INFO  23:25:41,879 - #42 5
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - #5 const
+INFO  23:25:41,879 - #41 char
+INFO  23:25:41,879 - #41 c
+INFO  23:25:41,879 - #6 =
+INFO  23:25:41,879 - #44 a
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 niz2
+INFO  23:25:41,879 - #9 [
+INFO  23:25:41,879 - #10 ]
+INFO  23:25:41,879 - #8 ;
+INFO  23:25:41,879 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  23:25:41,879 - #3 {
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 funkcija2
+INFO  23:25:41,879 - #13 (
+INFO  23:25:41,879 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 a1
+INFO  23:25:41,879 - #7 ,
+INFO  23:25:41,879 - #41 int
+INFO  23:25:41,879 - #41 a2
+INFO  23:25:41,884 - #7 ,
+INFO  23:25:41,886 - #41 int
+INFO  23:25:41,886 - #41 a3
+INFO  23:25:41,886 - #7 ,
+INFO  23:25:41,886 - #41 int
+INFO  23:25:41,886 - #41 a4
+INFO  23:25:41,886 - #14 )
+INFO  23:25:41,886 - #41 char
+INFO  23:25:41,886 - #41 c
+INFO  23:25:41,886 - #8 ;
+INFO  23:25:41,886 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  23:25:41,886 - #3 {
+INFO  23:25:41,886 - #18 return
+INFO  23:25:41,886 - #42 4
+INFO  23:25:41,886 - #8 ;
+INFO  23:25:41,886 - #4 }
+INFO  23:25:41,887 - #15 void
+INFO  23:25:41,887 - #41 main
+INFO  23:25:41,887 - #13 (
+INFO  23:25:41,887 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  23:25:41,887 - #14 )
+INFO  23:25:41,887 - #41 int
+INFO  23:25:41,887 - #41 z
+INFO  23:25:41,887 - #8 ;
+INFO  23:25:41,887 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  23:25:41,887 - #41 Klasa
+INFO  23:25:41,887 - #41 k
+INFO  23:25:41,887 - #8 ;
+INFO  23:25:41,887 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  23:25:41,887 - #3 {
+INFO  23:25:41,887 - #40 while
+INFO  23:25:41,887 - #13 (
+INFO  23:25:41,887 - #41 x
+INFO  23:25:41,887 - #29 ==
+INFO  23:25:41,887 - #42 1
+INFO  23:25:41,888 - #14 )
+INFO  23:25:41,888 - #3 {
+INFO  23:25:41,888 - #17 break
+INFO  23:25:41,888 - #8 ;
+INFO  23:25:41,888 - #4 }
+INFO  23:25:41,888 - #41 x
+INFO  23:25:41,888 - #6 =
+INFO  23:25:41,888 - #42 10
+INFO  23:25:41,888 - #8 ;
+INFO  23:25:41,888 - #19 read
+INFO  23:25:41,888 - #13 (
+INFO  23:25:41,888 - #41 zz
+INFO  23:25:41,888 - #14 )
+INFO  23:25:41,889 - #8 ;
+INFO  23:25:41,889 - #20 print
+INFO  23:25:41,889 - #13 (
+INFO  23:25:41,889 - #42 1
+INFO  23:25:41,889 - #7 ,
+INFO  23:25:41,889 - #42 4
+INFO  23:25:41,889 - #14 )
+INFO  23:25:41,889 - #8 ;
+INFO  23:25:41,889 - #20 print
+INFO  23:25:41,889 - #13 (
+INFO  23:25:41,889 - #41 eol
+INFO  23:25:41,889 - #14 )
+INFO  23:25:41,889 - #8 ;
+INFO  23:25:41,889 - #41 k
+INFO  23:25:41,889 - #28 .
+INFO  23:25:41,889 - #41 method2
+INFO  23:25:41,889 - #13 (
+INFO  23:25:41,889 - #14 )
+INFO  23:25:41,889 - #8 ;
+INFO  23:25:41,890 - #41 x
+INFO  23:25:41,890 - Pronadjen poziv funkcije 'method2()' na liniji 46
+INFO  23:25:41,890 - #6 =
+INFO  23:25:41,890 - #41 y
+INFO  23:25:41,890 - #35 +
+INFO  23:25:41,890 - #42 3
+INFO  23:25:41,890 - #8 ;
+INFO  23:25:41,890 - #20 print
+INFO  23:25:41,890 - #13 (
+INFO  23:25:41,890 - #42 2
+INFO  23:25:41,890 - #14 )
+INFO  23:25:41,890 - #8 ;
+INFO  23:25:41,890 - #4 }
+INFO  23:25:41,890 - #4 }
+INFO  23:25:41,890 - ==================SINTAKSNA ANALIZA==================
+INFO  23:25:41,890 - Broj globalnih promenljivih = 5
+INFO  23:25:41,890 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  23:25:41,890 - Broj globalnih konstanti = 2
+INFO  23:25:41,891 - Broj globalnih nizova = 2
+INFO  23:25:41,891 - ----------------------------------------------------
+INFO  23:25:41,891 - Broj globalnih funkcija = 2
+INFO  23:25:41,891 - Broj blokova naredbi = 1
+INFO  23:25:41,891 - Broj poziva funkcija = 4
+INFO  23:25:41,891 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  23:25:41,891 - ----------------------------------------------------
+INFO  23:25:41,891 - Broj unutrasnjih klasa = 2
+INFO  23:25:41,891 - Broj metoda unutrasnjih klasa = 1
+INFO  23:25:41,891 - Broj polja unutrasnjih klasa = 2
+INFO  23:25:41,894 - Parsiranje uspesno zavrseno!
+INFO  23:29:25,541 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:29:25,556 - #2 program
+INFO  23:29:25,556 - #41 MJProgram
+INFO  23:29:25,556 - #41 int
+INFO  23:29:25,556 - #41 x
+INFO  23:29:25,556 - #7 ,
+INFO  23:29:25,561 - Deklarisana PROMENLJIVA 'x' na liniji 2
+INFO  23:29:25,561 - #41 y
+INFO  23:29:25,561 - #8 ;
+INFO  23:29:25,561 - Deklarisana PROMENLJIVA 'y' na liniji 2
+INFO  23:29:25,561 - #41 int
+INFO  23:29:25,561 - #41 zz
+INFO  23:29:25,561 - #7 ,
+INFO  23:29:25,561 - Deklarisana PROMENLJIVA 'zz' na liniji 3
+INFO  23:29:25,561 - #41 niz1
+INFO  23:29:25,561 - #9 [
+INFO  23:29:25,561 - #10 ]
+INFO  23:29:25,561 - #8 ;
+INFO  23:29:25,561 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  23:29:25,561 - #11 class
+INFO  23:29:25,561 - #41 Klas
+INFO  23:29:25,561 - #3 {
+INFO  23:29:25,562 - #4 }
+INFO  23:29:25,562 - #11 class
+INFO  23:29:25,562 - #41 Klasa
+INFO  23:29:25,562 - #12 extends
+INFO  23:29:25,562 - #41 Klas
+INFO  23:29:25,562 - #3 {
+INFO  23:29:25,562 - #41 int
+INFO  23:29:25,562 - #41 aba
+INFO  23:29:25,562 - #8 ;
+INFO  23:29:25,562 - Deklarisano POLJE 'aba' klase 'Klasa' na liniji 8
+INFO  23:29:25,562 - #3 {
+INFO  23:29:25,562 - #41 int
+INFO  23:29:25,562 - #41 method2
+INFO  23:29:25,563 - #13 (
+INFO  23:29:25,563 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  23:29:25,563 - #41 Klasa
+INFO  23:29:25,563 - #41 kl
+INFO  23:29:25,563 - #14 )
+INFO  23:29:25,563 - #41 int
+INFO  23:29:25,564 - #41 c
+INFO  23:29:25,564 - #8 ;
+INFO  23:29:25,564 - Deklarisana PROMENLJIVA 'c' na liniji 12
+INFO  23:29:25,564 - #3 {
+INFO  23:29:25,564 - #41 c
+INFO  23:29:25,564 - #6 =
+INFO  23:29:25,564 - #42 0
+INFO  23:29:25,564 - #8 ;
+INFO  23:29:25,564 - #18 return
+INFO  23:29:25,564 - #41 c
+INFO  23:29:25,564 - #35 +
+INFO  23:29:25,564 - #42 3
+INFO  23:29:25,565 - #8 ;
+INFO  23:29:25,565 - #4 }
+INFO  23:29:25,565 - #4 }
+INFO  23:29:25,565 - #4 }
+INFO  23:29:25,565 - #5 const
+INFO  23:29:25,565 - #41 int
+INFO  23:29:25,565 - #41 con
+INFO  23:29:25,565 - #6 =
+INFO  23:29:25,565 - #42 5
+INFO  23:29:25,565 - #8 ;
+INFO  23:29:25,565 - #5 const
+INFO  23:29:25,565 - #41 char
+INFO  23:29:25,565 - #41 c
+INFO  23:29:25,565 - #6 =
+INFO  23:29:25,565 - #44 a
+INFO  23:29:25,565 - #8 ;
+INFO  23:29:25,566 - #41 int
+INFO  23:29:25,566 - #41 niz2
+INFO  23:29:25,566 - #9 [
+INFO  23:29:25,566 - #10 ]
+INFO  23:29:25,566 - #8 ;
+INFO  23:29:25,566 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  23:29:25,566 - #3 {
+INFO  23:29:25,566 - #41 int
+INFO  23:29:25,566 - #41 funkcija2
+INFO  23:29:25,566 - #13 (
+INFO  23:29:25,566 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  23:29:25,566 - #41 int
+INFO  23:29:25,566 - #41 a1
+INFO  23:29:25,566 - #7 ,
+INFO  23:29:25,566 - #41 int
+INFO  23:29:25,566 - #41 a2
+INFO  23:29:25,566 - #7 ,
+INFO  23:29:25,566 - #41 int
+INFO  23:29:25,566 - #41 a3
+INFO  23:29:25,567 - #7 ,
+INFO  23:29:25,567 - #41 int
+INFO  23:29:25,567 - #41 a4
+INFO  23:29:25,567 - #14 )
+INFO  23:29:25,567 - #41 char
+INFO  23:29:25,567 - #41 c
+INFO  23:29:25,567 - #8 ;
+INFO  23:29:25,567 - Deklarisana PROMENLJIVA 'c' na liniji 27
+INFO  23:29:25,567 - #3 {
+INFO  23:29:25,567 - #18 return
+INFO  23:29:25,567 - #42 4
+INFO  23:29:25,567 - #8 ;
+INFO  23:29:25,567 - #4 }
+INFO  23:29:25,567 - #15 void
+INFO  23:29:25,568 - #41 main
+INFO  23:29:25,568 - #13 (
+INFO  23:29:25,568 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  23:29:25,568 - #14 )
+INFO  23:29:25,568 - #41 int
+INFO  23:29:25,568 - #41 z
+INFO  23:29:25,568 - #8 ;
+INFO  23:29:25,568 - Deklarisana PROMENLJIVA 'z' na liniji 33
+INFO  23:29:25,568 - #41 Klasa
+INFO  23:29:25,568 - #41 k
+INFO  23:29:25,568 - #8 ;
+INFO  23:29:25,568 - Deklarisana PROMENLJIVA 'k' na liniji 34
+INFO  23:29:25,568 - #3 {
+INFO  23:29:25,568 - #40 while
+INFO  23:29:25,568 - #13 (
+INFO  23:29:25,568 - #41 x
+INFO  23:29:25,568 - #29 ==
+INFO  23:29:25,568 - #42 1
+INFO  23:29:25,568 - #14 )
+INFO  23:29:25,569 - #3 {
+INFO  23:29:25,569 - #17 break
+INFO  23:29:25,569 - #8 ;
+INFO  23:29:25,569 - #4 }
+INFO  23:29:25,569 - #41 x
+INFO  23:29:25,569 - #6 =
+INFO  23:29:25,569 - #42 10
+INFO  23:29:25,569 - #8 ;
+INFO  23:29:25,569 - #19 read
+INFO  23:29:25,569 - #13 (
+INFO  23:29:25,569 - #41 zz
+INFO  23:29:25,569 - #14 )
+INFO  23:29:25,569 - #8 ;
+INFO  23:29:25,569 - #20 print
+INFO  23:29:25,569 - #13 (
+INFO  23:29:25,569 - #42 1
+INFO  23:29:25,569 - #7 ,
+INFO  23:29:25,569 - #42 4
+INFO  23:29:25,569 - #14 )
+INFO  23:29:25,569 - #8 ;
+INFO  23:29:25,570 - #20 print
+INFO  23:29:25,570 - #13 (
+INFO  23:29:25,570 - #41 eol
+INFO  23:29:25,570 - #14 )
+INFO  23:29:25,570 - #8 ;
+INFO  23:29:25,570 - #41 k
+INFO  23:29:25,570 - #28 .
+INFO  23:29:25,570 - #41 method2
+INFO  23:29:25,570 - #13 (
+INFO  23:29:25,570 - #14 )
+INFO  23:29:25,570 - #8 ;
+INFO  23:29:25,570 - #41 x
+INFO  23:29:25,570 - Pronadjen poziv funkcije 'method2()' na liniji 46
+INFO  23:29:25,570 - #6 =
+INFO  23:29:25,570 - #41 y
+INFO  23:29:25,570 - #35 +
+INFO  23:29:25,570 - #42 3
+INFO  23:29:25,570 - #8 ;
+INFO  23:29:25,570 - #20 print
+INFO  23:29:25,570 - #13 (
+INFO  23:29:25,571 - #42 2
+INFO  23:29:25,571 - #14 )
+INFO  23:29:25,571 - #8 ;
+INFO  23:29:25,571 - #4 }
+INFO  23:29:25,571 - #4 }
+INFO  23:29:25,571 - ==================SINTAKSNA ANALIZA==================
+INFO  23:29:25,571 - Broj globalnih promenljivih = 5
+INFO  23:29:25,571 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  23:29:25,571 - Broj globalnih konstanti = 2
+INFO  23:29:25,571 - Broj globalnih nizova = 2
+INFO  23:29:25,571 - ----------------------------------------------------
+INFO  23:29:25,571 - Broj globalnih funkcija = 2
+INFO  23:29:25,571 - Broj blokova naredbi = 1
+INFO  23:29:25,571 - Broj poziva funkcija = 4
+INFO  23:29:25,571 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  23:29:25,571 - ----------------------------------------------------
+INFO  23:29:25,571 - Broj unutrasnjih klasa = 2
+INFO  23:29:25,571 - Broj metoda unutrasnjih klasa = 1
+INFO  23:29:25,571 - Broj polja unutrasnjih klasa = 1
+INFO  23:29:25,573 - Parsiranje uspesno zavrseno!
+INFO  23:31:35,931 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:31:35,952 - #2 program
+INFO  23:31:35,953 - #41 MJProgram
+INFO  23:31:35,953 - #41 int
+INFO  23:31:35,953 - #41 x
+INFO  23:31:35,953 - #7 ,
+INFO  23:31:35,953 - Deklarisana GLOBALNA PROMENLJIVA 'x' na liniji 2
+INFO  23:31:35,953 - #41 y
+INFO  23:31:35,953 - #8 ;
+INFO  23:31:35,953 - Deklarisana GLOBALNA PROMENLJIVA 'y' na liniji 2
+INFO  23:31:35,953 - #41 int
+INFO  23:31:35,953 - #41 zz
+INFO  23:31:35,953 - #7 ,
+INFO  23:31:35,953 - Deklarisana GLOBALNA PROMENLJIVA 'zz' na liniji 3
+INFO  23:31:35,953 - #41 niz1
+INFO  23:31:35,954 - #9 [
+INFO  23:31:35,954 - #10 ]
+INFO  23:31:35,954 - #8 ;
+INFO  23:31:35,954 - Deklarisana PROMENLJIVA 'niz1' na liniji 3
+INFO  23:31:35,955 - #11 class
+INFO  23:31:35,955 - #41 Klas
+INFO  23:31:35,955 - #3 {
+INFO  23:31:35,955 - #4 }
+INFO  23:31:35,955 - #11 class
+INFO  23:31:35,955 - #41 Klasa
+INFO  23:31:35,955 - #12 extends
+INFO  23:31:35,955 - #41 Klas
+INFO  23:31:35,956 - #3 {
+INFO  23:31:35,956 - #41 int
+INFO  23:31:35,956 - #41 aba
+INFO  23:31:35,956 - #8 ;
+INFO  23:31:35,956 - Deklarisano POLJE 'aba' klase 'Klasa' na liniji 8
+INFO  23:31:35,956 - #3 {
+INFO  23:31:35,956 - #41 int
+INFO  23:31:35,956 - #41 method2
+INFO  23:31:35,956 - #13 (
+INFO  23:31:35,956 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  23:31:35,956 - #41 Klasa
+INFO  23:31:35,957 - #41 kl
+INFO  23:31:35,957 - #14 )
+INFO  23:31:35,957 - #41 int
+INFO  23:31:35,958 - #41 c
+INFO  23:31:35,958 - #8 ;
+INFO  23:31:35,958 - Deklarisana LOKALNA PROMENLJIVA 'c' na liniji 12
+INFO  23:31:35,958 - #3 {
+INFO  23:31:35,958 - #41 c
+INFO  23:31:35,958 - #6 =
+INFO  23:31:35,958 - #42 0
+INFO  23:31:35,958 - #8 ;
+INFO  23:31:35,959 - #18 return
+INFO  23:31:35,959 - #41 c
+INFO  23:31:35,959 - #35 +
+INFO  23:31:35,959 - #42 3
+INFO  23:31:35,959 - #8 ;
+INFO  23:31:35,959 - #4 }
+INFO  23:31:35,959 - #4 }
+INFO  23:31:35,959 - #4 }
+INFO  23:31:35,959 - #5 const
+INFO  23:31:35,959 - #41 int
+INFO  23:31:35,959 - #41 con
+INFO  23:31:35,959 - #6 =
+INFO  23:31:35,959 - #42 5
+INFO  23:31:35,959 - #8 ;
+INFO  23:31:35,959 - #5 const
+INFO  23:31:35,959 - #41 char
+INFO  23:31:35,959 - #41 c
+INFO  23:31:35,960 - #6 =
+INFO  23:31:35,960 - #44 a
+INFO  23:31:35,960 - #8 ;
+INFO  23:31:35,960 - #41 int
+INFO  23:31:35,960 - #41 niz2
+INFO  23:31:35,960 - #9 [
+INFO  23:31:35,960 - #10 ]
+INFO  23:31:35,960 - #8 ;
+INFO  23:31:35,960 - Deklarisana PROMENLJIVA 'niz2' na liniji 23
+INFO  23:31:35,960 - #3 {
+INFO  23:31:35,960 - #41 int
+INFO  23:31:35,960 - #41 funkcija2
+INFO  23:31:35,960 - #13 (
+INFO  23:31:35,960 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  23:31:35,960 - #41 int
+INFO  23:31:35,961 - #41 a1
+INFO  23:31:35,961 - #7 ,
+INFO  23:31:35,961 - #41 int
+INFO  23:31:35,961 - #41 a2
+INFO  23:31:35,961 - #7 ,
+INFO  23:31:35,961 - #41 int
+INFO  23:31:35,961 - #41 a3
+INFO  23:31:35,961 - #7 ,
+INFO  23:31:35,961 - #41 int
+INFO  23:31:35,961 - #41 a4
+INFO  23:31:35,961 - #14 )
+INFO  23:31:35,961 - #41 char
+INFO  23:31:35,961 - #41 c
+INFO  23:31:35,961 - #8 ;
+INFO  23:31:35,961 - Deklarisana LOKALNA PROMENLJIVA 'c' na liniji 27
+INFO  23:31:35,961 - #3 {
+INFO  23:31:35,961 - #18 return
+INFO  23:31:35,961 - #42 4
+INFO  23:31:35,961 - #8 ;
+INFO  23:31:35,962 - #4 }
+INFO  23:31:35,962 - #15 void
+INFO  23:31:35,962 - #41 main
+INFO  23:31:35,962 - #13 (
+INFO  23:31:35,962 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  23:31:35,962 - #14 )
+INFO  23:31:35,962 - #41 int
+INFO  23:31:35,962 - #41 z
+INFO  23:31:35,962 - #8 ;
+INFO  23:31:35,962 - Deklarisana LOKALNA PROMENLJIVA 'z' na liniji 33
+INFO  23:31:35,962 - #41 Klasa
+INFO  23:31:35,963 - #41 k
+INFO  23:31:35,963 - #8 ;
+INFO  23:31:35,963 - Deklarisana LOKALNA PROMENLJIVA 'k' na liniji 34
+INFO  23:31:35,963 - #3 {
+INFO  23:31:35,963 - #40 while
+INFO  23:31:35,963 - #13 (
+INFO  23:31:35,963 - #41 x
+INFO  23:31:35,963 - #29 ==
+INFO  23:31:35,963 - #42 1
+INFO  23:31:35,963 - #14 )
+INFO  23:31:35,963 - #3 {
+INFO  23:31:35,964 - #17 break
+INFO  23:31:35,964 - #8 ;
+INFO  23:31:35,964 - #4 }
+INFO  23:31:35,964 - #41 x
+INFO  23:31:35,964 - #6 =
+INFO  23:31:35,972 - #42 10
+INFO  23:31:35,972 - #8 ;
+INFO  23:31:35,972 - #19 read
+INFO  23:31:35,972 - #13 (
+INFO  23:31:35,972 - #41 zz
+INFO  23:31:35,972 - #14 )
+INFO  23:31:35,972 - #8 ;
+INFO  23:31:35,972 - #20 print
+INFO  23:31:35,972 - #13 (
+INFO  23:31:35,972 - #42 1
+INFO  23:31:35,972 - #7 ,
+INFO  23:31:35,972 - #42 4
+INFO  23:31:35,972 - #14 )
+INFO  23:31:35,972 - #8 ;
+INFO  23:31:35,973 - #20 print
+INFO  23:31:35,973 - #13 (
+INFO  23:31:35,973 - #41 eol
+INFO  23:31:35,973 - #14 )
+INFO  23:31:35,973 - #8 ;
+INFO  23:31:35,973 - #41 k
+INFO  23:31:35,973 - #28 .
+INFO  23:31:35,973 - #41 method2
+INFO  23:31:35,973 - #13 (
+INFO  23:31:35,973 - #14 )
+INFO  23:31:35,974 - #8 ;
+INFO  23:31:35,974 - #41 x
+INFO  23:31:35,974 - Pronadjen poziv funkcije 'method2()' na liniji 46
+INFO  23:31:35,974 - #6 =
+INFO  23:31:35,974 - #41 y
+INFO  23:31:35,974 - #35 +
+INFO  23:31:35,974 - #42 3
+INFO  23:31:35,974 - #8 ;
+INFO  23:31:35,974 - #20 print
+INFO  23:31:35,974 - #13 (
+INFO  23:31:35,974 - #42 2
+INFO  23:31:35,974 - #14 )
+INFO  23:31:35,974 - #8 ;
+INFO  23:31:35,974 - #4 }
+INFO  23:31:35,974 - #4 }
+INFO  23:31:35,974 - ==================SINTAKSNA ANALIZA==================
+INFO  23:31:35,975 - Broj globalnih promenljivih = 5
+INFO  23:31:35,975 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  23:31:35,975 - Broj globalnih konstanti = 2
+INFO  23:31:35,975 - Broj globalnih nizova = 2
+INFO  23:31:35,975 - ----------------------------------------------------
+INFO  23:31:35,975 - Broj globalnih funkcija = 2
+INFO  23:31:35,975 - Broj blokova naredbi = 1
+INFO  23:31:35,975 - Broj poziva funkcija = 4
+INFO  23:31:35,975 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  23:31:35,975 - ----------------------------------------------------
+INFO  23:31:35,975 - Broj unutrasnjih klasa = 2
+INFO  23:31:35,975 - Broj metoda unutrasnjih klasa = 1
+INFO  23:31:35,975 - Broj polja unutrasnjih klasa = 1
+INFO  23:31:35,977 - Parsiranje uspesno zavrseno!
+INFO  23:33:43,746 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:33:43,766 - #2 program
+INFO  23:33:43,766 - #41 MJProgram
+INFO  23:33:43,766 - #41 int
+INFO  23:33:43,766 - #41 x
+INFO  23:33:43,766 - #7 ,
+INFO  23:33:43,766 - Deklarisana GLOBALNA PROMENLJIVA 'x' na liniji 2
+INFO  23:33:43,766 - #41 y
+INFO  23:33:43,766 - #8 ;
+INFO  23:33:43,766 - Deklarisana GLOBALNA PROMENLJIVA 'y' na liniji 2
+INFO  23:33:43,766 - #41 int
+INFO  23:33:43,766 - #41 zz
+INFO  23:33:43,766 - #7 ,
+INFO  23:33:43,766 - Deklarisana GLOBALNA PROMENLJIVA 'zz' na liniji 3
+INFO  23:33:43,766 - #41 niz1
+INFO  23:33:43,766 - #9 [
+INFO  23:33:43,766 - #10 ]
+INFO  23:33:43,766 - #8 ;
+INFO  23:33:43,766 - Deklarisana GLOBALNA PROMENLJIVA 'niz1' na liniji 3
+INFO  23:33:43,766 - #11 class
+INFO  23:33:43,766 - #41 Klas
+INFO  23:33:43,766 - #3 {
+INFO  23:33:43,766 - #4 }
+INFO  23:33:43,766 - #11 class
+INFO  23:33:43,766 - #41 Klasa
+INFO  23:33:43,766 - #12 extends
+INFO  23:33:43,766 - #41 Klas
+INFO  23:33:43,766 - #3 {
+INFO  23:33:43,766 - #41 int
+INFO  23:33:43,766 - #41 aba
+INFO  23:33:43,766 - #8 ;
+INFO  23:33:43,766 - Deklarisano POLJE 'aba' klase 'Klasa' na liniji 8
+INFO  23:33:43,766 - #3 {
+INFO  23:33:43,766 - #41 int
+INFO  23:33:43,766 - #41 method2
+INFO  23:33:43,766 - #13 (
+INFO  23:33:43,766 - Obradjuje se funkcija 'method2()' na liniji 11
+INFO  23:33:43,766 - #41 Klasa
+INFO  23:33:43,766 - #41 kl
+INFO  23:33:43,766 - #14 )
+INFO  23:33:43,766 - #41 int
+INFO  23:33:43,766 - #41 c
+INFO  23:33:43,766 - #8 ;
+INFO  23:33:43,766 - Deklarisana LOKALNA PROMENLJIVA 'c' na liniji 12
+INFO  23:33:43,766 - #3 {
+INFO  23:33:43,766 - #41 c
+INFO  23:33:43,766 - #6 =
+INFO  23:33:43,771 - #42 0
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #18 return
+INFO  23:33:43,771 - #41 c
+INFO  23:33:43,771 - #35 +
+INFO  23:33:43,771 - #42 3
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #4 }
+INFO  23:33:43,771 - #4 }
+INFO  23:33:43,771 - #4 }
+INFO  23:33:43,771 - #5 const
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 con
+INFO  23:33:43,771 - #6 =
+INFO  23:33:43,771 - #42 5
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #5 const
+INFO  23:33:43,771 - #41 char
+INFO  23:33:43,771 - #41 c
+INFO  23:33:43,771 - #6 =
+INFO  23:33:43,771 - #44 a
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 niz2
+INFO  23:33:43,771 - #9 [
+INFO  23:33:43,771 - #10 ]
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - Deklarisana GLOBALNA PROMENLJIVA 'niz2' na liniji 23
+INFO  23:33:43,771 - #3 {
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 funkcija2
+INFO  23:33:43,771 - #13 (
+INFO  23:33:43,771 - Obradjuje se funkcija 'funkcija2()' na liniji 26
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 a1
+INFO  23:33:43,771 - #7 ,
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 a2
+INFO  23:33:43,771 - #7 ,
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 a3
+INFO  23:33:43,771 - #7 ,
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 a4
+INFO  23:33:43,771 - #14 )
+INFO  23:33:43,771 - #41 char
+INFO  23:33:43,771 - #41 c
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - Deklarisana LOKALNA PROMENLJIVA 'c' na liniji 27
+INFO  23:33:43,771 - #3 {
+INFO  23:33:43,771 - #18 return
+INFO  23:33:43,771 - #42 4
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #4 }
+INFO  23:33:43,771 - #15 void
+INFO  23:33:43,771 - #41 main
+INFO  23:33:43,771 - #13 (
+INFO  23:33:43,771 - Obradjuje se funkcija 'main()' na liniji 32
+INFO  23:33:43,771 - #14 )
+INFO  23:33:43,771 - #41 int
+INFO  23:33:43,771 - #41 z
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - Deklarisana LOKALNA PROMENLJIVA 'z' na liniji 33
+INFO  23:33:43,771 - #41 Klasa
+INFO  23:33:43,771 - #41 k
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - Deklarisana LOKALNA PROMENLJIVA 'k' na liniji 34
+INFO  23:33:43,771 - #3 {
+INFO  23:33:43,771 - #40 while
+INFO  23:33:43,771 - #13 (
+INFO  23:33:43,771 - #41 x
+INFO  23:33:43,771 - #29 ==
+INFO  23:33:43,771 - #42 1
+INFO  23:33:43,771 - #14 )
+INFO  23:33:43,771 - #3 {
+INFO  23:33:43,771 - #17 break
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #4 }
+INFO  23:33:43,771 - #41 x
+INFO  23:33:43,771 - #6 =
+INFO  23:33:43,771 - #42 10
+INFO  23:33:43,771 - #8 ;
+INFO  23:33:43,771 - #19 read
+INFO  23:33:43,771 - #13 (
+INFO  23:33:43,776 - #41 zz
+INFO  23:33:43,776 - #14 )
+INFO  23:33:43,776 - #8 ;
+INFO  23:33:43,776 - #20 print
+INFO  23:33:43,776 - #13 (
+INFO  23:33:43,776 - #42 1
+INFO  23:33:43,776 - #7 ,
+INFO  23:33:43,776 - #42 4
+INFO  23:33:43,776 - #14 )
+INFO  23:33:43,776 - #8 ;
+INFO  23:33:43,776 - #20 print
+INFO  23:33:43,776 - #13 (
+INFO  23:33:43,776 - #41 eol
+INFO  23:33:43,776 - #14 )
+INFO  23:33:43,776 - #8 ;
+INFO  23:33:43,776 - #41 k
+INFO  23:33:43,776 - #28 .
+INFO  23:33:43,776 - #41 method2
+INFO  23:33:43,776 - #13 (
+INFO  23:33:43,776 - #14 )
+INFO  23:33:43,776 - #8 ;
+INFO  23:33:43,776 - #41 x
+INFO  23:33:43,776 - Pronadjen poziv funkcije 'method2()' na liniji 46
+INFO  23:33:43,776 - #6 =
+INFO  23:33:43,776 - #41 y
+INFO  23:33:43,776 - #35 +
+INFO  23:33:43,776 - #42 3
+INFO  23:33:43,776 - #8 ;
+INFO  23:33:43,776 - #20 print
+INFO  23:33:43,776 - #13 (
+INFO  23:33:43,776 - #42 2
+INFO  23:33:43,776 - #14 )
+INFO  23:33:43,776 - #8 ;
+INFO  23:33:43,776 - #4 }
+INFO  23:33:43,776 - #4 }
+INFO  23:33:43,776 - ==================SINTAKSNA ANALIZA==================
+INFO  23:33:43,776 - Broj globalnih promenljivih = 5
+INFO  23:33:43,776 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  23:33:43,776 - Broj globalnih konstanti = 2
+INFO  23:33:43,776 - Broj globalnih nizova = 2
+INFO  23:33:43,776 - ----------------------------------------------------
+INFO  23:33:43,776 - Broj globalnih funkcija = 2
+INFO  23:33:43,776 - Broj blokova naredbi = 1
+INFO  23:33:43,776 - Broj poziva funkcija = 4
+INFO  23:33:43,776 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  23:33:43,776 - ----------------------------------------------------
+INFO  23:33:43,776 - Broj unutrasnjih klasa = 2
+INFO  23:33:43,776 - Broj metoda unutrasnjih klasa = 1
+INFO  23:33:43,776 - Broj polja unutrasnjih klasa = 1
+INFO  23:33:43,776 - Parsiranje uspesno zavrseno!
+INFO  23:37:26,518 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:37:26,533 - #2 program
+INFO  23:37:26,533 - #41 MJProgram
+INFO  23:37:26,533 - #41 int
+INFO  23:39:55,441 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:39:55,461 - #2 program
+INFO  23:39:55,461 - #41 MJProgram
+INFO  23:39:55,461 - #41 int
+INFO  23:39:55,461 - #41 x
+INFO  23:39:55,461 - #7 ,
+INFO  23:39:55,461 - Deklarisana GLOBALNA PROMENLJIVA 'x' na liniji 2
+INFO  23:39:55,461 - #41 y
+INFO  23:39:55,461 - #8 ;
+INFO  23:39:55,461 - Deklarisana GLOBALNA PROMENLJIVA 'y' na liniji 2
+INFO  23:39:55,461 - #41 int
+INFO  23:39:55,461 - #41 zz
+INFO  23:39:55,461 - #7 ,
+INFO  23:39:55,461 - Deklarisana GLOBALNA PROMENLJIVA 'zz' na liniji 3
+INFO  23:39:55,461 - #41 niz1
+INFO  23:39:55,461 - #9 [
+INFO  23:39:55,461 - #10 ]
+INFO  23:39:55,461 - #8 ;
+INFO  23:39:55,461 - Deklarisana GLOBALNA PROMENLJIVA 'niz1' na liniji 3
+INFO  23:39:55,461 - #11 class
+INFO  23:39:55,461 - #41 Klas
+INFO  23:39:55,461 - #3 {
+INFO  23:39:55,461 - #4 }
+INFO  23:39:55,461 - #11 class
+INFO  23:39:55,461 - #41 Klasa
+INFO  23:39:55,461 - #12 extends
+INFO  23:39:55,461 - #41 Klas
+INFO  23:39:55,461 - #3 {
+INFO  23:39:55,461 - #41 int
+INFO  23:39:55,461 - #41 aba
+INFO  23:39:55,461 - #8 ;
+INFO  23:39:55,461 - Deklarisano POLJE 'aba' KLASE 'Klasa' na liniji 8
+INFO  23:39:55,461 - #3 {
+INFO  23:39:55,461 - #41 int
+INFO  23:39:55,461 - #41 method2
+INFO  23:39:55,461 - #13 (
+INFO  23:39:55,461 - Obradjuje se METODA 'method2()' KLASE 'Klasa' na liniji 11
+INFO  23:39:55,461 - #41 Klasa
+INFO  23:39:55,461 - #41 kl
+INFO  23:39:55,461 - #14 )
+INFO  23:39:55,461 - #41 int
+INFO  23:39:55,461 - #41 c
+INFO  23:39:55,461 - #8 ;
+INFO  23:39:55,461 - Deklarisana LOKALNA PROMENLJIVA 'c' na liniji 12
+INFO  23:39:55,461 - #3 {
+INFO  23:39:55,461 - #41 c
+INFO  23:39:55,461 - #6 =
+INFO  23:39:55,461 - #42 0
+INFO  23:39:55,461 - #8 ;
+INFO  23:39:55,461 - #18 return
+INFO  23:39:55,461 - #41 c
+INFO  23:39:55,461 - #35 +
+INFO  23:39:55,461 - #42 3
+INFO  23:39:55,461 - #8 ;
+INFO  23:39:55,466 - #4 }
+INFO  23:39:55,466 - #4 }
+INFO  23:39:55,466 - #4 }
+INFO  23:39:55,466 - #5 const
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 con
+INFO  23:39:55,466 - #6 =
+INFO  23:39:55,466 - #42 5
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - #5 const
+INFO  23:39:55,466 - #41 char
+INFO  23:39:55,466 - #41 c
+INFO  23:39:55,466 - #6 =
+INFO  23:39:55,466 - #44 a
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 niz2
+INFO  23:39:55,466 - #9 [
+INFO  23:39:55,466 - #10 ]
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - Deklarisana GLOBALNA PROMENLJIVA 'niz2' na liniji 23
+INFO  23:39:55,466 - #3 {
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 funkcija2
+INFO  23:39:55,466 - #13 (
+INFO  23:39:55,466 - Obradjuje se GLOBALNA FUNKCIJA 'funkcija2()' na liniji 26
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 a1
+INFO  23:39:55,466 - #7 ,
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 a2
+INFO  23:39:55,466 - #7 ,
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 a3
+INFO  23:39:55,466 - #7 ,
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 a4
+INFO  23:39:55,466 - #14 )
+INFO  23:39:55,466 - #41 char
+INFO  23:39:55,466 - #41 c
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - Deklarisana LOKALNA PROMENLJIVA 'c' na liniji 27
+INFO  23:39:55,466 - #3 {
+INFO  23:39:55,466 - #18 return
+INFO  23:39:55,466 - #42 4
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - #4 }
+INFO  23:39:55,466 - #15 void
+INFO  23:39:55,466 - #41 main
+INFO  23:39:55,466 - #13 (
+INFO  23:39:55,466 - Obradjuje se GLOBALNA FUNKCIJA 'main()' na liniji 32
+INFO  23:39:55,466 - #14 )
+INFO  23:39:55,466 - #41 int
+INFO  23:39:55,466 - #41 z
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - Deklarisana LOKALNA PROMENLJIVA 'z' na liniji 33
+INFO  23:39:55,466 - #41 Klasa
+INFO  23:39:55,466 - #41 k
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - Deklarisana LOKALNA PROMENLJIVA 'k' na liniji 34
+INFO  23:39:55,466 - #3 {
+INFO  23:39:55,466 - #40 while
+INFO  23:39:55,466 - #13 (
+INFO  23:39:55,466 - #41 x
+INFO  23:39:55,466 - #29 ==
+INFO  23:39:55,466 - #42 1
+INFO  23:39:55,466 - #14 )
+INFO  23:39:55,466 - #3 {
+INFO  23:39:55,466 - #17 break
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - #4 }
+INFO  23:39:55,466 - #41 x
+INFO  23:39:55,466 - #6 =
+INFO  23:39:55,466 - #42 10
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - #19 read
+INFO  23:39:55,466 - #13 (
+INFO  23:39:55,466 - #41 zz
+INFO  23:39:55,466 - #14 )
+INFO  23:39:55,466 - #8 ;
+INFO  23:39:55,466 - #20 print
+INFO  23:39:55,466 - #13 (
+INFO  23:39:55,471 - #42 1
+INFO  23:39:55,471 - #7 ,
+INFO  23:39:55,471 - #42 4
+INFO  23:39:55,471 - #14 )
+INFO  23:39:55,471 - #8 ;
+INFO  23:39:55,471 - #20 print
+INFO  23:39:55,471 - #13 (
+INFO  23:39:55,471 - #41 eol
+INFO  23:39:55,471 - #14 )
+INFO  23:39:55,471 - #8 ;
+INFO  23:39:55,471 - #41 k
+INFO  23:39:55,471 - #28 .
+INFO  23:39:55,471 - #41 method2
+INFO  23:39:55,471 - #13 (
+INFO  23:39:55,471 - #14 )
+INFO  23:39:55,471 - #8 ;
+INFO  23:39:55,471 - #41 x
+INFO  23:39:55,471 - Pronadjen poziv funkcije 'method2()' na liniji 46
+INFO  23:39:55,471 - #6 =
+INFO  23:39:55,471 - #41 y
+INFO  23:39:55,471 - #35 +
+INFO  23:39:55,471 - #42 3
+INFO  23:39:55,471 - #8 ;
+INFO  23:39:55,471 - #20 print
+INFO  23:39:55,471 - #13 (
+INFO  23:39:55,471 - #42 2
+INFO  23:39:55,471 - #14 )
+INFO  23:39:55,471 - #8 ;
+INFO  23:39:55,471 - #4 }
+INFO  23:39:55,471 - #4 }
+INFO  23:39:55,471 - ==================SINTAKSNA ANALIZA==================
+INFO  23:39:55,471 - Broj globalnih promenljivih = 5
+INFO  23:39:55,471 - Broj lokalnih promenljivih u Main funkciji = 2
+INFO  23:39:55,471 - Broj globalnih konstanti = 2
+INFO  23:39:55,471 - Broj globalnih nizova = 2
+INFO  23:39:55,471 - ----------------------------------------------------
+INFO  23:39:55,471 - Broj globalnih funkcija = 2
+INFO  23:39:55,471 - Broj blokova naredbi = 1
+INFO  23:39:55,471 - Broj poziva funkcija = 4
+INFO  23:39:55,471 - Broj deklarisanih formalnih argumenata funkcija = 5
+INFO  23:39:55,471 - ----------------------------------------------------
+INFO  23:39:55,471 - Broj unutrasnjih klasa = 2
+INFO  23:39:55,471 - Broj metoda unutrasnjih klasa = 1
+INFO  23:39:55,471 - Broj polja unutrasnjih klasa = 1
+INFO  23:39:55,471 - Parsiranje uspesno zavrseno!

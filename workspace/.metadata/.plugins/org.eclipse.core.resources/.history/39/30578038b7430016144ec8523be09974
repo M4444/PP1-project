@@ -1,0 +1,19 @@
+package rs.ac.bg.etf.pp1.sm120554d.ext;
+
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.Obj;
+import rs.etf.pp1.symboltable.concepts.Struct;
+
+public class MyTab extends Tab {
+	public static final int String = 6;
+	
+	public static final Struct boolType = new Struct(Struct.Bool);
+	public static final Struct stringType = new Struct(String);
+	
+	public static void init() {
+		Tab.init();
+		
+		currentScope.addToLocals(new Obj(Obj.Type, "bool", boolType));
+		currentScope.addToLocals(new Obj(Obj.Type, "string", stringType));
+	}
+}

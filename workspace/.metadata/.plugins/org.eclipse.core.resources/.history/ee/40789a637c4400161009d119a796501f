@@ -1,0 +1,12 @@
+program print_test
+	int x;
+{
+	int main()
+	{
+		x = 3;
+		print(x);
+		print(2);
+		
+		return 0;
+	}
+}

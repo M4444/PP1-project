@@ -1,0 +1,31 @@
+Program = ʺprogramʺ ident {ConstDecl | VarDecl | ClassDecl} ʺ{ʺ {MethodDecl} ʺ}ʺ.
+ConstDecl = ʺconstʺ Type identʺ=ʺ(num | charVal | boolVal | strVal) {, ident ʺ=ʺ ( num | charVal | boolVal | strVal)} ʺ;ʺ.
+VarDecl = Type ident [ʺ[ʺ ʺ]ʺ] {ʺ,ʺ ident [ʺ[ʺ ʺ]ʺ]} ʺ;ʺ.
+ClassDecl = ʺclassʺ ident [ʺextendsʺ Type] ʺ{ʺ {VarDecl} [ʺ{ʺ {MethodDecl} ʺ}ʺ] ʺ}ʺ.
+MethodDecl = (Type | ʺvoidʺ) ident ʺ(ʺ [FormPars] ʺ)ʺ {VarDecl} ʺ{ʺ {Statement} ʺ}ʺ.
+FormPars = Type ident [ʺ[ʺ ʺ]ʺ] {ʺ,ʺ Type ident [ʺ[ʺ ʺ]ʺ]}.
+Type = ident.
+Statement = Designator (ʺ=ʺ Expr | ʺ(ʺ [ActPars] ʺ)ʺ | ʺ++ʺ | ʺ‐‐ʺ) ʺ;ʺ
+			| ʺifʺ ʺ(ʺ Condition ʺ)ʺ Statement [ʺelseʺ Statement]
+			| ʺwhileʺ ʺ(ʺ Condition ʺ)ʺ Statement
+			| ʺbreakʺ ʺ;ʺ
+			| ʺreturnʺ [Expr] ʺ;ʺ
+			| ʺreadʺ ʺ(ʺ Designator ʺ)ʺ ʺ;ʺ
+			| ʺprintʺ ʺ(ʺ Expr [ʺ,ʺ number] ʺ)ʺ ʺ;ʺ
+			| ʺ{ʺ {Statement} ʺ}ʺ.
+ActPars = Expr {ʺ,ʺ Expr}.
+Condition = CondTerm {ʺ||ʺ CondTerm}.
+CondTerm = CondFact {ʺ&&ʺ CondFact}.
+CondFact = Expr [Relop Expr].
+Expr = [ʺ‐ʺ] Term {Addop Term}.
+Term = Factor {Mulop Factor}.
+Factor = Designator [ʺ(ʺ [ActPars] ʺ)ʺ]
+		| number
+		| charConst
+		| strConst
+		| ʺnewʺ Type [ʺ[ʺ Expr ʺ]ʺ]
+		| ʺ(ʺ Expr ʺ)ʺ.
+Designator = ident {ʺ.ʺ ident | ʺ[ʺ Expr ʺ]ʺ}.
+Relop = ʺ==ʺ | ʺ!=ʺ | ʺ>ʺ | ʺ>=ʺ | ʺ<ʺ | ʺ<=ʺ.
+Addop = ʺ+ʺ | ʺ‐ʺ.
+Mulop = ʺ*ʺ | ʺ/ʺ | ʺ%ʺ.

@@ -1,0 +1,104 @@
+INFO  05:26:08,646 - Compiling source file: C:\Users\M\Desktop\PP1 projekat\Projekat\workspace\MJCompiler\test\test_print.mj
+INFO  05:26:08,692 - #2 program
+INFO  05:26:08,692 - #40 print_test
+INFO  05:26:08,692 - #40 int
+INFO  05:26:08,692 - #40 x
+INFO  05:26:08,692 - #8 ;
+INFO  05:26:08,692 - Deklarisana GLOBALNA PROMENLJIVA 'x' na liniji 2
+INFO  05:26:08,692 - #3 {
+INFO  05:26:08,692 - #40 int
+INFO  05:26:08,693 - #40 k
+INFO  05:26:08,693 - #13 (
+INFO  05:26:08,693 - Obradjuje se GLOBALNA FUNKCIJA 'k()' na liniji 4
+INFO  05:26:08,693 - #14 )
+INFO  05:26:08,693 - #3 {
+INFO  05:26:08,694 - #20 print
+INFO  05:26:08,694 - #13 (
+INFO  05:26:08,694 - #41 0
+INFO  05:26:08,694 - #14 )
+INFO  05:26:08,694 - #8 ;
+INFO  05:26:08,694 - #18 return
+INFO  05:26:08,695 - Pronadjen poziv funkcije 'print()' na liniji 6
+INFO  05:26:08,695 - #41 0
+INFO  05:26:08,695 - #8 ;
+INFO  05:26:08,695 - #4 }
+INFO  05:26:08,695 - #40 int
+INFO  05:26:08,695 - #40 main
+INFO  05:26:08,695 - #13 (
+INFO  05:26:08,695 - Obradjuje se GLOBALNA FUNKCIJA 'main()' na liniji 11
+INFO  05:26:08,695 - #14 )
+INFO  05:26:08,695 - #40 int
+INFO  05:26:08,695 - #40 niz
+INFO  05:26:08,695 - #9 [
+INFO  05:26:08,695 - #10 ]
+INFO  05:26:08,695 - #8 ;
+INFO  05:26:08,695 - Deklarisana LOKALNA PROMENLJIVA 'niz' na liniji 12
+INFO  05:26:08,695 - #3 {
+INFO  05:26:08,696 - #40 x
+INFO  05:26:08,696 - #6 =
+INFO  05:26:08,696 - #41 3
+INFO  05:26:08,696 - #8 ;
+INFO  05:26:08,696 - #40 x
+INFO  05:26:08,696 - #6 =
+INFO  05:26:08,696 - #41 4
+INFO  05:26:08,696 - #36 *
+INFO  05:26:08,696 - #40 x
+INFO  05:26:08,696 - #26 -
+INFO  05:26:08,696 - #41 2
+INFO  05:26:08,696 - #8 ;
+INFO  05:26:08,696 - #40 x
+INFO  05:26:08,696 - #21 ++
+INFO  05:26:08,696 - #8 ;
+INFO  05:26:08,696 - #40 x
+INFO  05:26:08,696 - #22 --
+INFO  05:26:08,697 - #8 ;
+INFO  05:26:08,697 - #40 x
+INFO  05:26:08,697 - #22 --
+INFO  05:26:08,697 - #8 ;
+INFO  05:26:08,697 - #20 print
+INFO  05:26:08,697 - #13 (
+INFO  05:26:08,697 - #40 x
+INFO  05:26:08,697 - #14 )
+INFO  05:26:08,697 - #8 ;
+INFO  05:26:08,697 - #20 print
+INFO  05:26:08,697 - Pronadjen poziv funkcije 'print()' na liniji 18
+INFO  05:26:08,697 - #13 (
+INFO  05:26:08,697 - #41 2
+INFO  05:26:08,697 - #7 ,
+INFO  05:26:08,698 - #41 2
+INFO  05:26:08,698 - #14 )
+INFO  05:26:08,698 - #8 ;
+INFO  05:26:08,698 - #40 niz
+INFO  05:26:08,698 - Pronadjen poziv funkcije 'print()' na liniji 19
+INFO  05:26:08,698 - #6 =
+INFO  05:26:08,698 - #27 new
+INFO  05:26:08,698 - #40 int
+INFO  05:26:08,698 - #9 [
+INFO  05:26:08,698 - #41 4
+INFO  05:26:08,698 - #10 ]
+INFO  05:26:08,698 - #8 ;
+INFO  05:26:08,698 - #40 k
+INFO  05:26:08,698 - #13 (
+INFO  05:26:08,698 - #14 )
+INFO  05:26:08,698 - #8 ;
+INFO  05:26:08,698 - #18 return
+INFO  05:26:08,698 - Pronadjen poziv funkcije 'k()' na liniji 26
+INFO  05:26:08,699 - #41 0
+INFO  05:26:08,699 - #8 ;
+INFO  05:26:08,699 - #4 }
+INFO  05:26:08,699 - #4 }
+INFO  05:26:08,699 - ==================SINTAKSNA ANALIZA==================
+INFO  05:26:08,699 - Broj globalnih promenljivih = 1
+INFO  05:26:08,699 - Broj lokalnih promenljivih u Main funkciji = 1
+INFO  05:26:08,699 - Broj globalnih konstanti = 0
+INFO  05:26:08,699 - Broj globalnih nizova = 0
+INFO  05:26:08,699 - ----------------------------------------------------
+INFO  05:26:08,699 - Broj globalnih funkcija = 2
+INFO  05:26:08,699 - Broj blokova naredbi = 0
+INFO  05:26:08,699 - Broj poziva funkcija = 3
+INFO  05:26:08,699 - Broj deklarisanih formalnih argumenata funkcija = 0
+INFO  05:26:08,699 - ----------------------------------------------------
+INFO  05:26:08,699 - Broj unutrasnjih klasa = 0
+INFO  05:26:08,699 - Broj metoda unutrasnjih klasa = 0
+INFO  05:26:08,699 - Broj polja unutrasnjih klasa = 0
+INFO  05:26:08,702 - Parsiranje uspesno zavrseno!
